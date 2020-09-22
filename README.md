@@ -6,18 +6,9 @@
 
 その次に
 
-''
-$ docker run --rm -it -v $PWD:/workdir squary/alpine-texlive
-''
 
-$PWDをtexファイルがあるディレクトリに指定する。
-
-packageは一通りインストールされているみたいだが、一気に実行しようとするとエラー吐く。よくわからない。
-新しくパッケージをインストールしようとするとtlmgrコマンドが古くて使えないと怒られる。
-
-
-特に必要ないかも知れないがvscodeのsetting.jsonを少しいじった。
-''
+下の設定をsetting.jsonに加えると
+``` json
 "latex-workshop.latex.recipes": [
     {
         "name": "compile",
@@ -45,10 +36,17 @@ packageは一通りインストールされているみたいだが、一気に�
 "latex-workshop.latex.autoBuild.run": "onFileChange",
 "latex-workshop.docker.enabled": true,
 "latex-workshop.view.pdf.viewer": "browser"
-''
+```
 
-これも冒頭と同じように"C:/Users/miyao/ms:/workdir",をtexファイルがおいてあるところを指定する。
 
-TexとdockerのVScodeの拡張機能は個人的に便利だから入れている。
+"C:/Users/miyao/ms:/workdir",をtexファイルがおいてあるところを指定する。
+
+これで、度々どのイメージを使用するかということをコマンドで指定する必要がなくなる。
+ただ、dockerが正常に起動していることは確認しておくこと。
+
+packageは一通りインストールされているみたいだが、一気に実行しようとするとエラー吐く。よくわからない。
+新しくパッケージをインストールしようとするとtlmgrコマンドが古くて使えないと怒られる。
+
+
 
 
