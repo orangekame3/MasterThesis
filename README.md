@@ -7,7 +7,7 @@
 その次に
 
 
-下の設定をsetting.jsonに加えると
+下の設定をVScodeのsetting.jsonに加える
 ``` json
 "latex-workshop.latex.recipes": [
     {
