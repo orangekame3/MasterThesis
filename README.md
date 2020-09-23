@@ -2,8 +2,10 @@
  
 坂田さんのdockerfileを使ってtex環境を作る。
 
-まずは坂田さんのリポジトリからdockerfileをクローンしてくる。
-
+まずは坂田さんのリポジトリからdockerfileをプルしてくる。
+``` bash
+docker pull squary/alpine-texlive
+```
 その次に
 
 
