@@ -1,4 +1,4 @@
-\documentclass[]{jsbook}
+\documentclass[platex,openany,oneside,a4j,11pt]{jsbook}
 \usepackage[top=25truemm,bottom=25truemm,left=25truemm,right=25truemm]{geometry}
 \usepackage[dvipdfmx]{graphicx}
 \usepackage[dvipdfmx]{color}
@@ -6,11 +6,19 @@
 \usepackage{pxjahyper}
 \usepackage{bookmark}
 \usepackage{url}
+
+% \usepackage[style=phys,articletitle=true,biblabel=brackets,chaptertitle=false,pageranges=false,backend=biber]{biblatex}
+% \addbibresource{bibss.bib}
+% \usepackage[]{biblatex}
+%\addbibresource{bibss}
+
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{amsfonts}
 \usepackage{here}
 \usepackage{comment}
+
+%\addbibresource{'C:/Users/miyao/Desktop/MasterThesis/bibs'}
 %\usepackage{physics}
 %\usepackage[style=phys,articletitle=true,biblabel=brackets,chaptertitle=false,pageranges=false,backend=biber]{biblatex}
 %\addbibresource{bibs.bib}
@@ -20,7 +28,6 @@
 % \usepackage{here}
 % \usepackage{comment}
 % \usepackage{physics}
-
 \begin{document}
 \begin{titlepage}
     \begin{center}
@@ -28,7 +35,7 @@
         \vspace{180truept}
         {\Huge 超伝導準集中定数回路を用いた\\
         \vspace{10truept}
-        高強度結合素子sの製作}\\ 
+        高強度結合素子slの製作}\\ 
         \vspace{70truept}
 
         {\Large \today}\\
@@ -55,9 +62,12 @@
 
 \chapter{sssszs序論}
     \begin{abstract}
+        \bibliography{bibss} %hoge.bibから拡張子を外した名前
+        \cite{nakamura1999coherent}%参考文献出力スタイルa
+        a
         ２００７年にカナs;ダのD-wave社が大規模な量子アニーリングシステムを開発したことにより世間の注目を浴びた量子計算。その計算手法の構築に日本の研究者が関与したということはよく知られるところである。\\
         この章では従来の量子アニーリング手法について簡便に解説したのち、今福さんによる新手法の意義、方法について述べる。\\
-
+        s222
     \end{abstract}
     \input{chapter1}
 
