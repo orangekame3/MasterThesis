@@ -1,10 +1,11 @@
-This is e-pTeX, Version 3.14159265-p3.7.1-161114-2.6 (utf8.euc) (TeX Live 2017) (preloaded format=platex 2020.10.7)  7 OCT 2020 15:14
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  8 OCT 2020 07:13
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **/workdir/main.tex
 (/workdir/main.tex
-pLaTeX2e <2017/10/28>+4 (based on LaTeX2e <2017-04-15>)
+pLaTeX2e <2017/10/28u01>+4 (based on LaTeX2e <2017-04-15>)
 Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2017/10/04 jsclasses (okumura, texjporg)
@@ -18,16 +19,16 @@ LaTeX Info: Redefining \textmc on input line 486.
 LaTeX Info: Redefining \textgt on input line 488.
 \symmincho=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 550.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 741.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 741.
+(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 550.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 741.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 741.
 \fullwidth=\dimen120
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 902.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 7.68799pt on input line 902.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 902.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 7.39746pt on input line 902.
 \c@part=\count82
 \c@chapter=\count83
 \c@section=\count84
@@ -230,6 +231,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 (/usr/local/texlive/2017/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
 Package: pxjahyper 2018/01/25 v0.3c
+LaTeX Info: Composite with undeclared \u in encoding PD1 on input line 828.
+LaTeX Info: Composite with undeclared \H in encoding PD1 on input line 837.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
@@ -238,220 +241,9 @@ Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 File: bkm-dvips.def 2016/05/17 v1.26 bookmark driver for dvips (HO)
 \BKM@id=\count107
 ))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
-Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count108
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count109
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-))
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
-Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
-)
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
-\@xs@message=\write3
-\integerpart=\count110
-\decimalpart=\count111
-)
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
-)
-\c@tabx@nest=\count112
-\c@listtotal=\count113
-\c@listcount=\count114
-\c@liststart=\count115
-\c@liststop=\count116
-\c@citecount=\count117
-\c@citetotal=\count118
-\c@multicitecount=\count119
-\c@multicitetotal=\count120
-\c@instcount=\count121
-\c@maxnames=\count122
-\c@minnames=\count123
-\c@maxitems=\count124
-\c@minitems=\count125
-\c@citecounter=\count126
-\c@savedcitecounter=\count127
-\c@uniquelist=\count128
-\c@uniquename=\count129
-\c@refsection=\count130
-\c@refsegment=\count131
-\c@maxextratitle=\count132
-\c@maxextratitleyear=\count133
-\c@maxextradate=\count134
-\c@maxextraalpha=\count135
-\c@abbrvpenalty=\count136
-\c@highnamepenalty=\count137
-\c@lownamepenalty=\count138
-\c@maxparens=\count139
-\c@parenlevel=\count140
-\blx@tempcnta=\count141
-\blx@tempcntb=\count142
-\blx@tempcntc=\count143
-\blx@maxsection=\count144
-\blx@maxsegment@0=\count145
-\blx@notetype=\count146
-\blx@parenlevel@text=\count147
-\blx@parenlevel@foot=\count148
-\blx@sectionciteorder@0=\count149
-\labelnumberwidth=\skip45
-\labelalphawidth=\skip46
-\biblabelsep=\skip47
-\bibitemsep=\skip48
-\bibnamesep=\skip49
-\bibinitsep=\skip50
-\bibparsep=\skip51
-\bibhang=\skip52
-\blx@bcfin=\read1
-\blx@bcfout=\write4
-\c@mincomprange=\count150
-\c@maxcomprange=\count151
-\c@mincompwidth=\count152
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count153
-\c@savedafterword=\count154
-\c@annotator=\count155
-\c@savedannotator=\count156
-\c@author=\count157
-\c@savedauthor=\count158
-\c@bookauthor=\count159
-\c@savedbookauthor=\count160
-\c@commentator=\count161
-\c@savedcommentator=\count162
-\c@editor=\count163
-\c@savededitor=\count164
-\c@editora=\count165
-\c@savededitora=\count166
-\c@editorb=\count167
-\c@savededitorb=\count168
-\c@editorc=\count169
-\c@savededitorc=\count170
-\c@foreword=\count171
-\c@savedforeword=\count172
-\c@holder=\count173
-\c@savedholder=\count174
-\c@introduction=\count175
-\c@savedintroduction=\count176
-\c@namea=\count177
-\c@savednamea=\count178
-\c@nameb=\count179
-\c@savednameb=\count180
-\c@namec=\count181
-\c@savednamec=\count182
-\c@translator=\count183
-\c@savedtranslator=\count184
-\c@shortauthor=\count185
-\c@savedshortauthor=\count186
-\c@shorteditor=\count187
-\c@savedshorteditor=\count188
-\c@labelname=\count189
-\c@savedlabelname=\count190
-\c@institution=\count191
-\c@savedinstitution=\count192
-\c@lista=\count193
-\c@savedlista=\count194
-\c@listb=\count195
-\c@savedlistb=\count196
-\c@listc=\count197
-\c@savedlistc=\count198
-\c@listd=\count199
-\c@savedlistd=\count266
-\c@liste=\count267
-\c@savedliste=\count268
-\c@listf=\count269
-\c@savedlistf=\count270
-\c@location=\count271
-\c@savedlocation=\count272
-\c@organization=\count273
-\c@savedorganization=\count274
-\c@origlocation=\count275
-\c@savedoriglocation=\count276
-\c@origpublisher=\count277
-\c@savedorigpublisher=\count278
-\c@publisher=\count279
-\c@savedpublisher=\count280
-\c@language=\count281
-\c@savedlanguage=\count282
-\c@origlanguage=\count283
-\c@savedoriglanguage=\count284
-\c@pageref=\count285
-\c@savedpageref=\count286
-\shorthandwidth=\skip53
-\shortjournalwidth=\skip54
-\shortserieswidth=\skip55
-\shorttitlewidth=\skip56
-\shortauthorwidth=\skip57
-\shorteditorwidth=\skip58
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
-File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
-File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
-\c@textcitecount=\count287
-\c@textcitetotal=\count288
-\c@textcitemaxnames=\count289
-\c@biburlnumpenalty=\count290
-\c@biburlucpenalty=\count291
-\c@biburllcpenalty=\count292
-\c@smartand=\count293
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
-File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
-File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
-\c@bbx:relatedcount=\count294
-\c@bbx:relatedtotal=\count295
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
-File: numeric.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
-File: biblatex.cfg 
-))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2017/09/02 v2.17a AMS math features
-\@mathmargin=\skip59
+\@mathmargin=\skip45
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -469,13 +261,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count296
+\inf@bad=\count108
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count297
-\leftroot@=\count298
+\uproot@=\count109
+\leftroot@=\count110
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count299
-\DOTSCASE@=\count300
+\classnum@=\count111
+\DOTSCASE@=\count112
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -484,15 +276,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count301
-\c@MaxMatrixCols=\count302
+\macc@depth=\count113
+\c@MaxMatrixCols=\count114
 \dotsspace@=\muskip11
-\c@parentequation=\count303
-\dspbrk@lvl=\count304
+\c@parentequation=\count115
+\dspbrk@lvl=\count116
 \tag@help=\toks18
-\row@=\count305
-\column@=\count306
-\maxfields@=\count307
+\row@=\count117
+\column@=\count118
+\maxfields@=\count119
 \andhelp@=\toks19
 \eqnshift@=\dimen141
 \alignsep@=\dimen142
@@ -501,8 +293,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \totwidth@=\dimen145
 \lineht@=\dimen146
 \@envbody=\toks20
-\multlinegap=\skip60
-\multlinetaggap=\skip61
+\multlinegap=\skip46
+\multlinetaggap=\skip47
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
@@ -520,26 +312,256 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (/usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count308
+\c@float@type=\count120
 \float@exts=\toks22
 \float@box=\box45
 \@float@everytoks=\toks23
 \@floatcapt=\box46
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
-\CommentStream=\write5
+\CommentStream=\write3
 
 Excluding comment 'comment')
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count121
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count122
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+\@xs@message=\write4
+\integerpart=\count123
+\decimalpart=\count124
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count125
+\c@listtotal=\count126
+\c@listcount=\count127
+\c@liststart=\count128
+\c@liststop=\count129
+\c@citecount=\count130
+\c@citetotal=\count131
+\c@multicitecount=\count132
+\c@multicitetotal=\count133
+\c@instcount=\count134
+\c@maxnames=\count135
+\c@minnames=\count136
+\c@maxitems=\count137
+\c@minitems=\count138
+\c@citecounter=\count139
+\c@savedcitecounter=\count140
+\c@uniquelist=\count141
+\c@uniquename=\count142
+\c@refsection=\count143
+\c@refsegment=\count144
+\c@maxextratitle=\count145
+\c@maxextratitleyear=\count146
+\c@maxextradate=\count147
+\c@maxextraalpha=\count148
+\c@abbrvpenalty=\count149
+\c@highnamepenalty=\count150
+\c@lownamepenalty=\count151
+\c@maxparens=\count152
+\c@parenlevel=\count153
+\blx@tempcnta=\count154
+\blx@tempcntb=\count155
+\blx@tempcntc=\count156
+\blx@maxsection=\count157
+\blx@maxsegment@0=\count158
+\blx@notetype=\count159
+\blx@parenlevel@text=\count160
+\blx@parenlevel@foot=\count161
+\blx@sectionciteorder@0=\count162
+\labelnumberwidth=\skip48
+\labelalphawidth=\skip49
+\biblabelsep=\skip50
+\bibitemsep=\skip51
+\bibnamesep=\skip52
+\bibinitsep=\skip53
+\bibparsep=\skip54
+\bibhang=\skip55
+\blx@bcfin=\read1
+\blx@bcfout=\write5
+\c@mincomprange=\count163
+\c@maxcomprange=\count164
+\c@mincompwidth=\count165
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count166
+\c@savedafterword=\count167
+\c@annotator=\count168
+\c@savedannotator=\count169
+\c@author=\count170
+\c@savedauthor=\count171
+\c@bookauthor=\count172
+\c@savedbookauthor=\count173
+\c@commentator=\count174
+\c@savedcommentator=\count175
+\c@editor=\count176
+\c@savededitor=\count177
+\c@editora=\count178
+\c@savededitora=\count179
+\c@editorb=\count180
+\c@savededitorb=\count181
+\c@editorc=\count182
+\c@savededitorc=\count183
+\c@foreword=\count184
+\c@savedforeword=\count185
+\c@holder=\count186
+\c@savedholder=\count187
+\c@introduction=\count188
+\c@savedintroduction=\count189
+\c@namea=\count190
+\c@savednamea=\count191
+\c@nameb=\count192
+\c@savednameb=\count193
+\c@namec=\count194
+\c@savednamec=\count195
+\c@translator=\count196
+\c@savedtranslator=\count197
+\c@shortauthor=\count198
+\c@savedshortauthor=\count199
+\c@shorteditor=\count266
+\c@savedshorteditor=\count267
+\c@labelname=\count268
+\c@savedlabelname=\count269
+\c@institution=\count270
+\c@savedinstitution=\count271
+\c@lista=\count272
+\c@savedlista=\count273
+\c@listb=\count274
+\c@savedlistb=\count275
+\c@listc=\count276
+\c@savedlistc=\count277
+\c@listd=\count278
+\c@savedlistd=\count279
+\c@liste=\count280
+\c@savedliste=\count281
+\c@listf=\count282
+\c@savedlistf=\count283
+\c@location=\count284
+\c@savedlocation=\count285
+\c@organization=\count286
+\c@savedorganization=\count287
+\c@origlocation=\count288
+\c@savedoriglocation=\count289
+\c@origpublisher=\count290
+\c@savedorigpublisher=\count291
+\c@publisher=\count292
+\c@savedpublisher=\count293
+\c@language=\count294
+\c@savedlanguage=\count295
+\c@origlanguage=\count296
+\c@savedoriglanguage=\count297
+\c@pageref=\count298
+\c@savedpageref=\count299
+\shorthandwidth=\skip56
+\shortjournalwidth=\skip57
+\shortserieswidth=\skip58
+\shorttitlewidth=\skip59
+\shortauthorwidth=\skip60
+\shorteditorwidth=\skip61
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+File: blx-compat.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+File: biblatex.def 2017/12/19 v3.10 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count300
+\c@textcitetotal=\count301
+\c@textcitemaxnames=\count302
+\c@biburlnumpenalty=\count303
+\c@biburlucpenalty=\count304
+\c@biburllcpenalty=\count305
+\c@smartand=\count306
+)
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+File: phys.bbx 2016/08/23 v1.0b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+File: numeric-comp.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+File: standard.bbx 2017/12/19 v3.10 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count307
+\c@bbx:relatedtotal=\count308
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+File: phys.cbx 2016/08/23 v1.0b biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+File: numeric-comp.cbx 2017/12/19 v3.10 biblatex citation style (PK/JW/AB)
+\c@cbx@tempcnta=\count309
+\c@cbx@tempcntb=\count310
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+File: biblatex.cfg 
+))
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count309
-\@quotereset=\count310
+\@quotelevel=\count311
+\@quotereset=\count312
 
-(./main.aux)
+(.tmp/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -554,9 +576,9 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 33.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 33.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
@@ -577,14 +599,14 @@ LaTeX Font Info:    ... okay on input line 33.
 * \textheight=641.80815pt
 * \oddsidemargin=-7.3094pt
 * \evensidemargin=-7.3094pt
-* \topmargin=-41.62024pt
+* \topmargin=-41.62032pt
 * \headheight=20.0pt
-* \headsep=14.31084pt
-* \topskip=12.76073pt
+* \headsep=14.31091pt
+* \topskip=12.76065pt
 * \footskip=0.0pt
-* \marginparwidth=64.7281pt
-* \marginparsep=18.49374pt
-* \columnsep=18.49374pt
+* \marginparwidth=64.72778pt
+* \marginparsep=18.49365pt
+* \columnsep=18.49365pt
 * \skip\footins=16.0pt plus 5.0pt minus 2.0pt
 * \hoffset=6.27573pt
 * \voffset=6.27573pt
@@ -603,7 +625,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count311
+\c@section@level=\count313
 )
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
@@ -612,48 +634,48 @@ Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'ascii'.
-\openout4 = `main.bcf'.
+\openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
+(.tmp/main.bbl)
 Package biblatex Info: Reference section=0 on input line 33.
 Package biblatex Info: Reference segment=0 on input line 33.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 36.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 38.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 38.
-LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 52.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 52.
-[1
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 36.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 36.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 38.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 38.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 52.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 52.
+ [1
 
 
 ]
 第1章
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 65.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 19.9311pt on input line 65.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 65.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 23.90964pt on input line 65.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 65.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
 (./chapter1.tex
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 13.83836pt on input line 1.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 6.72699pt on input line 3.
-LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
-(Font)              scaled to size 4.805pt on input line 3.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 3.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 3.
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -662,28 +684,30 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 70.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
-(Font)              scaled to size 9.60999pt on input line 70.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 70.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 70.
  [1
 
 ]
 第2章
 (./appendix.tex [2
 
-])
+]) [3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
- [3]
+ [4
+
+]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 80.
 \BKM@file=\write6
 \openout6 = `main.out.ps'.
 
- (./main.aux)
+ (.tmp/main.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 80.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 80.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -692,12 +716,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 13464 strings out of 495113
- 218265 string characters out of 6184443
- 662228 words of memory out of 5000000
- 16811 multiletter control sequences out of 15000+600000
- 14345 words of font info for 67 fonts, out of 8000000 for 9000
+ 13745 strings out of 495109
+ 224130 string characters out of 6184637
+ 665710 words of memory out of 5000000
+ 17085 multiletter control sequences out of 15000+600000
+ 12911 words of font info for 67 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,9n,31p,939b,742s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,41p,943b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (4 pages, 14684 bytes).
+Output written on .tmp/main.dvi (5 pages, 15824 bytes).

@@ -1,0 +1,16 @@
+[0] Config.pm:302> INFO - This is Biber 2.10
+[1] Config.pm:305> INFO - Logfile is '.tmp/main.blg'
+[25] biber:313> INFO - === Thu Oct  8, 2020, 06:39:58
+[61] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
+[144] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
+[163] Biber.pm:3976> INFO - Processing section 0
+[172] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
+[176] bibtex.pm:1490> INFO - LaTeX decoding ...
+[182] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
+[200] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[201] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[202] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[202] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[204] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
+[205] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[208] bbl.pm:720> INFO - Output to .tmp/main.bbl

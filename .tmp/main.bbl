@@ -1,0 +1,67 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nakamura1999coherent}{article}{}
+      \name{author}{3}{}{%
+        {{hash=aed877e53561bb9b9ba9699ed08b3295}{%
+           family={Nakamura},
+           familyi={N\bibinitperiod},
+           given={Yasunobu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4a57cabfde14b2951c60aa8d845dbb94}{%
+           family={Pashkin},
+           familyi={P\bibinitperiod},
+           given={Yu\bibnamedelima A},
+           giveni={Y\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=133bfff36d58667692dfbe7c0ef40937}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={JS},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{a17b34081578ac56eef034e771c4a74a}
+      \strng{fullhash}{a6dde9ac9e1bc3890a917803fb55090f}
+      \strng{bibnamehash}{a6dde9ac9e1bc3890a917803fb55090f}
+      \strng{authorbibnamehash}{a6dde9ac9e1bc3890a917803fb55090f}
+      \strng{authornamehash}{a17b34081578ac56eef034e771c4a74a}
+      \strng{authorfullhash}{a6dde9ac9e1bc3890a917803fb55090f}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{nature}
+      \field{number}{6730}
+      \field{title}{Coherent control of macroscopic quantum states in a single-Cooper-pair box}
+      \field{volume}{398}
+      \field{year}{1999}
+      \field{pages}{786}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/19718
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
