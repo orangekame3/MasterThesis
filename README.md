@@ -36,17 +36,16 @@ docker pull orangekame3/docker-alpine-texlive
         },
       ],
       "latex-workshop.latex.autoBuild.run": "onFileChange",
-      
       "latex-workshop.docker.enabled": true,
       "latex-workshop.latex.outDir":".tmp/",
       "latex-workshop.view.pdf.viewer": "external",
-      "latex-workshop.view.pdf.external.viewer.command": 
+      "latex-workshop.view.pdf.external.viewer.command":
               "C:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
       "latex-workshop.view.pdf.external.viewer.args": [
               "-reuse-instance",
               "%PDF%"
       ],
-      "latex-workshop.view.pdf.external.synctex.command": 
+      "latex-workshop.view.pdf.external.synctex.command":
               "C:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
       "latex-workshop.view.pdf.external.synctex.args": [
               "-reuse-instance",
@@ -56,13 +55,7 @@ docker pull orangekame3/docker-alpine-texlive
               "%PDF%"
 ],
 ```
-
-
 "C:/Users/miyao/ms:/workdir",をtexファイルがおいてあるところを指定する。
 
 これで、度々どのイメージを使用するかということをコマンドで指定する必要がなくなる。
 ただ、dockerが正常に起動していることは確認しておくこと。
-
-
-
-
