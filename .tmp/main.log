@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  21 NOV 2020 07:22
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  28 NOV 2020 09:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -561,7 +561,7 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 \@quotelevel=\count311
 \@quotereset=\count312
 
-(.tmp/main.aux)
+(.tmp/main.aux (.tmp/abstract.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -658,70 +658,95 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 
 
 ]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex)
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 61.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 61.
+LaTeX Font Info:    Try loading font information for U+msa on input line 61.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 61.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 61.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 61.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 62.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 62.
+
+(.tmp/main.toc)
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [2
+
+
+]
 第1章
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 65.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 65.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 65.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 65.
 (./chapter1.tex
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 1.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 3.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 70.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 70.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 70.
- [1
+) [3
 
 ]
 第2章
-(./appendix.tex [2
-
-]) [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
- [4
+(./chapter2.tex) [4
 
 ]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 80.
-\BKM@file=\write6
-\openout6 = `main.out.ps'.
+第3章
+(./chapter3.tex) [5
 
- (.tmp/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 80.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 80.
+]
+第4章
+(./appendix.tex [6
+
+]) [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+ [8
+
+]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 89.
+\BKM@file=\write7
+\openout7 = `main.out.ps'.
+
+ (.tmp/main.aux (.tmp/abstract.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 89.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
  ) 
 Here is how much of TeX's memory you used:
- 13745 strings out of 495109
- 224130 string characters out of 6184637
- 665710 words of memory out of 5000000
- 17085 multiletter control sequences out of 15000+600000
- 12911 words of font info for 67 fonts, out of 8000000 for 9000
+ 13775 strings out of 495109
+ 224595 string characters out of 6184637
+ 668247 words of memory out of 5000000
+ 17098 multiletter control sequences out of 15000+600000
+ 13384 words of font info for 69 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,9n,41p,943b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,9n,41p,943b,1256s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (5 pages, 15728 bytes).
+Output written on .tmp/main.dvi (9 pages, 29868 bytes).

@@ -1,16 +1,18 @@
 [0] Config.pm:302> INFO - This is Biber 2.10
-[1] Config.pm:305> INFO - Logfile is '.tmp/main.blg'
-[54] biber:313> INFO - === Sat Nov 21, 2020, 07:22:10
-[136] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
-[318] Biber.pm:857> INFO - Found 1 citekeys in bib section 0
-[355] Biber.pm:3976> INFO - Processing section 0
-[381] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
-[389] bibtex.pm:1490> INFO - LaTeX decoding ...
-[403] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
-[440] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[441] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[441] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[447] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[451] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
-[452] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[458] bbl.pm:720> INFO - Output to .tmp/main.bbl
+[0] Config.pm:305> INFO - Logfile is '.tmp/main.blg'
+[25] biber:313> INFO - === Sat Nov 28, 2020, 09:47:37
+[62] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
+[141] Biber.pm:857> INFO - Found 3 citekeys in bib section 0
+[159] Biber.pm:3976> INFO - Processing section 0
+[168] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
+[174] bibtex.pm:1490> INFO - LaTeX decoding ...
+[227] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
+[229] Utils.pm:193> WARN - Duplicate entry key: 'Peropadre2013' in file 'bibs.bib', skipping ...
+[300] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[301] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[301] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[302] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[309] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
+[309] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[324] bbl.pm:720> INFO - Output to .tmp/main.bbl
+[325] Biber.pm:110> INFO - WARNINGS: 1

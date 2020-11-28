@@ -1928,6 +1928,10 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">nakamura1999coherent</bcf:citekey>
+    <bcf:citekey order="2">Wulschner2016</bcf:citekey>
+    <bcf:citekey order="3">nakamura1999coherent</bcf:citekey>
+    <bcf:citekey order="4">Harris2009</bcf:citekey>
+    <bcf:citekey order="5">nakamura1999coherent</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
