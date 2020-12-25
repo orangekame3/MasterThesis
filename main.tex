@@ -35,9 +35,9 @@
     \begin{center}
         {\Large 2020 年度　修士論文}\\
         \vspace{180truept}
-        {\Huge 超伝導準集中定数共振素子における\\
+        {\Huge 超伝導準集中定数共振器間における\\
         \vspace{10truept}
-        高強度結合の実装}\\ 
+        高強度可変結合素子の研究開発}\\ 
         \vspace{70truept}
 
         {\Large \today}\\
@@ -57,33 +57,75 @@
 \end{titlepage}
 %\maketitle
 %\frontmatter
-%\addcontentsline{toc}{chapter}{概要}
+\addcontentsline{toc}{chapter}{序章}
+
 \include{abstract}
+\setcounter{tocdepth}{2}
 \tableofcontents
 %\mainmatter
 
-\chapter{超伝導素子}
-        ２llsssss
-        この章で従来の\cite{nakamura1999coherent}量子アニーリング手法について簡便に解説したのち、今福さんによる新手法の意義、方法について述べる。\\
-    \input{chapter1}
+\chapter{目的}
+    \begin{abstract}
+        研究の目的
+    \end{abstract}
+    \input{purpose}
 
-\chapter{jyoron}
-    ２llsssss
-    この章で従来の\cite{nakamura1999coherent}量子アニーリング手法について簡便に解説したのち、今福さんによる新手法の意義、方法について述べる。\\
-    \input{chapter2}
+\chapter{原理}
+    \begin{abstract}
+        超伝導回路の紹介と結合素子の物理モデルの導入
+    \end{abstract}
+    \input{theory}
 
-\chapter{jyoron}
-    ２llsssss
-    この章で従来の\cite{nakamura1999coherent}量子アニーリング手法について簡便に解説したのち、今福さんによる新手法の意義、方法について述べる。\\
-    \input{chapter3}
-\chapter{Appendix}
-\begin{abstract}
-    ここでdlは、卒業論s文sssssss本旨にjは記載eeeしなかった計算の類をまとめておく。
+\chapter{実装}
+    \begin{abstract}
+        結合素子の設計手法と作成方法を紹介。測定に使用したサンプルについても言及
+    \end{abstract}
+    \input{implementation}
 
-\end{abstract}
-\begin{appendix}
+\chapter{測定}
+    \begin{abstract}
+        測定環境の説明。希釈冷凍機、使用した実験機器など
+    \end{abstract}
+    \input{measurement}
+
+\chapter{結果}
+    \begin{abstract}
+        測定結果など
+    \end{abstract}
+    \input{result}
+
+\chapter{考察}
+    \begin{abstract}
+        解析手法の説明と測定結果からいえる結合性能について言及
+    \end{abstract}
+    \input{discussion}
+
+\chapter{結論}
+    \begin{abstract}
+        結合素子として使えるのかどうか総論
+    \end{abstract}
+    \input{conclusion}
+
+\chapter{展望}
+    \begin{abstract}
+        今後改善可能性のある部分について言及
+    \end{abstract}
+    \input{outlook}
+
+\chapter{謝辞}
+    \begin{abstract}
+        謝辞
+    \end{abstract}
+    \input{apology}
+
+\chapter{補足}
+    \begin{abstract}
+        本文に直接記載すると煩雑になりがちだが重要な計算をここに記す。
+    \end{abstract}
     \input{appendix}
-\end{appendix}
+
+
 %\bibliographystyle{}
+\addcontentsline{toc}{chapter}{参考文献}
 \printbibliography[title=参考文献]
 \end{document}

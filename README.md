@@ -1,15 +1,16 @@
 # ms
- 
+
 坂田さんのdockerfileを使ってtex環境を作る。
 
 まずは坂田さんのリポジトリからdockerfileをプルしてくる。
+
 ``` bash
 docker pull orangekame3/docker-alpine-texlive
 ```
+
 その次に
-
-
 下の設定をVScodeのsetting.jsonに加える
+
 ``` json
 "latex-workshop.latex.recipes": [
         {
@@ -55,7 +56,8 @@ docker pull orangekame3/docker-alpine-texlive
               "%PDF%"
 ],
 ```
+
 "C:/Users/miyao/ms:/workdir",をtexファイルがおいてあるところを指定する。
 
 これで、度々どのイメージを使用するかということをコマンドで指定する必要がなくなる。
-ただ、dockerが正常に起動していることは確認しておくこと。
+ただ、dockerが正常に起動していることは確認しておくこと
