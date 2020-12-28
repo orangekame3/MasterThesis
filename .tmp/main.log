@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  25 DEC 2020 10:33
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  28 DEC 2020 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -711,7 +711,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 67.
 (./purpose.tex) [4
 
-]
+] [5]
 第2章
 (./theory.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -722,9 +722,9 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
-) [5
+ [6
 
-]
+] [7]) [8]
 第3章
 (./implementation.tex
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
@@ -742,39 +742,39 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 5.
 
-) [6
+) [9
 
 ]
 第4章
-(./measurement.tex) [7
+(./measurement.tex) [10
 
 ]
 第5章
-(./result.tex) [8
+(./result.tex) [11
 
 ]
 第6章
-(./discussion.tex) [9
+(./discussion.tex) [12
 
 ]
 第7章
-(./conclusion.tex) [10
+(./conclusion.tex) [13
 
 ]
 第8章
-(./outlook.tex) [11
+(./outlook.tex) [14
 
 ]
 第9章
-(./apology.tex) [12
+(./apology.tex) [15
 
 ]
 第10章
-(./appendix.tex [13
+(./appendix.tex [16
 
-]) [14] [15]
+]) [17] [18]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [16
+ [19
 
 ]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
@@ -790,12 +790,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 13854 strings out of 495109
- 225210 string characters out of 6184637
- 668147 words of memory out of 5000000
- 17153 multiletter control sequences out of 15000+600000
- 18586 words of font info for 91 fonts, out of 8000000 for 9000
+ 13865 strings out of 495109
+ 225612 string characters out of 6184637
+ 668369 words of memory out of 5000000
+ 17163 multiletter control sequences out of 15000+600000
+ 18754 words of font info for 92 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,9n,41p,1271b,1157s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (17 pages, 49528 bytes).
+Output written on .tmp/main.dvi (20 pages, 71416 bytes).

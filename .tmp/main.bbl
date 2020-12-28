@@ -61,128 +61,324 @@
       \verb 10.1038/19718
       \endverb
     \endentry
-    \entry{Baust2015}{article}{}
-      \name{author}{19}{}{%
-        {{hash=33ff5a916feec9bc4cd0ddd02993db70}{%
-           family={Baust},
-           familyi={B\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=c00a80ea0e80103d3205a1579787e8d1}{%
-           family={Hoffmann},
-           familyi={H\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=83a610c7df8b63b2d35e55c1a343f9b9}{%
-           family={Haeberlein},
-           familyi={H\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=de426f46ecb798d43de6018a3f5b2e1e}{%
-           family={Schwarz},
-           familyi={S\bibinitperiod},
-           given={M.\bibnamedelimi J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=5b890b09721a6e193840ced6e0ef7842}{%
-           family={Eder},
-           familyi={E\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
-        {{hash=0886543c09102fc24d72ca985971ff5e}{%
-           family={Goetz},
-           familyi={G\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=fde6c6949c1fa53ed0bf5f29cd2c4d0f}{%
-           family={Wulschner},
-           familyi={W\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=eeb0d2b13e7cc5e56534c9a546e31931}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=42a6a93239b444b374a9351649dee26e}{%
-           family={Zhong},
-           familyi={Z\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
-        {{hash=be6933d8ac9f94b0b4bbe09a32f82810}{%
-           family={Quijandr{\'{\i}}a},
-           familyi={Q\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=21b1ecbeffc5e8513cee24d3331748db}{%
-           family={Peropadre},
-           familyi={P\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=36d3e98313acdc748a6e4689dd42af11}{%
-           family={Zueco},
-           familyi={Z\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=cb452e0f4e325847c87165771ac54bfb}{%
-           family={{Garc{\'{\i}}a Ripoll}},
-           familyi={G\bibinitperiod},
-           given={J.\bibnamedelimi J.},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=3133a65c525b5b990d94cdb97d8b30b2}{%
-           family={Solano},
-           familyi={S\bibinitperiod},
-           given={E.},
-           giveni={E\bibinitperiod}}}%
-        {{hash=0b357d3449c0a6b0937df8195831d22a}{%
-           family={Fedorov},
-           familyi={F\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-        {{hash=625a6e71c39b47a4a277af1e207b38b5}{%
-           family={Menzel},
+    \entry{Mukai2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=25fbae5a46c8982d17f62e1323f09b97}{%
+           family={Mukai},
            familyi={M\bibinitperiod},
-           given={E.\bibnamedelimi P.},
-           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=8590c5c7713288284d48c6da345a086b}{%
-           family={Deppe},
-           familyi={D\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=b3cc84124140f820a17772cabf5c699b}{%
-           family={Marx},
-           familyi={M\bibinitperiod},
-           given={A.},
+           given={Hiroto},
+           giveni={H\bibinitperiod}}}%
+        {{hash=37209f986e3b88c2e5a3bcdc2257ef68}{%
+           family={Tomonaga},
+           familyi={T\bibinitperiod},
+           given={Akiyoshi},
            giveni={A\bibinitperiod}}}%
-        {{hash=41b97a39c030cc168693462450b432fc}{%
-           family={Gross},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
+        {{hash=77d027194eb821548c6c33f31b9c74e3}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Jaw-Shen},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{813126cf0729e571c00941b3441ae334}
-      \strng{fullhash}{5c6b2987c42b1b076073bbd6d805f60b}
-      \strng{bibnamehash}{5c6b2987c42b1b076073bbd6d805f60b}
-      \strng{authorbibnamehash}{5c6b2987c42b1b076073bbd6d805f60b}
-      \strng{authornamehash}{813126cf0729e571c00941b3441ae334}
-      \strng{authorfullhash}{5c6b2987c42b1b076073bbd6d805f60b}
+      \strng{namehash}{e154fc673d93ad7f856d72b744af95e0}
+      \strng{fullhash}{e3fcf1cc25e15b324839aaf765020fd9}
+      \strng{bibnamehash}{e3fcf1cc25e15b324839aaf765020fd9}
+      \strng{authorbibnamehash}{e3fcf1cc25e15b324839aaf765020fd9}
+      \strng{authornamehash}{e154fc673d93ad7f856d72b744af95e0}
+      \strng{authorfullhash}{e3fcf1cc25e15b324839aaf765020fd9}
       \field{sortinit}{2}
       \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{We realize a device allowing for tunable and switchable coupling between two superconducting resonators mediated by an artificial atom. For the latter, we utilize a persistent current flux qubit. We characterize the tunable and switchable coupling in frequency and time domain and find that the coupling between the relevant modes can be varied in a controlled way. Specifically, the coupling can be tuned by adjusting the flux through the qubit loop or by saturating the qubit. Our time domain measurements allow us to find parameter regimes for optimal switch performance with respect to qubit drive power and the dynamic range of the resonator input power.}
-      \field{issn}{1550235X}
-      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
-      \field{number}{1}
-      \field{title}{{Tunable and switchable coupling between two superconducting resonators}}
-      \field{volume}{91}
-      \field{year}{2015}
+      \field{abstract}{We propose a novel architecture for superconducting circuits to improve the efficiency of a quantum annealing system. To increase the capability of a circuit, it is desirable for a qubit to be coupled not only with adjacent qubits but also with other qubits located far away. We introduce a circuit that uses a lumped element resonator coupled each with one qubit. The resonator-qubit pairs are coupled by rf-superconducting quantum interference device (SQUID) based couplers. These pairs make a large quantum system for quantum annealer. This system could prepare the problem Hamiltonian and tune the parameters for quantum annealing procedure.}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Superconducting Quantum Annealing Architecture with LC Resonators}}
+      \field{volume}{061011}
+      \field{year}{2019}
       \field{pages}{1\bibrangedash 6}
       \range{pages}{6}
       \verb{doi}
-      \verb 10.1103/PhysRevB.91.014515
+      \verb 10.7566/JPSJ.88.061011
+      \endverb
+      \verb{eprint}
+      \verb 1903.00187
       \endverb
       \verb{file}
-      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Baust et al. - 2015 - Tunable and switchable coupling between two superconducting resonators.pdf:pdf
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Mukai, Tomonaga, Tsai - 2019 - Superconducting Quantum Annealing Architecture with LC Resonators.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1903.00187
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1903.00187
+      \endverb
+    \endentry
+    \entry{Wulschner2016}{article}{}
+      \name{author}{21}{}{%
+        {{hash=7001249b06d972ab98926a4488959b21}{%
+           family={Wulschner},
+           familyi={W\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod}}}%
+        {{hash=44177dec462d88ad9286151632876a43}{%
+           family={Goetz},
+           familyi={G\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=424353df9849a4264c379a71e00b5ad6}{%
+           family={Koessel},
+           familyi={K\bibinitperiod},
+           given={Fabian\bibnamedelima R.},
+           giveni={F\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=345f3a5d672c284eefb82ec944860b22}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=323b8d19c69cd8557185509c97be13ad}{%
+           family={Baust},
+           familyi={B\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=a0f1a410949074857412668ce2b09776}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=37113265dfdad1025473c24cc87cef94}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ba46ab0245d080971b7d64f51f444eac}{%
+           family={Haeberlein},
+           familyi={H\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod}}}%
+        {{hash=49496efe0100c705707eaaf6a3420c74}{%
+           family={Schwarz},
+           familyi={S\bibinitperiod},
+           given={Manuel\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=fa568162731e4a0f266d2c90658a6ce2}{%
+           family={Pernpeintner},
+           familyi={P\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=78ca10b00fce70fde4ff933f980c1ce9}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Edwar},
+           giveni={E\bibinitperiod}}}%
+        {{hash=004ffc0e0de09c16d5626c8bb96b086b}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=59c2ce46dec5d665c35f465bed0cbbc0}{%
+           family={Zollitsch},
+           familyi={Z\bibinitperiod},
+           given={Christoph\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=153096fdb393cbbf4ecedbaf5839c3b6}{%
+           family={Peropadre},
+           familyi={P\bibinitperiod},
+           given={Borja},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3b42bec6147228500f847608fe80ad4d}{%
+           family={Ripoll},
+           familyi={R\bibinitperiod},
+           given={Juan\bibnamedelimb Jose\bibnamedelima Garcia},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=861eb33a0a8d9913f3ff1cb83ab5de22}{%
+           family={Solano},
+           familyi={S\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=97f4545eb45d2217d39af82a4e7b895d}{%
+           family={Fedorov},
+           familyi={F\bibinitperiod},
+           given={Kirill\bibnamedelima G.},
+           giveni={K\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=716dad3ca8441e98664aa8b309a7eafd}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={Edwin\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=4c3615ca5b9251b9bfccb21a7a3a0684}{%
+           family={Deppe},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=4d6c3076853c54d472c16a16909be28e}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=44cf590421bbd4ea70d5e6c528fb6ced}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wulschner et al.}%
+      }
+      \strng{namehash}{1cf6163a52e869dffa4c8d1f75b76e7c}
+      \strng{fullhash}{4438287b3ea00193add22523590e07ad}
+      \strng{bibnamehash}{4438287b3ea00193add22523590e07ad}
+      \strng{authorbibnamehash}{4438287b3ea00193add22523590e07ad}
+      \strng{authornamehash}{1cf6163a52e869dffa4c8d1f75b76e7c}
+      \strng{authorfullhash}{4438287b3ea00193add22523590e07ad}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We realize tunable coupling between two superconducting transmission line resonators. The coupling is mediated by a non-hysteretic rf SQUID acting as a flux-tunable mutual inductance between the resonators. From the mode distance observed in spectroscopy experiments, we derive a coupling strength ranging between -320MHz and 37 MHz. In the case where the coupling strength is about zero, the microwave power cross transmission between the two resonators can be reduced by almost four orders of magnitude compared to the case where the coupling is switched on. In addition, we observe parametric amplification by applying a suitable additional drive tone.}
+      \field{issn}{21960763}
+      \field{journaltitle}{EPJ Quantum Technology}
+      \field{number}{1}
+      \field{title}{{Tunable coupling of transmission-line microwave resonators mediated by an rf SQUID}}
+      \field{volume}{3}
+      \field{year}{2016}
+      \verb{doi}
+      \verb 10.1140/epjqt/s40507-016-0048-2
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Wulschner et al. - 2016 - Tunable coupling of transmission-line microwave resonators mediated by an rf SQUID.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjqt/s40507-016-0048-2
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjqt/s40507-016-0048-2
+      \endverb
+    \endentry
+    \entry{Rodriguez2016}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6536aea0ad1306234620955582cbd101}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Said\bibnamedelima Rahimzadeh-Kalaleh},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinithyphendelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{6536aea0ad1306234620955582cbd101}
+      \strng{fullhash}{6536aea0ad1306234620955582cbd101}
+      \strng{bibnamehash}{6536aea0ad1306234620955582cbd101}
+      \strng{authorbibnamehash}{6536aea0ad1306234620955582cbd101}
+      \strng{authornamehash}{6536aea0ad1306234620955582cbd101}
+      \strng{authorfullhash}{6536aea0ad1306234620955582cbd101}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0143-0807}
+      \field{journaltitle}{European Journal of Physics}
+      \field{month}{3}
+      \field{number}{2}
+      \field{title}{{Classical and quantum distinctions between weak and strong coupling}}
+      \field{volume}{37}
+      \field{year}{2016}
+      \field{pages}{025802}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/0143-0807/37/2/025802
+      \endverb
+      \verb{urlraw}
+      \verb https://iopscience.iop.org/article/10.1088/0143-0807/37/2/025802
+      \endverb
+      \verb{url}
+      \verb https://iopscience.iop.org/article/10.1088/0143-0807/37/2/025802
+      \endverb
+    \endentry
+    \entry{Ivakhnenko2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=19dfffdb409cc448b092457f03bd2e39}{%
+           family={Ivakhnenko},
+           familyi={I\bibinitperiod},
+           given={O.\bibnamedelimi V.},
+           giveni={O\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=f34e5bffb3c10903a41e01b3f86618e7}{%
+           family={Shevchenko},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2cfaf55a849299a0fe647e070cffada8}{%
+           family={Nori},
+           familyi={N\bibinitperiod},
+           given={Franco},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer US}%
+      }
+      \strng{namehash}{8d4499fd9e5cb4460d377dc8acb0a7dc}
+      \strng{fullhash}{5e00470914067d487c1185393d7c2988}
+      \strng{bibnamehash}{5e00470914067d487c1185393d7c2988}
+      \strng{authorbibnamehash}{5e00470914067d487c1185393d7c2988}
+      \strng{authornamehash}{8d4499fd9e5cb4460d377dc8acb0a7dc}
+      \strng{authorfullhash}{5e00470914067d487c1185393d7c2988}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A quantum system can be driven by either sinusoidal, rectangular, or noisy signals. In the literature, these regimes are referred to as Landau-Zener-St{\"{u}}ckelberg-Majorana (LZSM) interferometry, latching modulation, and motional averaging, respectively. We demonstrate that these pronounced and interesting effects are also inherent in the dynamics of classical two-state systems. We discuss how such classical systems are realized using either mechanical, electrical, or optical resonators. In addition to the fundamental interest of such dynamical phenomena linking classical and quantum physics, we believe that these are attractive for the classical analogue simulation of quantum systems.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{20452322}
+      \field{journaltitle}{Scientific Reports}
+      \field{number}{1}
+      \field{title}{{Simulating quantum dynamical phenomena using classical oscillators: Landau-Zener-St{\"{u}}ckelberg-Majorana interferometry, latching modulation, and motional averaging}}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/s41598-018-28993-8
+      \endverb
+      \verb{eprint}
+      \verb 1801.01863
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/Downloads/s41598-018-28993-8.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1038/s41598-018-28993-8
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1038/s41598-018-28993-8
+      \endverb
+    \endentry
+    \entry{Novotny2010}{article}{}
+      \name{author}{1}{}{%
+        {{hash=68c8b1fe3e055fe3c71ca1ee6554b509}{%
+           family={Novotny},
+           familyi={N\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \strng{fullhash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \strng{bibnamehash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \strng{authorbibnamehash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \strng{authornamehash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \strng{authorfullhash}{68c8b1fe3e055fe3c71ca1ee6554b509}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Strongly interacting quantum systems are at the heart of many physical processes, ranging from photosynthesis to quantum information. We demonstrate that many characteristic features of strongly coupled systems can be derived classically for a simple coupled harmonic oscillator. This model system is used to derive frequency splittings and to analyze adiabatic and diabatic transitions between the coupled states. A classical analog of the Landau--Zener formula is derived. The classical analysis is intuitive and well suited for introducing students to the basic concepts of strongly interacting systems.}
+      \field{issn}{0002-9505}
+      \field{journaltitle}{American Journal of Physics}
+      \field{number}{11}
+      \field{title}{{Strong coupling, energy splitting, and level crossings: A classical perspective}}
+      \field{volume}{78}
+      \field{year}{2010}
+      \field{pages}{1199\bibrangedash 1202}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1119/1.3471177
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/Downloads/1.3471177.pdf:pdf
       \endverb
     \endentry
   \enddatalist
