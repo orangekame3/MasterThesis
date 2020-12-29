@@ -182,6 +182,15 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
 INPUT purpose.tex
 INPUT purpose.tex
+INPUT ./img/b.pdf
+INPUT extractbb -B cropbox -O ./img/b.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./img/a.png
+INPUT extractbb -B cropbox -O ./img/a.png
+INPUT ./img/c.pdf
+INPUT extractbb -B cropbox -O ./img/c.pdf
 INPUT theory.tex
 INPUT theory.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
@@ -190,6 +199,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT ./img/dc-squid.pdf
+INPUT extractbb -B cropbox -O ./img/dc-squid.pdf
 INPUT implementation.tex
 INPUT implementation.tex
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm

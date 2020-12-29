@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  28 DEC 2020 10:17
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  29 DEC 2020 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -564,24 +564,24 @@ File: english.lbx 2017/12/19 v3.10 biblatex localization (PK/JW/AB)
 (.tmp/main.aux (.tmp/abstract.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: dvips
@@ -618,7 +618,7 @@ LaTeX Font Info:    ... okay on input line 33.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box47
-Package hyperref Info: Link coloring ON on input line 33.
+Package hyperref Info: Link coloring ON on input line 34.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -627,9 +627,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count313
 )
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -640,20 +640,20 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (.tmp/main.bbl)
-Package biblatex Info: Reference section=0 on input line 33.
-Package biblatex Info: Reference segment=0 on input line 33.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 36.
+(Font)              scaled to size 13.31541pt on input line 37.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 36.
+(Font)              scaled to size 13.31541pt on input line 37.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 38.
+(Font)              scaled to size 23.0061pt on input line 39.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 38.
+(Font)              scaled to size 23.0061pt on input line 39.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 52.
+(Font)              scaled to size 19.17792pt on input line 53.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 52.
+(Font)              scaled to size 19.17792pt on input line 53.
  [1
 
 
@@ -667,34 +667,34 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 1.
 )
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 62.
+(Font)              scaled to size 6.47278pt on input line 63.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 62.
-LaTeX Font Info:    Try loading font information for U+msa on input line 62.
+(Font)              scaled to size 4.62341pt on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 62.
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 62.
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 62.
+(Font)              scaled to size 9.24683pt on input line 63.
 LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 62.
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 63.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 62.
+(Font)              scaled to size 9.24683pt on input line 63.
  [1
 
 ]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 64.
+(Font)              scaled to size 23.0061pt on input line 65.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 64.
+(Font)              scaled to size 23.0061pt on input line 65.
 
 (.tmp/main.toc [2
 
@@ -706,12 +706,24 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
  [3]
 第1章
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 67.
+(Font)              scaled to size 19.17792pt on input line 68.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 67.
-(./purpose.tex) [4
+(Font)              scaled to size 19.17792pt on input line 68.
+(./purpose.tex
+File: ./img/b.pdf Graphic file (type pdf)
+<./img/b.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 17.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 17.
+ [4
 
-] [5]
+]
+File: ./img/a.png Graphic file (type bmp)
+<./img/a.png>
+File: ./img/c.pdf Graphic file (type pdf)
+<./img/c.pdf>
+ [5]) [6]
 第2章
 (./theory.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -722,80 +734,83 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
- [6
+ [7
 
-] [7]) [8]
+] [8]
+File: ./img/dc-squid.pdf Graphic file (type pdf)
+<./img/dc-squid.pdf>
+ [9] [10]) [11]
 第3章
-(./implementation.tex
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 5.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 5.
-
-) [9
+(./implementation.tex [12
 
 ]
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 14.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 14.
+
+) [13]
 第4章
-(./measurement.tex) [10
+(./measurement.tex) [14
 
 ]
 第5章
-(./result.tex) [11
+(./result.tex) [15
 
 ]
 第6章
-(./discussion.tex) [12
+(./discussion.tex) [16
 
 ]
 第7章
-(./conclusion.tex) [13
+(./conclusion.tex) [17
 
 ]
 第8章
-(./outlook.tex) [14
+(./outlook.tex) [18
 
 ]
 第9章
-(./apology.tex) [15
+(./apology.tex) [19
 
 ]
 第10章
-(./appendix.tex [16
+(./appendix.tex [20
 
-]) [17] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [19
+]) [21] [22]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [23
 
 ]
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 132.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
 
  (.tmp/main.aux (.tmp/abstract.aux))
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 131.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 13865 strings out of 495109
- 225612 string characters out of 6184637
- 668369 words of memory out of 5000000
- 17163 multiletter control sequences out of 15000+600000
- 18754 words of font info for 92 fonts, out of 8000000 for 9000
+ 13889 strings out of 495109
+ 225921 string characters out of 6184637
+ 668379 words of memory out of 5000000
+ 17177 multiletter control sequences out of 15000+600000
+ 19326 words of font info for 95 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,41p,1781b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (20 pages, 71416 bytes).
+Output written on .tmp/main.dvi (24 pages, 83844 bytes).
