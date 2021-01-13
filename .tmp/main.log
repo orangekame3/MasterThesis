@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  5 JAN 2021 08:32
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  13 JAN 2021 06:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -741,23 +741,26 @@ File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
  [9] [10]) [11]
 第3章
-(./implementation.tex [12
+(./implementation.tex
+File: ./img/sample.pdf Graphic file (type pdf)
+<./img/sample.pdf>
+ [12
 
 ]
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 14.
+(Font)              scaled to size 5.5481pt on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 14.
+(hyperref)                removing `math shift' on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 14.
+(hyperref)                removing `\beta' on input line 21.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 14.
+(hyperref)                removing `math shift' on input line 21.
 
 ) [13]
 第4章
@@ -805,12 +808,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 13889 strings out of 495109
- 225921 string characters out of 6184637
- 668379 words of memory out of 5000000
- 17177 multiletter control sequences out of 15000+600000
+ 13892 strings out of 495109
+ 225976 string characters out of 6184637
+ 667379 words of memory out of 5000000
+ 17179 multiletter control sequences out of 15000+600000
  19326 words of font info for 95 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,11n,41p,1781b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (24 pages, 83844 bytes).
+Output written on .tmp/main.dvi (24 pages, 82892 bytes).
