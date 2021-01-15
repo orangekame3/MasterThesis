@@ -203,6 +203,8 @@ INPUT ./img/dc-squid.pdf
 INPUT extractbb -B cropbox -O ./img/dc-squid.pdf
 INPUT implementation.tex
 INPUT implementation.tex
+INPUT ./img/sample.pdf
+INPUT extractbb -B cropbox -O ./img/sample.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
