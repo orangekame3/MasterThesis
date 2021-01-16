@@ -11,7 +11,42 @@
         この２つのパラメータが結合強度向上に大きく寄与するということを基本型であるrf-SQUIDの遷移スペクトルの計算を通して論拠する。
     \subsection{遷移スペクトル計算}
         基本型の回路のハミルトニアンは
-        
+        \begin{equation}
+            \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
+            \tilde{\omega}_{a} & g(\Phi ) \\
+            g(\Phi ) & \hat{\omega}_{b}
+            \end{array}\right)\left(\begin{array}{l}
+            \hat{a} \\
+            \hat{b}
+            \end{array}\right)
+        \end{equation}
+        \begin{equation}
+            = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
+        \end{equation}
+
+        である。式の前項2つが左右各共振器の調和振動子ポテンシャルである。最終項が結合項であり、この結合項に依存して2つの共振器が反発することを示す。各共振器の生成消滅演算子を
+        \begin{equation}
+            \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+        \end{equation}
+
+        と置き換える。ここで演算子$\hat{c}_{\pm}$は各共振器の状態が混合した状態である。このように変換を行うと最終的に得られる状態は
+        \begin{equation}
+            \hat{H}=\hbar \Omega_+\hat{c}^{\dagger}_+\hat{c}_+ + \hbar \Omega_-\hat{c}^{\dagger}_-\hat{c}_- + \hbar \Delta\left(\hat{c}^{\dagger}_+ \hat{c}_- +\hat{c}^{\dagger}_- \hat{c}_{+}\right)
+        \end{equation}
+
+        \begin{equation}
+            =\hbar\left(\begin{array}{cc}
+            \hat{c}^{\dagger}_{+} & \hat{c}^{\dagger}_-
+            \end{array}\right)\left(\begin{array}{cc}
+            \Omega_{+} & \Delta \\
+            \Delta & \Omega_{-}
+            \end{array}\right)\left(\begin{array}{l}
+            \hat{c}_{+} \\
+            \hat{c}_{-}
+            \end{array}\right)
+        \end{equation}
+
+        となる。この時$\Omega_+ = (\omega_a+\omega_b)/2 + g$、$\Omega_- = (\omega_a+\omega_b)/2 - g$、$\Delta = (\omega_a-\omega_b)/2$である。これより、2つの独立な調和振動子系は結合項$g$によって新たな基準モードで書き表すことができる。この新たな基底同士は元々の共振周波数の離調$(\omega_a-\omega_b)/2$で書き表すことができる。また変換前の基底、つまり左右の調和振動系の結合項$g$は新基底において新固有値の差分に現れる。これを図示すると以下のようになる。
         この結果は解析的に見積もることができる。計算過程はやや煩雑であるので補足に記載したので参照されたい。
         計算結果からわかるように結合モードの遷移周波数間のエネルギー差はそのまま基底変換する前の結合強度を示している。よって実験から結合強度を見積もるにはこのスペクトルを設計値を初期条件に設定した上で関数フィッティングを行う。得られたパラメータから結合強度を見積もる。
         設計の段階でもこのことを念頭に置いた上で設計する。

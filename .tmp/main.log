@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  15 JAN 2021 07:58
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  15 JAN 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -652,4 +652,168 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 23.0061pt on input line 39.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 53.
-LaTe
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 53.
+ [1
+
+
+]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 1.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 13.31541pt on input line 1.
+)
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 6.47278pt on input line 63.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 4.62341pt on input line 63.
+LaTeX Font Info:    Try loading font information for U+msa on input line 63.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 63.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 63.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 63.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 63.
+ [1
+
+]
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 23.0061pt on input line 65.
+
+(.tmp/main.toc [2
+
+
+])
+\tf@toc=\write6
+\openout6 = `main.toc'.
+
+ [3]
+第1章
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 68.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 19.17792pt on input line 68.
+(./purpose.tex
+File: ./img/b.pdf Graphic file (type pdf)
+<./img/b.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 17.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 17.
+ [4
+
+]
+File: ./img/a.png Graphic file (type bmp)
+<./img/a.png>
+File: ./img/c.pdf Graphic file (type pdf)
+<./img/c.pdf>
+ [5]) [6]
+第2章
+(./theory.tex
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 11.09619pt on input line 5.
+ [7
+
+] [8]
+File: ./img/dc-squid.pdf Graphic file (type pdf)
+<./img/dc-squid.pdf>
+ [9] [10]) [11]
+第3章
+(./implementation.tex
+File: ./img/sample.pdf Graphic file (type pdf)
+<./img/sample.pdf>
+ [12
+
+]
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\beta' on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 56.
+
+) [13] [14]
+第4章
+(./measurement.tex) [15
+
+]
+第5章
+(./result.tex) [16
+
+]
+第6章
+(./discussion.tex) [17
+
+]
+第7章
+(./conclusion.tex) [18
+
+]
+第8章
+(./outlook.tex) [19
+
+]
+第9章
+(./apology.tex) [20
+
+]
+第10章
+(./appendix.tex [21
+
+]) [22] [23]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [24
+
+]
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 132.
+\BKM@file=\write7
+\openout7 = `main.out.ps'.
+
+ (.tmp/main.aux (.tmp/abstract.aux))
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 132.
+Package logreq Info: Writing requests to 'main.run.xml'.
+\openout1 = `main.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+ ) 
+Here is how much of TeX's memory you used:
+ 13892 strings out of 495109
+ 225976 string characters out of 6184637
+ 668379 words of memory out of 5000000
+ 17179 multiletter control sequences out of 15000+600000
+ 19326 words of font info for 95 fonts, out of 8000000 for 9000
+ 19 hyphenation exceptions out of 8191
+ 35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on .tmp/main.dvi (25 pages, 86788 bytes).
