@@ -235,6 +235,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./img/dc-squid.pdf
+INPUT ./img/samplefigure.pdf
+INPUT extractbb -B cropbox -O ./img/samplefigure.pdf
 INPUT measurement.tex
 INPUT measurement.tex
 INPUT result.tex

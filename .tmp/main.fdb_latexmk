@@ -1,20 +1,20 @@
 # Fdb version 3
-["biber .tmp/main"] 1610787551 ".tmp/main.bcf" ".tmp/main.bbl" ".tmp/main" 1610787820
-  ".tmp/main.bcf" 1610787819 87976 006347e66ab575ea25d97e4b255f7ba0 ""
+["biber .tmp/main"] 1610789167 ".tmp/main.bcf" ".tmp/main.bbl" ".tmp/main" 1610793877
+  ".tmp/main.bcf" 1610793875 87976 006347e66ab575ea25d97e4b255f7ba0 ""
   "bibs.bib" 1609146427 33528 611d652e2bc3630bcdea7ad7d9c6432c ""
   (generated)
-  ".tmp/main.blg"
   ".tmp/main.bbl"
-["dvipdf"] 1610787819 ".tmp/main.dvi" ".tmp/main.pdf" ".tmp/main" 1610787820
-  ".tmp/main.dvi" 1610787819 91388 6a3db78aca0dd15d078f3465a4fbc71f "latex"
+  ".tmp/main.blg"
+["dvipdf"] 1610793875 ".tmp/main.dvi" ".tmp/main.pdf" ".tmp/main" 1610793877
+  ".tmp/main.dvi" 1610793875 94552 f7c436a8b263450ab675f848dbb3e6d3 "latex"
   (generated)
   ".tmp/main.pdf"
-["latex"] 1610787818 "/workdir/main.tex" ".tmp/main.dvi" "main" 1610787820
-  ".tmp/abstract.aux" 1610787819 3807 d0ca7b87289dbf78ccc0e5f602c312f5 ""
-  ".tmp/main.aux" 1610787819 40906 5bc82fc6c5ed2ab1beac8ca05909c02e ""
-  ".tmp/main.bbl" 1610787552 17390 04b813849dbbff77da23fcf7304b391f "biber .tmp/main"
-  ".tmp/main.run.xml" 1610787819 2396 3c894736b1005f8e1a9014cb5b2a3f29 ""
-  ".tmp/main.toc" 1610787819 6186 06526a38a25f5a075d6e3ba83427fa7f ""
+["latex"] 1610793873 "/workdir/main.tex" ".tmp/main.dvi" "main" 1610793877
+  ".tmp/abstract.aux" 1610793874 3807 d0ca7b87289dbf78ccc0e5f602c312f5 ""
+  ".tmp/main.aux" 1610793875 41248 02774ca9aafb8cbf51e32984d72907f3 ""
+  ".tmp/main.bbl" 1610789171 17390 04b813849dbbff77da23fcf7304b391f "biber .tmp/main"
+  ".tmp/main.run.xml" 1610793875 2396 3c894736b1005f8e1a9014cb5b2a3f29 ""
+  ".tmp/main.toc" 1610793875 6186 03782e12bc736a70c987219ecfbe5705 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1480098698 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -121,6 +121,7 @@
   "extractbb -B cropbox -O ./img/c.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/dc-squid.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/sample.pdf" 0 -1 0 ""
+  "extractbb -B cropbox -O ./img/samplefigure.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/standard_coupling.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/standard_coupling_beta.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/standard_coupling_betasweep.pdf" 0 -1 0 ""
@@ -128,13 +129,14 @@
   "img/a.png" 1609235628 393412 139211642327d7459769f01829b15d9b ""
   "img/b.pdf" 1609235646 12693921 1afd8ca588dbda66237b4e22dcaeff65 ""
   "img/c.pdf" 1609236776 14891409 d39f176984d902b969b1ca6bb9c52571 ""
-  "img/dc-squid.pdf" 1609238903 20153 87845a05874fe0233a057c961b99e65f ""
+  "img/dc-squid.pdf" 1610790241 17864 4a8721b7b00c6418a385efc5fc58df5e ""
   "img/sample.pdf" 1610697415 200060 bc65c897da473eb87d7a9e4919f77d07 ""
+  "img/samplefigure.pdf" 1610793861 248214 71e23dadd3be5376adab5542f0c3d517 ""
   "img/standard_coupling.pdf" 1610781070 25726 a862108ec37a5ba39493f80d46e2f6e6 ""
   "img/standard_coupling_beta.pdf" 1610784908 30732 46e0b8984ea176be5afa9d5d29068980 ""
   "img/standard_coupling_betasweep.pdf" 1610786333 18546 78fdd36eeb3ae5fe37abc29b8d8c63e4 ""
   "img/standard_eigen.pdf" 1610780203 38620 979a8fc859f2ae7a9637f835e0adb397 ""
-  "implementation.tex" 1610787817 8045 8664dd5b38cebbe0ddb22ee0f188d6d6 ""
+  "implementation.tex" 1610793873 9986 886de3d8d73906a1e63d3cbdf48b702e ""
   "main.tex" 1609235424 3562 647f6a3d5ccb40b3b66ddd51d8e406cb ""
   "measurement.tex" 1608889174 85 e219ee91af10394bbd43742e1d6b383d ""
   "outlook.tex" 1608887644 27 58c70a09ea71c149c9657b8db016203d ""
@@ -142,11 +144,11 @@
   "result.tex" 1608887620 139 fecbb107a6daf8e2a983db981b2e8786 ""
   "theory.tex" 1610698161 12086 7a3d425e3528baf0d7e054297a471bb2 ""
   (generated)
-  ".tmp/main.bcf"
   ".tmp/main.run.xml"
-  ".tmp/main.out.ps"
   ".tmp/main.log"
-  ".tmp/main.aux"
-  ".tmp/abstract.aux"
-  ".tmp/main.dvi"
+  ".tmp/main.bcf"
   ".tmp/main.toc"
+  ".tmp/abstract.aux"
+  ".tmp/main.out.ps"
+  ".tmp/main.aux"
+  ".tmp/main.dvi"

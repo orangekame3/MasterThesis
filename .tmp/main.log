@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  16 JAN 2021 09:03
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  16 JAN 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -764,50 +764,55 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
  [14]
 File: ./img/standard_coupling_betasweep.pdf Graphic file (type pdf)
 <./img/standard_coupling_betasweep.pdf>
- [15]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 87.
+(hyperref)                removing `math shift' on input line 81.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 87.
+(hyperref)                removing `\beta' on input line 81.
 
-) [16]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 81.
+
+[15]
+File: ./img/dc-squid.pdf Graphic file (type pdf)
+<./img/dc-squid.pdf>
+File: ./img/samplefigure.pdf Graphic file (type pdf)
+<./img/samplefigure.pdf>
+ [16]) [17]
 第4章
-(./measurement.tex) [17
+(./measurement.tex) [18
 
 ]
 第5章
-(./result.tex) [18
+(./result.tex) [19
 
 ]
 第6章
-(./discussion.tex) [19
+(./discussion.tex) [20
 
 ]
 第7章
-(./conclusion.tex) [20
+(./conclusion.tex) [21
 
 ]
 第8章
-(./outlook.tex) [21
+(./outlook.tex) [22
 
 ]
 第9章
-(./apology.tex) [22
+(./apology.tex) [23
 
 ]
 第10章
-(./appendix.tex [23
+(./appendix.tex [24
 
-]) [24] [25]
+]) [25] [26]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [26
+ [27
 
 ]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 132.
@@ -823,12 +828,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 13912 strings out of 495109
- 226443 string characters out of 6184637
+ 13915 strings out of 495109
+ 226516 string characters out of 6184637
  668379 words of memory out of 5000000
- 17192 multiletter control sequences out of 15000+600000
+ 17194 multiletter control sequences out of 15000+600000
  20572 words of font info for 100 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (27 pages, 91388 bytes).
+Output written on .tmp/main.dvi (28 pages, 94552 bytes).
