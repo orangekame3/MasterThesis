@@ -68,6 +68,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -88,6 +90,10 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -238,6 +244,14 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm1
 INPUT ./img/dc-squid.pdf
 INPUT ./img/samplefigure.pdf
 INPUT extractbb -B cropbox -O ./img/samplefigure.pdf
+INPUT ./img/配線.pdf
+INPUT extractbb -B cropbox -O ./img/配線.pdf
+INPUT ./img/resonator_design_for_mwo.pdf
+INPUT extractbb -B cropbox -O ./img/resonator_design_for_mwo.pdf
+INPUT ./img/coupled_resonator_mwo.pdf
+INPUT extractbb -B cropbox -O ./img/coupled_resonator_mwo.pdf
+INPUT ./img/mwo.pdf
+INPUT extractbb -B cropbox -O ./img/mwo.pdf
 INPUT measurement.tex
 INPUT measurement.tex
 INPUT result.tex
