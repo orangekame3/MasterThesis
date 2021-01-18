@@ -252,6 +252,8 @@ INPUT ./img/coupled_resonator_mwo.pdf
 INPUT extractbb -B cropbox -O ./img/coupled_resonator_mwo.pdf
 INPUT ./img/mwo.pdf
 INPUT extractbb -B cropbox -O ./img/mwo.pdf
+INPUT ./img/bareresonator_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/bareresonator_zoom.pdf
 INPUT measurement.tex
 INPUT measurement.tex
 INPUT result.tex

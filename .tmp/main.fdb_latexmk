@@ -1,20 +1,20 @@
 # Fdb version 3
-["biber .tmp/main"] 1610874514 ".tmp/main.bcf" ".tmp/main.bbl" ".tmp/main" 1610875025
-  ".tmp/main.bcf" 1610875024 87976 006347e66ab575ea25d97e4b255f7ba0 ""
+["biber .tmp/main"] 1610874514 ".tmp/main.bcf" ".tmp/main.bbl" ".tmp/main" 1610880254
+  ".tmp/main.bcf" 1610880251 87976 006347e66ab575ea25d97e4b255f7ba0 ""
   "bibs.bib" 1609146427 33528 611d652e2bc3630bcdea7ad7d9c6432c ""
   (generated)
   ".tmp/main.blg"
   ".tmp/main.bbl"
-["dvipdf"] 1610875024 ".tmp/main.dvi" ".tmp/main.pdf" ".tmp/main" 1610875025
-  ".tmp/main.dvi" 1610875024 106712 17bc919e3e30d2dfcf2ac0679503a9c9 "latex"
+["dvipdf"] 1610880251 ".tmp/main.dvi" ".tmp/main.pdf" ".tmp/main" 1610880254
+  ".tmp/main.dvi" 1610880251 107772 55d9229f6c9c01bf286b47d76f72d5d5 "latex"
   (generated)
   ".tmp/main.pdf"
-["latex"] 1610875023 "/workdir/main.tex" ".tmp/main.dvi" "main" 1610875025
-  ".tmp/abstract.aux" 1610875024 3908 a55334a0053cd5215f6a837a174244d8 ""
-  ".tmp/main.aux" 1610875024 40715 4a11266b518359a12ea5ae4dd7fcceff ""
+["latex"] 1610880250 "/workdir/main.tex" ".tmp/main.dvi" "main" 1610880254
+  ".tmp/abstract.aux" 1610880250 3908 a55334a0053cd5215f6a837a174244d8 ""
+  ".tmp/main.aux" 1610880251 40892 c3261c7b7320c1a85e69e8d56a29c235 ""
   ".tmp/main.bbl" 1610874515 17390 04b813849dbbff77da23fcf7304b391f "biber .tmp/main"
-  ".tmp/main.run.xml" 1610875024 2396 3c894736b1005f8e1a9014cb5b2a3f29 ""
-  ".tmp/main.toc" 1610875024 6039 0431e112039f5d4e7c1514a531df9bb5 ""
+  ".tmp/main.run.xml" 1610880251 2396 3c894736b1005f8e1a9014cb5b2a3f29 ""
+  ".tmp/main.toc" 1610880251 6039 0431e112039f5d4e7c1514a531df9bb5 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1480098698 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1480098698 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1480098698 996 a18840b13b499c08ac2de96a99eda4bc ""
@@ -121,6 +121,7 @@
   "discussion.tex" 1608887604 64 e37ed07a7a073a6eac3942e6bd6d0da0 ""
   "extractbb -B cropbox -O ./img/a.png" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/b.pdf" 0 -1 0 ""
+  "extractbb -B cropbox -O ./img/bareresonator_zoom.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/c.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/coupled_resonator_mwo.pdf" 0 -1 0 ""
   "extractbb -B cropbox -O ./img/dc-squid.pdf" 0 -1 0 ""
@@ -135,6 +136,7 @@
   "extractbb -B cropbox -O ./img/配線.pdf" 0 -1 0 ""
   "img/a.png" 1609235628 393412 139211642327d7459769f01829b15d9b ""
   "img/b.pdf" 1609235646 12693921 1afd8ca588dbda66237b4e22dcaeff65 ""
+  "img/bareresonator_zoom.pdf" 1610880236 4195211 e536c875992c5cbfe87d1a68e6c0a15a ""
   "img/c.pdf" 1609236776 14891409 d39f176984d902b969b1ca6bb9c52571 ""
   "img/coupled_resonator_mwo.pdf" 1610871017 3960409 6ea980840090b50005c3c52570bebde1 ""
   "img/dc-squid.pdf" 1610790241 17864 4a8721b7b00c6418a385efc5fc58df5e ""
@@ -147,7 +149,7 @@
   "img/standard_coupling_betasweep.pdf" 1610786333 18546 78fdd36eeb3ae5fe37abc29b8d8c63e4 ""
   "img/standard_eigen.pdf" 1610780203 38620 979a8fc859f2ae7a9637f835e0adb397 ""
   "img/配線.pdf" 1610865309 47910 781f5e85f73998c4c6e97b322c66c3be ""
-  "implementation.tex" 1610875022 18172 2eed10f7fbc7aa2470d97910ca858123 ""
+  "implementation.tex" 1610880249 18870 7a1463265775234e8e46474a94ddb2c9 ""
   "main.tex" 1610873443 3609 e04c08f3048f6fa1351126c81d115344 ""
   "measurement.tex" 1608889174 85 e219ee91af10394bbd43742e1d6b383d ""
   "outlook.tex" 1608887644 27 58c70a09ea71c149c9657b8db016203d ""
@@ -155,11 +157,11 @@
   "result.tex" 1608887620 139 fecbb107a6daf8e2a983db981b2e8786 ""
   "theory.tex" 1610698161 12086 7a3d425e3528baf0d7e054297a471bb2 ""
   (generated)
-  ".tmp/main.out.ps"
-  ".tmp/main.toc"
-  ".tmp/main.dvi"
+  ".tmp/main.log"
   ".tmp/main.run.xml"
   ".tmp/abstract.aux"
-  ".tmp/main.aux"
+  ".tmp/main.out.ps"
+  ".tmp/main.dvi"
   ".tmp/main.bcf"
-  ".tmp/main.log"
+  ".tmp/main.toc"
+  ".tmp/main.aux"

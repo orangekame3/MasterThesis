@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  17 JAN 2021 09:17
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  17 JAN 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -837,7 +837,10 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 126--130
 
 File: ./img/mwo.pdf Graphic file (type pdf)
 <./img/mwo.pdf>
-[19]) [20] [21]
+[19]
+File: ./img/bareresonator_zoom.pdf Graphic file (type pdf)
+<./img/bareresonator_zoom.pdf>
+ [20]) [21]
 第4章
 (./measurement.tex) [22
 
@@ -883,12 +886,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 14138 strings out of 495109
- 229763 string characters out of 6184637
+ 14141 strings out of 495109
+ 229854 string characters out of 6184637
  671126 words of memory out of 5000000
- 17403 multiletter control sequences out of 15000+600000
+ 17405 multiletter control sequences out of 15000+600000
  20572 words of font info for 100 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (32 pages, 106712 bytes).
+Output written on .tmp/main.dvi (32 pages, 107772 bytes).
