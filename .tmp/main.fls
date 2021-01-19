@@ -254,6 +254,12 @@ INPUT ./img/mwo.pdf
 INPUT extractbb -B cropbox -O ./img/mwo.pdf
 INPUT ./img/bareresonator_zoom.pdf
 INPUT extractbb -B cropbox -O ./img/bareresonator_zoom.pdf
+INPUT ./img/mwo_meander.pdf
+INPUT extractbb -B cropbox -O ./img/mwo_meander.pdf
+INPUT ./img/simulatorVSanalytical.pdf
+INPUT extractbb -B cropbox -O ./img/simulatorVSanalytical.pdf
+INPUT ./img/compound1.pdf
+INPUT extractbb -B cropbox -O ./img/compound1.pdf
 INPUT measurement.tex
 INPUT measurement.tex
 INPUT result.tex
