@@ -258,12 +258,22 @@ INPUT ./img/mwo_meander.pdf
 INPUT extractbb -B cropbox -O ./img/mwo_meander.pdf
 INPUT ./img/simulatorVSanalytical.pdf
 INPUT extractbb -B cropbox -O ./img/simulatorVSanalytical.pdf
+INPUT ./img/meanderinductance.pdf
+INPUT extractbb -B cropbox -O ./img/meanderinductance.pdf
 INPUT ./img/compound1.pdf
 INPUT extractbb -B cropbox -O ./img/compound1.pdf
+INPUT ./img/aMLCCCADdesign.pdf
+INPUT extractbb -B cropbox -O ./img/aMLCCCADdesign.pdf
 INPUT measurement.tex
 INPUT measurement.tex
+INPUT ./img/fridgesetup2.pdf
+INPUT extractbb -B cropbox -O ./img/fridgesetup2.pdf
 INPUT result.tex
 INPUT result.tex
+INPUT ./img/measurement_06545.pdf
+INPUT extractbb -B cropbox -O ./img/measurement_06545.pdf
+INPUT ./img/measurement_0654234.pdf
+INPUT extractbb -B cropbox -O ./img/measurement_0654234.pdf
 INPUT discussion.tex
 INPUT discussion.tex
 INPUT conclusion.tex

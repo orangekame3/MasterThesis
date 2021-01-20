@@ -133,7 +133,7 @@
         図中右側の構造は左の構造を左右対象に配置したものである。すなわち共振周波数は左右の共振器で同一になっている。この構造を電磁界シミュレーションすると図中左の構造物をBare Resonaotr図中右側の構造物を左からResonator A、Resonator Bと表現する。Resonator AとResonator BはBare Resonatorを中点としてそれぞれ結合強度の1/2で反発することが予想される。このシミュレーションによってもっと待った共振周波数の差は共振器間の1次結合gに対応する。
         \begin{figure}[H]
             \centering
-            \includegraphics[width=14cm]{mwo.pdf}
+            \includegraphics[width=12cm]{mwo.pdf}
             \caption{dc-SQUIDによる$\beta$変調}
         \end{figure}
         構造が同じ共振器間に結合強度gが存在する場合、共振器は結合強度に依存して反発する。これは電気回路からも求めることができる。補足に詳しい計算を記したので参考されたい。
@@ -169,13 +169,13 @@
         ミアンダインダクタンスを評価する上で上記のデザインに加えて新たに以下のようなデザインについてもシミュレーションを行った。
         \begin{figure}[H]
             \centering
-            \includegraphics[width=14cm]{bareresonator_zoom.pdf}
+            \includegraphics[width=12cm]{bareresonator_zoom.pdf}
             \caption{dc-SQUIDによる$\beta$変調}
         \end{figure}
         この共振器デザインにはミアンダインダクタンスが含まれていない。その他の構造物（キャパシタンス）は同一のものを使用しておりこの２つの構造物の差はほぼミアンダインダクタンスの可否に依存する。そこで上記の方法でキャパシタンスをそれぞれ求め、回路全体のインダクタンスの差分をとることでミアンダインダクタンスの値を求めた。結果は以下である。
         \begin{figure}[H]
             \centering
-            \includegraphics[width=14cm]{mwo_meander.pdf}
+            \includegraphics[width=12cm]{mwo_meander.pdf}
             \caption{dc-SQUIDによる$\beta$変調}
         \end{figure}
         電磁界シミュレータを用いてミアンダ（蛇行）の回数に対して共振器の周波数帯の変化をプロット下図をいかに示す。
@@ -183,13 +183,18 @@
         \begin{figure}[H]
             \centering
             \includegraphics[width=12cm]{simulatorVSanalytical.pdf}
-            \caption{dc-SQUIDによる$\beta$変調}
+            \caption{Inductance VS Meandering Number}
         \end{figure}
-        これによりシミュレータと解析的な計算によるミアンダインダクタンスには大きな差異はなかったことがわかる。本サンプルの設計にはミアンダの回数を38本に設定した。これは解析解とシミュレータに依る解が最も小さな本数を選んだ。また、インダクタンスが大きすぎると共振器間の距離にも依存するが、測定環境である4GHz~8GHz帯を逸脱してしまうため、外部磁場に依る遷移周波数の変化も考慮するとN=38本程度が妥当であるという帰結である。
+        これによりシミュレータと解析的な計算によるミアンダインダクタンスには大きな差異はなかったことがわかる。本サンプルの設計にはミアンダの回数を38本に設定した。これは解析解とシミュレータに依る解が最も小さな本数を選んだ。また、インダクタンスが大きすぎると共振器間の距離にも依存するが、測定環境である4GHz~8GHz帯を逸脱してしまうため、外部磁場に依る遷移周波数の変化も考慮するとN=38本程度が妥当であるという帰結である。以下にN=38に置ける共振器埜パラメータを示す。
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=12cm]{meanderinductance.pdf}
+            \caption{電磁界シミュレーションによる導出}
+        \end{figure}
         さて、作成したサンプルであるが、メインループとdc-SQUIDの面積比を100倍にすることで独立に操作できるようにしたと述べたが、実際にはどのような応答が得られるを示す。オンチップバイアスを固定した状態でグローバルバイアスを適当な値だけ駆動するとdc-SQUIDの応答をみることができる。
         \begin{figure}[H]
             \centering
-            \includegraphics[width=16cm]{compound1.pdf}
+            \includegraphics[width=12cm]{compound1.pdf}
             \caption{dc-SQUIDによる$\beta$変調}
         \end{figure}
         図中黒線がスクリーニングである。スクリーニングパラメータがゼロとなるとき、結合強度中
@@ -198,7 +203,14 @@
         \end{equation}
         磁束依存項がゼロとなり、結合強度は共振器間の1次結合のみとなる。この時2つのモードは電磁界シミュレーションで計算した周波数帯に対応するシグナルとなる。測定ではこのシミュレーションと同じようにグローバルバイアスのみを駆動しスクリーニングパラメータの区間周期を見積もる。
         次にある点でグローバルバイアスを固定しオンチップバイアスのみを駆動する。これによスクリーニングパラメータを固定下状態で結合素子を操作することが可能となる。
-\section{製造}
+
+\section{設計}
+        以上の結果を用いて回路の設計を行う。本回路では共振器及び伝送線路をNbで、ジョセフソン接合を含む結合素子をAlで構成している。それぞれのデザインパターンをAutoDesk社のAutoCAD(ver2018)で作成する。以下に作成したデザインパターンを示す。Nb⇒Alという手順で製造する。Si基板にNbをスパッタし、電子線描画装置でデザインパターンを作成する。
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=10cm, angle=-90]{aMLCCCADdesign.pdf}
+            \caption{dc-SQUIDによる$\beta$変調}
+        \end{figure}
 
     \subsection{製造パラメータ}
 
