@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  18 JAN 2021 06:34
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  19 JAN 2021 04:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -849,7 +849,7 @@ File: ./img/simulatorVSanalytical.pdf Graphic file (type pdf)
 File: ./img/compound1.pdf Graphic file (type pdf)
 <./img/compound1.pdf>
 
-Overfull \hbox (39.49805pt too wide) in paragraph at lines 191--192
+Overfull \hbox (39.49805pt too wide) in paragraph at lines 192--193
  [][] 
  []
 
@@ -907,4 +907,4 @@ Here is how much of TeX's memory you used:
  19 hyphenation exceptions out of 8191
  35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (34 pages, 113144 bytes).
+Output written on .tmp/main.dvi (34 pages, 113296 bytes).
