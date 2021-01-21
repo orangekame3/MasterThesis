@@ -381,6 +381,34 @@
       \verb :C$\backslash$:/Users/miyao/Downloads/1.3471177.pdf:pdf
       \endverb
     \endentry
+    \entry{fridge}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.sci.osaka-cu.ac.jp/phys/ult/invitation/cryo/dr.html}}
+      \field{title}{{希釈冷凍器}}
+    \endentry
+    \entry{fridge2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3093834e30b50992fe98b4b4f1afc5d0}{%
+           family={寛},
+           familyi={寛\bibinitperiod},
+           given={福山},
+           giveni={福\bibinitperiod}}}%
+      }
+      \strng{namehash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \strng{fullhash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \strng{bibnamehash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \strng{authorbibnamehash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \strng{authornamehash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \strng{authorfullhash}{3093834e30b50992fe98b4b4f1afc5d0}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://kelvin.phys.s.u-tokyo.ac.jp/files/dilution_fridge_v1.x.pdf}}
+      \field{title}{{希釈冷凍機の原理としくみ-ミリケルビン温度の獲得}}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

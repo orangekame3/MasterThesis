@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  20 JAN 2021 10:19
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  21 JAN 2021 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -749,21 +749,9 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 70.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 70.
-(./purpose.tex
-File: ./img/b.pdf Graphic file (type pdf)
-<./img/b.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 17.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 17.
- [4
+(./purpose.tex) [4
 
-]
-File: ./img/a.png Graphic file (type bmp)
-<./img/a.png>
-File: ./img/c.pdf Graphic file (type pdf)
-<./img/c.pdf>
- [5]) [6]
+] [5]
 第2章
 (./theory.tex
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -774,17 +762,21 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
- [7
+ [6
 
-] [8]
+] [7]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
- [9] [10]) [11]
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 53.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 53.
+ [8] [9]) [10]
 第3章
 (./implementation.tex
 File: ./img/sample.pdf Graphic file (type pdf)
 <./img/sample.pdf>
- [12
+ [11
 
 ]
 File: ./img/standard_eigen.pdf Graphic file (type pdf)
@@ -794,14 +786,14 @@ Overfull \hbox (39.49805pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
-[13]
+[12]
 File: ./img/standard_coupling.pdf Graphic file (type pdf)
 <./img/standard_coupling.pdf>
 File: ./img/standard_coupling_beta.pdf Graphic file (type pdf)
 <./img/standard_coupling_beta.pdf>
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 5.5481pt on input line 66.
- [14]
+ [13]
 File: ./img/standard_coupling_betasweep.pdf Graphic file (type pdf)
 <./img/standard_coupling_betasweep.pdf>
 
@@ -817,15 +809,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 81.
 
-[15]
+[14]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
 File: ./img/samplefigure.pdf Graphic file (type pdf)
 <./img/samplefigure.pdf>
- [16]
+ [15]
 File: ./img/配線.pdf Graphic file (type pdf)
 <./img/配線.pdf>
- [17] [18]
+ [16] [17]
 File: ./img/resonator_design_for_mwo.pdf Graphic file (type pdf)
 <./img/resonator_design_for_mwo.pdf>
 File: ./img/coupled_resonator_mwo.pdf Graphic file (type pdf)
@@ -837,66 +829,78 @@ Overfull \hbox (15.55553pt too wide) in paragraph at lines 126--130
 
 File: ./img/mwo.pdf Graphic file (type pdf)
 <./img/mwo.pdf>
-[19]
+[18]
 File: ./img/bareresonator_zoom.pdf Graphic file (type pdf)
 <./img/bareresonator_zoom.pdf>
- [20]
+ [19]
 File: ./img/mwo_meander.pdf Graphic file (type pdf)
 <./img/mwo_meander.pdf>
 File: ./img/simulatorVSanalytical.pdf Graphic file (type pdf)
 <./img/simulatorVSanalytical.pdf>
- [21]
+ [20]
 File: ./img/meanderinductance.pdf Graphic file (type pdf)
 <./img/meanderinductance.pdf>
 File: ./img/compound1.pdf Graphic file (type pdf)
 <./img/compound1.pdf>
- [22]
+ [21]
 File: ./img/aMLCCCADdesign.pdf Graphic file (type pdf)
 <./img/aMLCCCADdesign.pdf>
- [23]) [24]
+ [22]) [23]
 第4章
 (./measurement.tex
+File: ./img/fridge.pdf Graphic file (type pdf)
+<./img/fridge.pdf>
+File: ./img/entropy.pdf Graphic file (type pdf)
+<./img/entropy.pdf>
 File: ./img/fridgesetup2.pdf Graphic file (type pdf)
 <./img/fridgesetup2.pdf>
 
-Overfull \hbox (47.3006pt too wide) in paragraph at lines 4--5
+Overfull \hbox (27.15692pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-) [25
+[24
 
-]
+] [25]) [26]
 第5章
 (./result.tex
 File: ./img/measurement_06545.pdf Graphic file (type pdf)
 <./img/measurement_06545.pdf>
 File: ./img/measurement_0654234.pdf Graphic file (type pdf)
 <./img/measurement_0654234.pdf>
- [26
+ [27
 
-]) [27]
+]) [28]
 第6章
-(./discussion.tex) [28
+(./discussion.tex) [29
 
 ]
 第7章
-(./conclusion.tex) [29
+(./conclusion.tex) [30
 
 ]
 第8章
-(./outlook.tex) [30
+(./outlook.tex) [31
 
 ]
 第9章
-(./apology.tex) [31
+(./apology.tex) [32
 
 ]
 第10章
-(./appendix.tex [32
+(./appendix.tex [33
 
-]) [33] [34]
+]) [34] [35]
+LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 133.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 133.
+LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 133.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 133.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
- [35
+ [36
 
 ]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 134.
@@ -912,12 +916,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 14164 strings out of 495109
- 230504 string characters out of 6184637
- 671126 words of memory out of 5000000
- 17420 multiletter control sequences out of 15000+600000
- 20572 words of font info for 100 fonts, out of 8000000 for 9000
+ 14170 strings out of 495109
+ 230730 string characters out of 6184637
+ 671212 words of memory out of 5000000
+ 17427 multiletter control sequences out of 15000+600000
+ 20918 words of font info for 101 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,11n,41p,1271b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,41p,1695b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (36 pages, 116016 bytes).
+Output written on .tmp/main.dvi (37 pages, 122172 bytes).
