@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  23 JAN 2021 07:10
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  24 JAN 2021 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,15 +762,19 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 5.
+File: ./img/cpw.pdf Graphic file (type pdf)
+<./img/cpw.pdf>
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 11.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 8.32214pt on input line 11.
+File: ./img/le.pdf Graphic file (type pdf)
+<./img/le.pdf>
  [6
 
 ] [7]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 53.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 53.
  [8] [9]) [10]
 第3章
 (./implementation.tex
@@ -904,10 +908,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 133.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 133.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
  [37
 
 ]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+ [38]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 134.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -921,12 +926,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 14176 strings out of 495109
- 230825 string characters out of 6184637
- 671212 words of memory out of 5000000
- 17431 multiletter control sequences out of 15000+600000
+ 14192 strings out of 495109
+ 231279 string characters out of 6184637
+ 671410 words of memory out of 5000000
+ 17446 multiletter control sequences out of 15000+600000
  20918 words of font info for 101 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 35i,11n,41p,1695b,1252s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,11n,41p,1969b,1269s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (38 pages, 123248 bytes).
+Output written on .tmp/main.dvi (39 pages, 127588 bytes).

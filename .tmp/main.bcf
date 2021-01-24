@@ -1933,8 +1933,12 @@
     <bcf:citekey order="4">Rodriguez2016</bcf:citekey>
     <bcf:citekey order="5">Ivakhnenko2018</bcf:citekey>
     <bcf:citekey order="6">Novotny2010</bcf:citekey>
-    <bcf:citekey order="7">fridge</bcf:citekey>
-    <bcf:citekey order="7">fridge2</bcf:citekey>
+    <bcf:citekey order="7">Goppl2008</bcf:citekey>
+    <bcf:citekey order="8">Pierre2014</bcf:citekey>
+    <bcf:citekey order="9">Baust2015</bcf:citekey>
+    <bcf:citekey order="9">Reuther2009</bcf:citekey>
+    <bcf:citekey order="10">fridge</bcf:citekey>
+    <bcf:citekey order="10">fridge2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

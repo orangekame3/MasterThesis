@@ -381,9 +381,361 @@
       \verb :C$\backslash$:/Users/miyao/Downloads/1.3471177.pdf:pdf
       \endverb
     \endentry
-    \entry{fridge}{misc}{}
+    \entry{Goppl2008}{article}{}
+      \name{author}{10}{}{%
+        {{hash=b6b0e4f3124fb946c3fb209fffc27ced}{%
+           family={G{\"{o}}ppl},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3f5319b2c0c0244ed8ad05a94c31f5e4}{%
+           family={Fragner},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb101fe539edfdeb51b8cbc7e24541aa}{%
+           family={Baur},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f1b684cbd0720641bd81e764a2d9cad0}{%
+           family={Bianchetti},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f6207f0a097c74faf26ebfa5167f871c}{%
+           family={Filipp},
+           familyi={F\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=3a4e5d2cdd41799cf7dcacfa0ea7547b}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b010fbaecd44713a672194f4e9396f95}{%
+           family={Leek},
+           familyi={L\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7193c254650310b4f90c2655759a274f}{%
+           family={Puebla},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e2bb307893949be22b34f99dd7fd615d}{%
+           family={Steffen},
+           familyi={S\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f26e214149214071df4a5c56e2d9e3b8}{%
+           family={Wallraff},
+           familyi={W\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{83f35cf3a316b74f6da1dca9ee59fd07}
+      \strng{fullhash}{07d34bad74cd7c2342a0ea83c5d72190}
+      \strng{bibnamehash}{07d34bad74cd7c2342a0ea83c5d72190}
+      \strng{authorbibnamehash}{07d34bad74cd7c2342a0ea83c5d72190}
+      \strng{authornamehash}{83f35cf3a316b74f6da1dca9ee59fd07}
+      \strng{authorfullhash}{07d34bad74cd7c2342a0ea83c5d72190}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{High quality on-chip microwave resonators have recently found prominent new applications in quantum optics and quantum information processing experiments with superconducting electronic circuits, a field now known as circuit quantum electrodynamics (QED). They are also used as single photon detectors and parametric amplifiers. Here we analyze the physical properties of coplanar waveguide resonators and their relation to the materials properties for use in circuit QED. We have designed and fabricated resonators with fundamental frequencies from 2 to 9 GHz and quality factors ranging from a few hundreds to a several hundred thousands controlled by appropriately designed input and output coupling capacitors. The microwave transmission spectra measured at temperatures of 20 mK are shown to be in good agreement with theoretical lumped element and distributed element transmission matrix models. In particular, the experimentally determined resonance frequencies, quality factors, and insertion losses are fully and consistently explained by the two models for all measured devices. The high level of control and flexibility in design renders these resonators ideal for storing and manipulating quantum electromagnetic fields in integrated superconducting electronic circuits. {{$\copyright$}} 2008 American Institute of Physics.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{00218979}
+      \field{journaltitle}{Journal of Applied Physics}
+      \field{number}{11}
+      \field{title}{{Coplanar waveguide resonators for circuit quantum electrodynamics}}
+      \field{volume}{104}
+      \field{year}{2008}
+      \verb{doi}
+      \verb 10.1063/1.3010859
+      \endverb
+      \verb{eprint}
+      \verb 0807.4094
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/G{\"{o}}ppl et al. - 2008 - Coplanar waveguide resonators for circuit quantum electrodynamics.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Pierre2014}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d806f82112128367f592795c06d77d4f}{%
+           family={Pierre},
+           familyi={P\bibinitperiod},
+           given={Mathieu},
+           giveni={M\bibinitperiod}}}%
+        {{hash=55c47b360b9c7201fbe2b2d67e5302b0}{%
+           family={Svensson},
+           familyi={S\bibinitperiod},
+           given={Ida\bibnamedelima Maria},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0e7a0409c60d45b9d2e887b98c53c00d}{%
+           family={{Raman Sathyamoorthy}},
+           familyi={R\bibinitperiod},
+           given={Sankar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8fece70a50544a0f29d9b8265aeeb1a9}{%
+           family={Johansson},
+           familyi={J\bibinitperiod},
+           given={G{\"{o}}ran},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3945b17cb0d6140433f1f8e745e03ade}{%
+           family={Delsing},
+           familyi={D\bibinitperiod},
+           given={Per},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1dea2f3719d07ca8cf6d614f122911e}
+      \strng{fullhash}{adbb4ba21534db5fae8a8eb24e1a2ca2}
+      \strng{bibnamehash}{adbb4ba21534db5fae8a8eb24e1a2ca2}
+      \strng{authorbibnamehash}{adbb4ba21534db5fae8a8eb24e1a2ca2}
+      \strng{authornamehash}{c1dea2f3719d07ca8cf6d614f122911e}
+      \strng{authorfullhash}{adbb4ba21534db5fae8a8eb24e1a2ca2}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a system which allows to tune the coupling between a superconducting resonator and a transmission line. This storage resonator is addressed through a second, coupling resonator, which is frequency-tunable and controlled by a magnetic flux applied to a superconducting quantum interference device. We experimentally demonstrate that the lifetime of the storage resonator can be tuned by more than three orders of magnitude. A field can be stored for 18 ls when the coupling resonator is tuned off resonance and it can be released in 14 ns when the coupling resonator is tuned on resonance. The device allows capture, storage, and on-demand release of microwaves at a tunable rate. V C 2014 AIP Publishing LLC. [http://dx.doi.org/10.1063/1.4882646] At the interface between quantum optics and integrated electronics, superconducting circuits constitute a flexible and scalable platform for quantum information processing based on the manipulation of qubits and microwave photons. 1--3 One of the main challenges is to develop basic tools required to manipulate photons at the single photon level. Such func-tionalities include, for instance, photon generation, 4 detec-tion, routing, 5 and storage. 6 A scalable architecture of a circuit quantum electrody-namics (circuit-QED) experiment can have the structure of a quantum network. 7 In this scheme, propagating photons car-rying bits of quantum information travel between nodes where quantum information is processed through the interac-tion of these photons with various quantum systems. Such quantum systems can be superconducting quantum bits, spin ensembles, quantum dots, or mechanical oscillators. Despite recent progress in achieving a strong coupling with propagat-ing photons, it is convenient to embed the quantum system in a cavity where its coupling to the field is resonantly enhanced.}
+      \field{issn}{00036951}
+      \field{journaltitle}{Applied Physics Letters}
+      \field{number}{23}
+      \field{title}{{Storage and on-demand release of microwaves using superconducting resonators with tunable coupling}}
+      \field{volume}{104}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1063/1.4882646
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Pierre et al. - 2014 - Storage and on-demand release of microwaves using superconducting resonators with tunable coupling.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Baust2015}{article}{}
+      \name{author}{19}{}{%
+        {{hash=33ff5a916feec9bc4cd0ddd02993db70}{%
+           family={Baust},
+           familyi={B\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c00a80ea0e80103d3205a1579787e8d1}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=83a610c7df8b63b2d35e55c1a343f9b9}{%
+           family={Haeberlein},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=de426f46ecb798d43de6018a3f5b2e1e}{%
+           family={Schwarz},
+           familyi={S\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=5b890b09721a6e193840ced6e0ef7842}{%
+           family={Eder},
+           familyi={E\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0886543c09102fc24d72ca985971ff5e}{%
+           family={Goetz},
+           familyi={G\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=fde6c6949c1fa53ed0bf5f29cd2c4d0f}{%
+           family={Wulschner},
+           familyi={W\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=eeb0d2b13e7cc5e56534c9a546e31931}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=42a6a93239b444b374a9351649dee26e}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=be6933d8ac9f94b0b4bbe09a32f82810}{%
+           family={Quijandr{\'{\i}}a},
+           familyi={Q\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=21b1ecbeffc5e8513cee24d3331748db}{%
+           family={Peropadre},
+           familyi={P\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=36d3e98313acdc748a6e4689dd42af11}{%
+           family={Zueco},
+           familyi={Z\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cb452e0f4e325847c87165771ac54bfb}{%
+           family={{Garc{\'{\i}}a Ripoll}},
+           familyi={G\bibinitperiod},
+           given={J.\bibnamedelimi J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=3133a65c525b5b990d94cdb97d8b30b2}{%
+           family={Solano},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0b357d3449c0a6b0937df8195831d22a}{%
+           family={Fedorov},
+           familyi={F\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=625a6e71c39b47a4a277af1e207b38b5}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8590c5c7713288284d48c6da345a086b}{%
+           family={Deppe},
+           familyi={D\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=b3cc84124140f820a17772cabf5c699b}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=41b97a39c030cc168693462450b432fc}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{813126cf0729e571c00941b3441ae334}
+      \strng{fullhash}{5c6b2987c42b1b076073bbd6d805f60b}
+      \strng{bibnamehash}{5c6b2987c42b1b076073bbd6d805f60b}
+      \strng{authorbibnamehash}{5c6b2987c42b1b076073bbd6d805f60b}
+      \strng{authornamehash}{813126cf0729e571c00941b3441ae334}
+      \strng{authorfullhash}{5c6b2987c42b1b076073bbd6d805f60b}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We realize a device allowing for tunable and switchable coupling between two superconducting resonators mediated by an artificial atom. For the latter, we utilize a persistent current flux qubit. We characterize the tunable and switchable coupling in frequency and time domain and find that the coupling between the relevant modes can be varied in a controlled way. Specifically, the coupling can be tuned by adjusting the flux through the qubit loop or by saturating the qubit. Our time domain measurements allow us to find parameter regimes for optimal switch performance with respect to qubit drive power and the dynamic range of the resonator input power.}
+      \field{issn}{1550235X}
+      \field{journaltitle}{Physical Review B - Condensed Matter and Materials Physics}
+      \field{number}{1}
+      \field{title}{{Tunable and switchable coupling between two superconducting resonators}}
+      \field{volume}{91}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.91.014515
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Baust et al. - 2015 - Tunable and switchable coupling between two superconducting resonators.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Reuther2009}{article}{}
+      \name{author}{12}{}{%
+        {{hash=453f4fac32c720795fd224f1b96f28e0}{%
+           family={Reuther},
+           familyi={R\bibinitperiod},
+           given={Georg\bibnamedelima M.},
+           giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e325025feb235aaef864285de35ff5e}{%
+           family={Zueco},
+           familyi={Z\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=4c3615ca5b9251b9bfccb21a7a3a0684}{%
+           family={Deppe},
+           familyi={D\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=345f3a5d672c284eefb82ec944860b22}{%
+           family={Hoffmann},
+           familyi={H\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
+        {{hash=716dad3ca8441e98664aa8b309a7eafd}{%
+           family={Menzel},
+           familyi={M\bibinitperiod},
+           given={Edwin\bibnamedelima P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=aed9806280eed7420b7ef04cddad3a3f}{%
+           family={Wei{\ss{}}l},
+           familyi={W\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=bdb44c753feea38b69ffdaeb660ee3fb}{%
+           family={Mariantoni},
+           familyi={M\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=dbd3c2a659be557cb4bd14617f2fe675}{%
+           family={Kohler},
+           familyi={K\bibinitperiod},
+           given={Sigmund},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4d6c3076853c54d472c16a16909be28e}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Achim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=861eb33a0a8d9913f3ff1cb83ab5de22}{%
+           family={Solano},
+           familyi={S\bibinitperiod},
+           given={Enrique},
+           giveni={E\bibinitperiod}}}%
+        {{hash=44cf590421bbd4ea70d5e6c528fb6ced}{%
+           family={Gross},
+           familyi={G\bibinitperiod},
+           given={Rudolf},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8f5e10a24cc8ead554fe3d692baea6e3}{%
+           family={H{\"{a}}nggi},
+           familyi={H\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{92fdb71b3f738e8a4711af777ff94d33}
+      \strng{fullhash}{aa91678aaeeccbec312ec05bf6e267fa}
+      \strng{bibnamehash}{aa91678aaeeccbec312ec05bf6e267fa}
+      \strng{authorbibnamehash}{aa91678aaeeccbec312ec05bf6e267fa}
+      \strng{authornamehash}{92fdb71b3f738e8a4711af777ff94d33}
+      \strng{authorfullhash}{aa91678aaeeccbec312ec05bf6e267fa}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a theoretical treatment for the dissipative two-resonator circuit quantum electrodynamics setup referred to as quantum switch. There, switchable coupling between two superconducting resonators is mediated by a superconducting qubit operating in the dispersive regime, where the qubit transition frequency is far detuned from those of the resonators. We derive an effective Hamiltonian for the quantum switch beyond the rotating wave approximation and study the dissipative dynamics within a Bloch-Redfield quantum master equation approach. We derive analytically how the qubit affects the quantum switch even if the qubit has no dynamics, and we estimate the strength of this influence. The analytical results are corroborated by numerical calculations, where coherent oscillations between the resonators, the decay of coherent and Fock states, and the decay of resonator-resonator entanglement are studied. Finally, we suggest an experimental protocol for extracting the damping constants of qubit and resonators by measuring the quadratures of the resonator fields.}
+      \field{eprinttype}{arXiv}
+      \field{title}{{Two-resonator circuit QED: Dissipative Theory}}
+      \field{year}{2009}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1103/PhysRevB.81.144510
+      \endverb
+      \verb{eprint}
+      \verb 0911.2657
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Reuther et al. - 2009 - Two-resonator circuit QED Dissipative Theory.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0911.2657{\%}0Ahttp://dx.doi.org/10.1103/PhysRevB.81.144510
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0911.2657%7B%5C%%7D0Ahttp://dx.doi.org/10.1103/PhysRevB.81.144510
+      \endverb
+    \endentry
+    \entry{fridge}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://www.sci.osaka-cu.ac.jp/phys/ult/invitation/cryo/dr.html}}
       \field{title}{{希釈冷凍器}}
@@ -402,8 +754,8 @@
       \strng{authorbibnamehash}{3093834e30b50992fe98b4b4f1afc5d0}
       \strng{authornamehash}{3093834e30b50992fe98b4b4f1afc5d0}
       \strng{authorfullhash}{3093834e30b50992fe98b4b4f1afc5d0}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{http://kelvin.phys.s.u-tokyo.ac.jp/files/dilution_fridge_v1.x.pdf}}
