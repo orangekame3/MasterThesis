@@ -733,12 +733,145 @@
       \verb http://arxiv.org/abs/0911.2657%7B%5C%%7D0Ahttp://dx.doi.org/10.1103/PhysRevB.81.144510
       \endverb
     \endentry
+    \entry{Microwave}{book}{}
+      \name{author}{1}{}{%
+        {{hash=09161d7a35a1fb8dac015bbf4268532b}{%
+           family={Pozar"},
+           familyi={P\bibinitperiod},
+           given={"David\bibnamedelima M.},
+           giveni={"\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {"WILEY"}%
+      }
+      \strng{namehash}{09161d7a35a1fb8dac015bbf4268532b}
+      \strng{fullhash}{09161d7a35a1fb8dac015bbf4268532b}
+      \strng{bibnamehash}{09161d7a35a1fb8dac015bbf4268532b}
+      \strng{authorbibnamehash}{09161d7a35a1fb8dac015bbf4268532b}
+      \strng{authornamehash}{09161d7a35a1fb8dac015bbf4268532b}
+      \strng{authorfullhash}{09161d7a35a1fb8dac015bbf4268532b}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{"Microwave Engineering, 4th Edition"}
+      \field{year}{November 2011}
+    \endentry
+    \entry{Besedin2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e261d1927ee771c8a6c09f635b2a5656}{%
+           family={Besedin},
+           familyi={B\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod}}}%
+        {{hash=ae89ee1f14df422c85e813734a72b992}{%
+           family={Menushenkov},
+           familyi={M\bibinitperiod},
+           given={Alexey\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Author(s)}%
+      }
+      \strng{namehash}{41f08f1c63caaf7c42780baac4f5f702}
+      \strng{fullhash}{41f08f1c63caaf7c42780baac4f5f702}
+      \strng{bibnamehash}{41f08f1c63caaf7c42780baac4f5f702}
+      \strng{authorbibnamehash}{41f08f1c63caaf7c42780baac4f5f702}
+      \strng{authornamehash}{41f08f1c63caaf7c42780baac4f5f702}
+      \strng{authorfullhash}{41f08f1c63caaf7c42780baac4f5f702}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate analytically the coupling of a coplanar waveguide resonator to a coplanar waveguide feedline. Using a conformal mapping technique we obtain an expression for the characteristic mode impedances and coupling coefficients of an asymmetric multi-conductor transmission line. Leading order terms for the external quality factor and frequency shift are calculated. The obtained analytical results are relevant for designing circuit-QED quantum systems and frequency division multiplexing of superconducting bolometers, detectors and similar microwave-range multi-pixel devices.}
+      \field{eprinttype}{arXiv}
+      \field{issn}{21960763}
+      \field{journaltitle}{EPJ Quantum Technology}
+      \field{number}{1}
+      \field{title}{{Quality factor of a transmission line coupled coplanar waveguide resonator}}
+      \field{volume}{5}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1140/epjqt/s40507-018-0066-3
+      \endverb
+      \verb{eprint}
+      \verb 1710.01998
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Besedin, Menushenkov - 2018 - Quality factor of a transmission line coupled coplanar waveguide resonator.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1140/epjqt/s40507-018-0066-3
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1140/epjqt/s40507-018-0066-3
+      \endverb
+      \keyw{Conformal mapping,Coplanar waveguide,Coupled transmission lines,Microwave resonator,Superconducting resonator}
+    \endentry
+    \entry{inomata}{article}{}
+      \name{author}{5}{}{%
+        {{hash=0c7b54253588b254ef710aafc919e59c}{%
+           family={Inomata},
+           familyi={I\bibinitperiod},
+           given={Kunihiro},
+           giveni={K\bibinitperiod}}}%
+        {{hash=d18afb5ec393774dc0c584f2a75ab6f5}{%
+           family={Yamamoto},
+           familyi={Y\bibinitperiod},
+           given={Tsuyoshi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d3bb4b7ef5eddf473d94eab31e643b98}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={Michio},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c6930db0f7c742a5f4b2fec2b401074d}{%
+           family={Matsuba},
+           familyi={M\bibinitperiod},
+           given={Kazuaki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=77d027194eb821548c6c33f31b9c74e3}{%
+           family={Tsai},
+           familyi={T\bibinitperiod},
+           given={Jaw-Shen},
+           giveni={J\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{222445787303f52bf08abb88be7027a5}
+      \strng{fullhash}{b46c2df101097a0ad97e3541b9b71c19}
+      \strng{bibnamehash}{b46c2df101097a0ad97e3541b9b71c19}
+      \strng{authorbibnamehash}{b46c2df101097a0ad97e3541b9b71c19}
+      \strng{authornamehash}{222445787303f52bf08abb88be7027a5}
+      \strng{authorfullhash}{b46c2df101097a0ad97e3541b9b71c19}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Vacuum Science \& Technology B: Microelectronics and Nanometer Structures Processing, Measurement, and Phenomena}
+      \field{number}{5}
+      \field{title}{Film-thickness dependence of 10 GHz Nb coplanar-waveguide resonators}
+      \field{volume}{27}
+      \field{year}{2009}
+      \field{pages}{2286\bibrangedash 2291}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1116/1.3232301
+      \endverb
+      \verb{eprint}
+      \verb https://avs.scitation.org/doi/pdf/10.1116/1.3232301
+      \endverb
+      \verb{urlraw}
+      \verb https://avs.scitation.org/doi/abs/10.1116/1.3232301
+      \endverb
+      \verb{url}
+      \verb https://avs.scitation.org/doi/abs/10.1116/1.3232301
+      \endverb
+    \endentry
     \entry{fridge}{misc}{}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.sci.osaka-cu.ac.jp/phys/ult/invitation/cryo/dr.html}}
-      \field{title}{{希釈冷凍器}}
+      \field{howpublished}{"\url{https://www.sci.osaka-cu.ac.jp/phys/ult/invitation/cryo/dr.html}"}
+      \field{title}{"希釈冷凍器"}
     \endentry
     \entry{fridge2}{misc}{}
       \name{author}{1}{}{%
@@ -758,8 +891,8 @@
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{http://kelvin.phys.s.u-tokyo.ac.jp/files/dilution_fridge_v1.x.pdf}}
-      \field{title}{{希釈冷凍機の原理としくみ-ミリケルビン温度の獲得}}
+      \field{howpublished}{"\url{http://kelvin.phys.s.u-tokyo.ac.jp/files/dilution_fridge_v1.x.pdf}"}
+      \field{title}{"希釈冷凍機の原理としくみ-ミリケルビン温度の獲得"}
     \endentry
   \enddatalist
 \endrefsection

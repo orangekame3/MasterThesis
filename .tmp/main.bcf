@@ -1937,8 +1937,12 @@
     <bcf:citekey order="8">Pierre2014</bcf:citekey>
     <bcf:citekey order="9">Baust2015</bcf:citekey>
     <bcf:citekey order="9">Reuther2009</bcf:citekey>
-    <bcf:citekey order="10">fridge</bcf:citekey>
-    <bcf:citekey order="10">fridge2</bcf:citekey>
+    <bcf:citekey order="10">Microwave</bcf:citekey>
+    <bcf:citekey order="11">Goppl2008</bcf:citekey>
+    <bcf:citekey order="11">Besedin2018</bcf:citekey>
+    <bcf:citekey order="11">inomata</bcf:citekey>
+    <bcf:citekey order="12">fridge</bcf:citekey>
+    <bcf:citekey order="12">fridge2</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

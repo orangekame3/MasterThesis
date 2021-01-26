@@ -149,6 +149,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT ./img/表紙2.pdf
+INPUT extractbb -B cropbox -O ./img/表紙2.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -196,13 +198,26 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
-INPUT ./img/cpw.pdf
-INPUT extractbb -B cropbox -O ./img/cpw.pdf
+INPUT ./img/le.pdf
+INPUT extractbb -B cropbox -O ./img/le.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ./img/cpw2.pdf
+INPUT extractbb -B cropbox -O ./img/cpw2.pdf
+INPUT ./img/cpw.pdf
+INPUT extractbb -B cropbox -O ./img/cpw.pdf
+INPUT ./img/lumpedelement.pdf
+INPUT extractbb -B cropbox -O ./img/lumpedelement.pdf
 INPUT ./img/le.pdf
-INPUT extractbb -B cropbox -O ./img/le.pdf
+INPUT ./img/jj.pdf
+INPUT extractbb -B cropbox -O ./img/jj.pdf
+INPUT ./img/rfsquid.pdf
+INPUT extractbb -B cropbox -O ./img/rfsquid.pdf
+INPUT ./img/dcsquid.pdf
+INPUT extractbb -B cropbox -O ./img/dcsquid.pdf
 INPUT ./img/dc-squid.pdf
 INPUT extractbb -B cropbox -O ./img/dc-squid.pdf
 INPUT implementation.tex
