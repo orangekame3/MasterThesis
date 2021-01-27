@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  26 JAN 2021 11:05
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  27 JAN 2021 03:54
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -795,11 +795,12 @@ File: ./img/le.pdf Graphic file (type pdf)
  [10]
 File: ./img/jj.pdf Graphic file (type pdf)
 <./img/jj.pdf>
+ [11]
 File: ./img/rfsquid.pdf Graphic file (type pdf)
 <./img/rfsquid.pdf>
 File: ./img/dcsquid.pdf Graphic file (type pdf)
 <./img/dcsquid.pdf>
- [11] [12]
+ [12]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
  [13]) [14]
@@ -961,4 +962,4 @@ Here is how much of TeX's memory you used:
  19 hyphenation exceptions out of 8191
  36i,11n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (43 pages, 139092 bytes).
+Output written on .tmp/main.dvi (43 pages, 139136 bytes).
