@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  28 JAN 2021 09:43
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  28 JAN 2021 12:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -935,7 +935,7 @@ File: ./img/measurement_0654234.pdf Graphic file (type pdf)
 File: ./img/lumpedelement.pdf Graphic file (type pdf)
 <./img/lumpedelement.pdf>
 
-Overfull \hbox (39.49805pt too wide) in paragraph at lines 98--99
+Overfull \hbox (39.49805pt too wide) in paragraph at lines 99--100
  [][] 
  []
 
@@ -944,11 +944,20 @@ File: ./img/IDC2.pdf Graphic file (type pdf)
 <./img/IDC2.pdf>
  [40] [41]
 
-LaTeX Warning: Reference `Cend,fs,f0' on page 42 undefined on input line 177.
+LaTeX Warning: Reference `Cend,fs,f0' on page 42 undefined on input line 178.
 
 File: ./img/IDC_cal.pdf Graphic file (type pdf)
 <./img/IDC_cal.pdf>
-[42]) [43]
+[42]
+File: ./img/ミアンダ.pdf Graphic file (type pdf)
+<./img/ミアンダ.pdf>
+ [43]
+File: ./img/偶奇.pdf Graphic file (type pdf)
+<./img/偶奇.pdf>
+ [44]
+File: ./img/相互.pdf Graphic file (type pdf)
+<./img/相互.pdf>
+) [45] [46]
 LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -957,11 +966,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 130.
- [44
+ [47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [45]
+ [48]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -982,12 +991,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 14246 strings out of 495109
- 232585 string characters out of 6184637
- 672071 words of memory out of 5000000
- 17492 multiletter control sequences out of 15000+600000
+ 14266 strings out of 495109
+ 233062 string characters out of 6184637
+ 672354 words of memory out of 5000000
+ 17509 multiletter control sequences out of 15000+600000
  21122 words of font info for 103 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
- 42i,11n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,11n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (46 pages, 154376 bytes).
+Output written on .tmp/main.dvi (49 pages, 160540 bytes).

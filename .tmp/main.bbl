@@ -1009,6 +1009,69 @@
       \field{title}{Comprehensive study of CAD models of several coplanar waveguide ( CPW ) discontinuities}
       \field{year}{2001}
     \endentry
+    \entry{Stojanovic2004}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6a96e59b16b48e8c3cc76211085bc969}{%
+           family={Stojanovic},
+           familyi={S\bibinitperiod},
+           given={Goran},
+           giveni={G\bibinitperiod}}}%
+        {{hash=7f70c27007deda3d65a84064cf89298e}{%
+           family={{\v{Z}}ivanov},
+           familyi={\v{Z}\bibinitperiod},
+           given={Ljiljana},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6dead0de5d77e20561955d20b28acf96}{%
+           family={Damjanovic},
+           familyi={D\bibinitperiod},
+           given={Mirjana},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a4735e38133573a122883876b224fa3}
+      \strng{fullhash}{2d1bf2fa0a3b3516c90ab199767e1718}
+      \strng{bibnamehash}{2d1bf2fa0a3b3516c90ab199767e1718}
+      \strng{authorbibnamehash}{2d1bf2fa0a3b3516c90ab199767e1718}
+      \strng{authornamehash}{9a4735e38133573a122883876b224fa3}
+      \strng{authorfullhash}{2d1bf2fa0a3b3516c90ab199767e1718}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{3}
+      \field{title}{{Compact Form of Expressions for Inductance Calculation of Meander Inductors}}
+      \field{volume}{1}
+      \field{year}{2004}
+      \field{pages}{57\bibrangedash 67}
+      \range{pages}{11}
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stojanovic, {\v{Z}}ivanov, Damjanovic - 2004 - Compact Form of Expressions for Inductance Calculation of Meander Inductors.pdf:pdf
+      \endverb
+      \keyw{cub electrode,electric filed,equivalent electrodes method}
+    \endentry
+    \entry{Grover}{book}{}
+      \name{author}{1}{}{%
+        {{hash=319448f77edb27318cca8355ddf26107}{%
+           family={Grover},
+           familyi={G\bibinitperiod},
+           given={Frederick\bibnamedelima W},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{319448f77edb27318cca8355ddf26107}
+      \strng{fullhash}{319448f77edb27318cca8355ddf26107}
+      \strng{bibnamehash}{319448f77edb27318cca8355ddf26107}
+      \strng{authorbibnamehash}{319448f77edb27318cca8355ddf26107}
+      \strng{authornamehash}{319448f77edb27318cca8355ddf26107}
+      \strng{authorfullhash}{319448f77edb27318cca8355ddf26107}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0876645570}
+      \field{title}{{INDUCTANCE Working Formulas and Tables}}
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Grover - Unknown - INDUCTANCE Working Formulas and Tables.pdf:pdf
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

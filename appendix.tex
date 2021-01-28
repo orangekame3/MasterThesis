@@ -77,7 +77,7 @@
     \hat{c}_{-}
     \end{array}\right)
 \end{equation}
-\section{ミアンダインダクタンス}
+
 \section{rf-SQUIDの相互インダクタンス}
 dc-SQUIDのインダクタンスは
 \begin{equation}
@@ -94,6 +94,7 @@ dc-SQUIDのインダクタンスは
 \section{インターデジタルキャパシタンス}
 インターデジタルキャパシタンスとは図中の共振器の櫛状になっている部分の構造である。
 \begin{figure}[H]
+    \label{le}
     \centering
     \includegraphics[width=16cm]{lumpedelement.pdf}
     \caption{準集中定数型共振器（再掲）}
@@ -101,7 +102,7 @@ dc-SQUIDのインダクタンスは
 この構造により、電極同士の表面積を上げることでキャパシタンスを増幅することができる。ここではインターデジタルキャパシタンスの計算方法について解説を行う。また、ここで解説するインターデジタルキャパシタンスの計算方法は櫛の数が2本以上のケースである。\cite*{Gevorgian1996,Dib2005,Dib2001ComprehensiveSO}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=12cm]{IDC2.pdf}
+    \includegraphics[width=14cm]{IDC2.pdf}
     \caption{インターデジタルキャパシタンス}
 \end{figure}
 式中の文字は上記の図中のパラメータに対応している。
@@ -187,5 +188,41 @@ dc-SQUIDのインダクタンスは
     \includegraphics[width=10cm]{IDC_cal.pdf}
     \caption{キャパシタンス vs 櫛の本数}
 \end{figure}
+\section{ミアンダインダクタンス}
+ミアンダインダクタンスとは図\ref{le}中蛇行した構造を持ったインダクタのことを指している。蛇行させることによりサイズに対して線路長が長くなり、また、相対する相互インダクタンスによりインダクタンスの総和が増加する。ここでは本稿で用いたミアンダインダクタンスの解析的計算方法について解説する。本文中ではここで行った解析的計算の結果と電磁界シミュレーションによるミアンダインダクタンス部分の計算を比較していので参照されたい。
+\begin{figure}[H]
+    \label{ミアンダ}
+    \centering
+    \includegraphics[width=14cm]{ミアンダ.pdf}
+    \caption{ミアンダインダクタンス}
+\end{figure}
+以下数式は上図のパラメータに対応する。この計算に主に参考にした論文は\cite*{Stojanovic2004}である。
+文献\cite*{Grover}より長方形線路の自己インダクタンスは
+\begin{equation}
+    L=0.002 l\{\ln [2 l /(w+t)]+0.50049+[(w+t) / 3 l]\}
+\end{equation}
+である。ここでwは線路幅、tは厚さ、lは線路長である。ミアンダインダクタンスの大部分を占めているのは各セグメントに於ける自己インダクタンスの総和である。すなわち、図中のパラメータによって各セグメントをラベル付けするとミアンダインダクタンス中セルフインダクタンスの寄与は
+\begin{equation}
+    L_{\text {selftot }}=2 \cdot L_{a}+2 \cdot L_{b}+N \cdot L_{h}+(N+1) \cdot L_{d}
+\end{equation}
+である。ここでNはセグメントhの本数に対応する。図\ref*{ミアンダ}ではN=10である。参考文献ではいくつかタイプミスが見受けられたため、少々煩雑ではあるが式の全文を記すこととする。
+既に記した条件を前提とした上でNがの偶奇で計算は異なる。
+\begin{figure}[H]
+    \label{偶奇}
+    \centering
+    \includegraphics[width=14cm]{偶奇.pdf}
+    \caption{ミアンダインダクタンス}
+\end{figure}
+文献\cite*{Grover}に依れば相対する線路に於ける相互インダクタンスは
+\begin{equation}
+    M=0.002 l\left[\log _{e}\left(\frac{l}{d}+\sqrt{1+\frac{l^{2}}{d^{2}}}\right)-\sqrt{1+\frac{d^{2}}{l^{2}}}+\frac{d}{l}\right]
+\end{equation}
+\begin{figure}[H]
+    \label{相互}
+    \centering
+    \includegraphics[width=8cm]{相互.pdf}
+    \caption{2線路間に於ける相互インダクタンス}
+\end{figure}
+
 \section{マスター方程式}
 \section{2点相関関数}
