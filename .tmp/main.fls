@@ -305,6 +305,11 @@ INPUT apology.tex
 INPUT apology.tex
 INPUT appendix.tex
 INPUT appendix.tex
+INPUT ./img/lumpedelement.pdf
+INPUT ./img/IDC2.pdf
+INPUT extractbb -B cropbox -O ./img/IDC2.pdf
+INPUT ./img/IDC_cal.pdf
+INPUT extractbb -B cropbox -O ./img/IDC_cal.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT .tmp/main.out.ps

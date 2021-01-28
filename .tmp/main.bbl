@@ -894,6 +894,121 @@
       \field{howpublished}{"\url{http://kelvin.phys.s.u-tokyo.ac.jp/files/dilution_fridge_v1.x.pdf}"}
       \field{title}{"希釈冷凍機の原理としくみ-ミリケルビン温度の獲得"}
     \endentry
+    \entry{Gevorgian1996}{article}{}
+      \name{author}{4}{}{%
+        {{hash=8adcc09727fea571bd4da267ed18cb17}{%
+           family={Gevorgian},
+           familyi={G\bibinitperiod},
+           given={Spartak\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d9e0a765e53d85a03cf985ec68a0b59e}{%
+           family={Martinsson},
+           familyi={M\bibinitperiod},
+           given={Torsten},
+           giveni={T\bibinitperiod}}}%
+        {{hash=34b6869e63d6ed3758ae0ebeba3e6c14}{%
+           family={Linn{\'{e}}r},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima L.J.},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0d494193c3a15ded875a9f84f798b9a7}{%
+           family={Kollberg},
+           familyi={K\bibinitperiod},
+           given={Erik\bibnamedelima Ludvig},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{751ddd1f0586b5ff760753a5ba19c4de}
+      \strng{fullhash}{d7974984e878fc2510cafdaae08d0eed}
+      \strng{bibnamehash}{d7974984e878fc2510cafdaae08d0eed}
+      \strng{authorbibnamehash}{d7974984e878fc2510cafdaae08d0eed}
+      \strng{authornamehash}{751ddd1f0586b5ff760753a5ba19c4de}
+      \strng{authorfullhash}{d7974984e878fc2510cafdaae08d0eed}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Conformai mapping-based models are given for interdigital capacitors on substrates with a thin superstrate and/or covering dielectric film. The models are useful for a wide range of dielectric constants and layer thicknesses. Capacitors with finger numbers n {>} 2 are discussed. The finger widths and spacing between them may be different. The results are compared with the available data and some examples are given to demonstrate the potential of the models. {{$\copyright$}} 1996 IEEE.}
+      \field{issn}{00189480}
+      \field{journaltitle}{IEEE Transactions on Microwave Theory and Techniques}
+      \field{number}{6}
+      \field{title}{{CAD models for multilayered substrate interdigital capacitors}}
+      \field{volume}{44}
+      \field{year}{1996}
+      \field{pages}{896\bibrangedash 904}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/22.506449
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Gevorgian et al. - 1996 - CAD models for multilayered substrate interdigital capacitors.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Dib2005}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7de01080158fa157b4682cf5bbf2975a}{%
+           family={Dib},
+           familyi={D\bibinitperiod},
+           given={Nihad},
+           giveni={N\bibinitperiod}}}%
+        {{hash=7c0d9482f5544b2c88a08f1d3848c014}{%
+           family={Ababneh},
+           familyi={A\bibinitperiod},
+           given={Jehad},
+           giveni={J\bibinitperiod}}}%
+        {{hash=69c64d095a32a01ae3225dfb61b9869c}{%
+           family={Omar},
+           familyi={O\bibinitperiod},
+           given={Amjad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{89f8df1c13b454eb9d6ca053389030a3}
+      \strng{fullhash}{2e0b9340f5615019dfc8bb409e58979e}
+      \strng{bibnamehash}{2e0b9340f5615019dfc8bb409e58979e}
+      \strng{authorbibnamehash}{2e0b9340f5615019dfc8bb409e58979e}
+      \strng{authornamehash}{89f8df1c13b454eb9d6ca053389030a3}
+      \strng{authorfullhash}{2e0b9340f5615019dfc8bb409e58979e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A lumped-element circuit is proposed to model a coplanar waveguide (CPW)$\backslash$ninterdigital capacitor (IDC). Closed-form expressions suitable for CAD$\backslash$npurposes are given for each element in the circuit. The obtained results$\backslash$nfor the series capacitance are in good agreement with those available in$\backslash$nthe literature. In addition, the scattering parameters obtained from the$\backslash$ncircuit model are compared with those obtained using the full-wave$\backslash$nmethod of moments (MoM) and good agreement is obtained. Moreover, a$\backslash$nmultilayer feed-forward artificial neural network (ANN) is developed to$\backslash$nmodel the capacitance of the CPW IDC. It is shown that the developed ANN$\backslash$nhas successfully learned the required task of evaluating the capacitance$\backslash$nof the IDC. (c) 2005 Wiley Periodicals, Inc.}
+      \field{issn}{10964290}
+      \field{journaltitle}{International Journal of RF and Microwave Computer-Aided Engineering}
+      \field{number}{6}
+      \field{title}{{CAD modeling of coplanar waveguide interdigital capacitor}}
+      \field{volume}{15}
+      \field{year}{2005}
+      \field{pages}{551\bibrangedash 558}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/mmce.20099
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Dib, Ababneh, Omar - 2005 - CAD modeling of coplanar waveguide interdigital capacitor.pdf:pdf
+      \endverb
+      \keyw{CAD,Coplanar waveguide,Interdigital capacitor,Neural networks}
+    \endentry
+    \entry{Dib2001ComprehensiveSO}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=748bf9954b49c73d2c4691f55aaa8168}{%
+           family={Dib},
+           familyi={D\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{748bf9954b49c73d2c4691f55aaa8168}
+      \strng{fullhash}{748bf9954b49c73d2c4691f55aaa8168}
+      \strng{bibnamehash}{748bf9954b49c73d2c4691f55aaa8168}
+      \strng{authorbibnamehash}{748bf9954b49c73d2c4691f55aaa8168}
+      \strng{authornamehash}{748bf9954b49c73d2c4691f55aaa8168}
+      \strng{authorfullhash}{748bf9954b49c73d2c4691f55aaa8168}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comprehensive study of CAD models of several coplanar waveguide ( CPW ) discontinuities}
+      \field{year}{2001}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
