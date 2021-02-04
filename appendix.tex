@@ -223,6 +223,76 @@ dc-SQUIDのインダクタンスは
     \includegraphics[width=8cm]{相互.pdf}
     \caption{2線路間に於ける相互インダクタンス}
 \end{figure}
+線路間の相互インダクタンスは配置によって以下の4通りのケースが存在する。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{mutual.pdf}
+    \caption{2線路間に於ける相互インダクタンス}
+\end{figure}
+よってそれぞれについて相互インダクタンスの関数を以下のように定義する。
+\begin{equation}
+    M_{a 1}\left(l_{1}, l_{2}, r, s\right)=0.5 \cdot\left[M_{c}\left(l_{1}+l_{2}+s, r\right)+M_{c}(s, r)-M_{c}\left(l_{1}+s, r\right)-M_{c}\left(l_{2}+s, r\right)\right]
+\end{equation}
+\begin{equation}
+    M_{a 2}\left(l_{1}, l_{2}, r\right)=0.5 \cdot\left[M_{c}\left(l_{1}, r\right)+M_{c}\left(l_{2}, r\right)-M_{c}\left(l_{1}-l_{2}, r\right)\right]
+\end{equation}
+\begin{equation}
+    M_{a 3}\left(l_{1}, l_{2}, r\right)=0.5\left[M_{c}\left(l_{1}+l_{2}, r\right)-M_{c}\left(l_{1}, r\right)-M_{c}\left(l_{2}, r\right)\right]
+\end{equation}
+\begin{equation}
+    M_{b}\left(l_{1}, l_{2}, s\right)=\frac{\infty_{0}}{4 \pi}\left[\left(l_{1}+l_{2}+s\right) \ln \left(l_{1}+l_{2}+s\right)-\left(l_{1}+s\right) \ln \left(l_{1}+s\right)-\left(l_{2}+s\right) \ln \left(l_{2}+s\right)+s \ln (s)\right]
+\end{equation}
+
+上記の4通りの方法を各セグメントに適用することでミアンダインダクタンスに存在する相互インダクタンスをすべて勘定することができる。
+偶奇それぞれについて計算する相互インダクタンスは以下の7ケースである。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{m2.pdf}
+    \caption{セグメント別相互インダクタンス}
+\end{figure}
+上記のセグメント別の相互インダクタンスについて偶奇について違いあるものは
+\begin{equation}
+    \begin{array}{l}
+    M_{1}=\sum_{i=1}^{N / 2}(2 N+4-4 i) \cdot M_{\mathrm{ul}}(d, d, h,(2 i-2) d), \text { for } N \text { even } \\
+    \qquad M_{1}=\sum_{i=1}^{d}(2 N+4-4 i) \cdot M_{a 1}(d, d, h,(2 i-2) d), \text { for } N \text { odd }
+    \end{array}
+\end{equation}
+\begin{equation}
+    \begin{aligned}
+    M_{2} &=\sum_{i=1}^{N / 2}(2 N+2-4 i) \cdot M_{b}(d, d,(2 i-1) d), \text { for } N \text { even } \\
+    M_{2}=&\sum_{(N-1) / 2}^{\infty}(2 N+2-4 i) \cdot M_{b}(d, d,(2 i-1) d), \text { for } N \text { odd }
+    \end{aligned}
+\end{equation}
+\begin{equation}
+    \begin{aligned}
+    M_{6}&=-2 \cdot M_{c}(b,(N+1) d), \text { for } N \text { even }\\
+    M_{6}&=+2 \cdot M_{a 3}(b, b,(N+1) d), \text { for } N \text { odd }
+    \end{aligned}
+\end{equation}
+また、偶奇の違いがないものについて
+\begin{equation}
+    M_{3}=2 \cdot M_{b}(a, a,(N+1) d)
+\end{equation}
+\begin{equation}
+    M_{4}=\sum_{i=0}^{N} 4 \cdot M_{a 1}(a, d, b, i d)
+\end{equation}
+\begin{equation}
+    M_{5}=\sum_{i=0}^{N-1}(-1)^{i} \cdot 2 \cdot(N-1) \cdot M_{c}(h, t d)
+\end{equation}
+\begin{equation}
+    M_{7}=\sum_{i=0}^{N}(-1)^{i} \cdot 4 \cdot M_{a 2}\left(b_{2} h, i d\right)
+\end{equation}
+となる。それぞれについて各セグメントの総和
+\begin{equation}
+    M_{\text {tot }}=M_{1}+M_{2}+M_{3}+M_{4}+M_{5}+M_{6}+M_{7}
+\end{equation}
+によってミアンダインダクタンスに於ける相互インダクタンスを見積もることができる。これについて自己インダクタンスを足し合わせたもの
+\begin{equation}
+    L_{\text {tot }}=L_{\text {selftot }}+M_{\text {tot }}
+\end{equation}
+がミアンダインダクタンスとなる。ただし、本稿では線路として極低温下にある超伝導微細薄膜を用いているため線路長分のカイネティックインダクタンスを考慮する必要がある。
+
 
 \section{マスター方程式}
 \section{2点相関関数}
+時間に依存する物理量Aについてある時間ｔと

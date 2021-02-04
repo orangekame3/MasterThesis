@@ -316,6 +316,10 @@ INPUT ./img/偶奇.pdf
 INPUT extractbb -B cropbox -O ./img/偶奇.pdf
 INPUT ./img/相互.pdf
 INPUT extractbb -B cropbox -O ./img/相互.pdf
+INPUT ./img/mutual.pdf
+INPUT extractbb -B cropbox -O ./img/mutual.pdf
+INPUT ./img/m2.pdf
+INPUT extractbb -B cropbox -O ./img/m2.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT .tmp/main.out.ps
