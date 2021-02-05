@@ -1952,6 +1952,9 @@
     <bcf:citekey order="17">Stojanovic2004</bcf:citekey>
     <bcf:citekey order="18">Grover</bcf:citekey>
     <bcf:citekey order="19">Grover</bcf:citekey>
+    <bcf:citekey order="20">電気回路</bcf:citekey>
+    <bcf:citekey order="20">続電気回路の基礎</bcf:citekey>
+    <bcf:citekey order="21">Tian_2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

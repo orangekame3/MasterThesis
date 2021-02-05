@@ -295,4 +295,161 @@ dc-SQUIDのインダクタンスは
 
 \section{マスター方程式}
 \section{2点相関関数}
-時間に依存する物理量Aについてある時間ｔと
+\section{等価回路}
+本文中で電気回路に於ける基本的な回路の等価変換を行った。ここでは、2端子対回路に於ける等価回路について解説する。\cite*{電気回路,続電気回路の基礎}
+電気回路を考える場合入力と出力を考え、上図のように定めると都合がよい。この回路網が満たす条件をここでは
+①内部に電源を含まない。ただし、トランジスタの直流電源は差し支えない。
+②線形であっても重ね合わせの原理が成立する。
+③入力埜1端子から流れ込んだ電流は入力の他端子から流れ出る。出力側も同様である。
+2端子対回路は幾通りかの特性表示の方法があり、ここではFパラメータを用いる。Fパラメータを用いる場合の2端子対回路の電流電圧は上図のように表現される。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=8cm]{2端子.pdf}
+    \caption{2端子対マトリックス}
+\end{figure}
+この場合Fマトリックスは次式で与えられる。
+\begin{eqnarray}
+    V_1 &= AV_2 + BI_2\\
+    I_1 &= CV_2 +DI_2 
+\end{eqnarray}
+\begin{equation*}
+    \begin{pmatrix}V_1\\I_1\end{pmatrix} = \begin{pmatrix}A&B\\C&D\end{pmatrix}\begin{pmatrix}V_2\\I_2\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    F = \begin{pmatrix}A&B\\C&D\end{pmatrix}
+\end{equation*}
+この時、行列要素A,B,C,Dについてそれぞれの次元はA(無次元),B($\Omega$),C(S),D(無次元)である。次元Sは伝導度であり、$\Omega$の逆数である。
+Fパラメータを用いる理由は複数の2端子回路を組み合わせた時に計算が簡便になるためである。ここで、2端子回路の接続について考える。
+\begin{equation*}
+    \begin{pmatrix}V_1\\I_1\end{pmatrix} = \begin{pmatrix}A1&B1\\C1&D1\end{pmatrix}\begin{pmatrix}V_2\\I_2\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    \begin{pmatrix}V_2\\I_2\end{pmatrix} = \begin{pmatrix}A2&B2\\C2&D2\end{pmatrix}\begin{pmatrix}V_3\\I_3\end{pmatrix}
+\end{equation*}
+したがって
+\begin{equation*}
+    \begin{pmatrix}V_1\\I_1\end{pmatrix} = \begin{pmatrix}A1&B1\\C1&D1\end{pmatrix}\begin{pmatrix}A2&B2\\C2&D2\end{pmatrix}\begin{pmatrix}V_3\\I_3\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    \begin{pmatrix}V_1\\I_1\end{pmatrix} = F1 F2 \begin{pmatrix}V_3\\I_3\end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    \begin{pmatrix}V_1\\I_1\end{pmatrix} = F \begin{pmatrix}V_3\\I_3\end{pmatrix}
+\end{equation*}
+すなわちFパラメータ表現では、各回路の接続は行列の積として与えられる。
+この性質を用いてFパラメータを用いて2通りの2端子対回路を示す。
+\subsection{T型回路}
+図のようにインピーダンス素子を配置したときFパラメータを用いてどのように表現されるかを示す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{t型.pdf}
+    \caption{T型2端子回路}
+\end{figure}
+Fパラメータの積の性質及び、各行列要素に適切な値を入力することでT型回路のFパラメータは
+\begin{eqnarray}
+    \begin{pmatrix}A&B\\C&D\end{pmatrix} &= \begin{pmatrix}1&Z1\\0&1\end{pmatrix}\begin{pmatrix}1&0\\\frac{1}{Z2}&0\end{pmatrix}\begin{pmatrix}1&Z3\\0&1\end{pmatrix}\\
+    &=\begin{pmatrix}1+\frac{Z1}{Z2}&Z1+Z3+\frac{Z1Z3}{Z2}\\\frac{1}{Z2}&1+\frac{Z3}{Z2}\end{pmatrix}
+\end{eqnarray}
+\subsection{$\Pi$型回路}
+同様にして$\Pi$型回路についてFパラメータを求めると
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{pi型.pdf}
+    \caption{$\Pi$型2端子回路}
+\end{figure}
+\begin{eqnarray}
+    \begin{pmatrix}A&B\\C&D\end{pmatrix} &= \begin{pmatrix}1&Z1\\0&1\end{pmatrix}\begin{pmatrix}1&0\\\frac{1}{Z2}&0\end{pmatrix}\begin{pmatrix}1&Z3\\0&1\end{pmatrix}\\
+    &=\begin{pmatrix}1+\frac{Z1}{Z2}&Z1+Z3+\frac{Z1Z3}{Z2}\\\frac{1}{Z2}&1+\frac{Z3}{Z2}\end{pmatrix}
+\end{eqnarray}
+\subsection{$\Pi$型$\Longleftrightarrow$ $T$型回路変換}
+以上の2つの回路についてそれぞれのFパラメータを比較することで回路の等価変換を行うことができる。便宜状T型のインピーダンスをZ、$\Pi$型のインピーダンスをXとして表すと
+\\
+$\Pi$型\\
+\begin{eqnarray}
+    \begin{pmatrix}A&B\\C&D\end{pmatrix} &= \begin{pmatrix}1&X1\\0&1\end{pmatrix}\begin{pmatrix}1&0\\\frac{1}{X2}&0\end{pmatrix}\begin{pmatrix}1&X3\\0&1\end{pmatrix}\\
+    &=\begin{pmatrix}1+\frac{X1}{X2}&X1+X3+\frac{X1X3}{X2}\\\frac{1}{X2}&1+\frac{X3}{X2}\end{pmatrix}
+\end{eqnarray}
+T型\\
+\begin{eqnarray}
+    \begin{pmatrix}A&B\\C&D\end{pmatrix} &= \begin{pmatrix}1&Z1\\0&1\end{pmatrix}\begin{pmatrix}1&0\\\frac{1}{Z2}&0\end{pmatrix}\begin{pmatrix}1&Z3\\0&1\end{pmatrix}\\
+    &=\begin{pmatrix}1+\frac{Z1}{Z2}&Z1+Z3+\frac{Z1Z3}{Z2}\\\frac{1}{Z2}&1+\frac{Z3}{Z2}\end{pmatrix}
+\end{eqnarray}
+
+連立方程式を解くとそれぞれ
+\begin{eqnarray}
+    X1 &= \frac{Z1Z2+Z2Z3+Z3Z1}{Z3}\\
+    X2 &= \frac{Z1Z2+Z2Z3+Z3Z1}{Z2}\\
+    X3 &= \frac{Z1Z2+Z2Z3+Z3Z1}{Z1}\\
+\end{eqnarray}
+また、この逆は
+\begin{eqnarray}
+    Z1 &= \frac{X1X2}{X1+X2+X3}\\
+    Z2 &= \frac{X3X1}{X1+X2+X3}\\
+    Z3 &= \frac{X2X3}{X1+X2+X3}\\
+\end{eqnarray}
+となる。
+次にインダクタンスにより磁気的に結合された回路をT型回路によって表示する方法を以下に示す。
+\subsection{磁気結合回路}
+磁気的に結合された回路を以下のように表す。この回路表記は変圧器の回路表現と同等である。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{磁気的結合回路.pdf}
+    \caption{磁気的結合回路}
+\end{figure}
+Zmは通常相互インダクタンスMを用いて
+\begin{equation*}
+    Z_m = \pm i\omega M
+\end{equation*}
+として表現できる。
+変圧器のFパラメータを求めるためにキルヒホッフの法則より電圧と電流の関係は
+\begin{eqnarray}
+    V_1 &= Z_p I_1 -Z_m I_2\\
+    -V_2 &= -Z_m I_1 + Z_s I_2\\
+\end{eqnarray}
+上式を整理して
+\begin{eqnarray}
+    V_1 &= \frac{Z_P}{Z_M}V_2 - \frac{Z_PZ_S-Z_M^2}{Z_M}I2\\
+    I_1 &= \frac{1}{Z_M}V_2+\frac{Z_S}{Z_M}I_2
+\end{eqnarray}
+行列表現に直すことでFパラメータが
+\begin{equation*}
+    \begin{pmatrix}A&B\\C&D\end{pmatrix} =\begin{pmatrix}1+\frac{Z_P}{Z_M}&\frac{Z_PZ_S-Z_M^2}{Z_M}\\\frac{1}{Z_M}&1+\frac{Z_S}{Z_M}\end{pmatrix}
+\end{equation*}
+と求まる。T型と比較すると
+\begin{eqnarray}
+    Z_1 &= Z_P-Z_M\\
+    Z_2 &= Z_M\\
+    Z_3 &= Z_S-Z_M
+\end{eqnarray}
+と表現することができる。インダクタンスLを用いてよりあらわに以上の関係を図式すると
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{変圧器.pdf}
+    \caption{変圧器とT型回路}
+\end{figure}
+さて、本研究に於ける結合回路素子においても上記の古典的計算は応用ができる\cite*{Tian_2008}。本研究において、2つの共振器とrf-SQUIDがガルバニックに結合した系の結合部を以下のように書き表す。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=10cm]{rfsquidT.pdf}
+    \caption{two coupled resonator mode}
+\end{figure}
+ここで簡便のためにジョセフソン接合はインダクタンス$L_j = L_{j0}/cos(\phi)$として扱う。つまりジョセフソン接合は十分に小さいものとして扱い、接合の自己キャパシタンス$C_j$は小さいものとして無視する。このようにするとrf-SQUIDが共振器にガルバニックに相互インダクタンス$L_0$で結合していた場合、これは$\Pi$型の2端子対回路であることがわかる。今ジョセフソンインダクタンスを接合の位相差$\phi$に依存する非線形なインダクタンスとして扱うと$\Pi-T$変換にしたがって図中の実行相互インダクタンス$M_{eff}$は
+
+\begin{eqnarray}
+    M_{eff}(\phi) & = \frac{L_0^2}{Ls+Lj(\phi)}\\
+    & =\frac{L_0^2}{L_{rf}(\phi)}
+\end{eqnarray}
+となる。ここで$L_s$はrf-SQUIDの自己インダクタンスであり、$L_s = 2 L_0$である。
+また、
+\begin{eqnarray}
+    L_{rf}(\phi)  &=& Ls+\frac{L_{j0}}{cos(\phi)}\\ \\
+    &=& \frac{L_s cos(\phi)+L_{j0}}{cos(\phi)}\\ \\
+    &=& \frac{\frac{L_s^2}{L_{j0}} cos(\phi)+L_s}{\frac{L_s}{L_{j0}}cos(\phi)}\\ \\
+    &=& \frac{L_s(\beta cos(\phi)+1)}{\beta cos(\phi)}
+\end{eqnarray}
+この時両共振器間には実行的にインダクタンス$M_{eff}$を介してエネルギーの交換を行う。
+相互作用ハミルトニアンは
+\begin{equation}
+    H_{\mathrm{int}}(\phi)=-M_{\mathrm{eff}}(\phi) \sqrt{\frac{\hbar \omega_{a}}{2 L_{a}} \frac{\hbar \omega_{b}}{2 L_{b}}}\left(\hat{a}+\hat{a}^{\dagger}\right)\left(\hat{b}+\hat{b}^{\dagger}\right)
+\end{equation}
+$L_{a,b}$は各共振器のインダクタンス、$\omega_{a,b}$は共振周波数$a\dagger,a,b,b\dagger$は各共振器の生成消滅演算子である。

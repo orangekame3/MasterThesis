@@ -1072,6 +1072,100 @@
       \verb :C$\backslash$:/Users/miyao/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Grover - Unknown - INDUCTANCE Working Formulas and Tables.pdf:pdf
       \endverb
     \endentry
+    \entry{電気回路}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c12086369fac35831bc615bf74d6e307}{%
+           family={"山本弘明、高橋謙三、谷口秀次、森幹男"},
+           familyi={"\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {"共立出版"}%
+      }
+      \strng{namehash}{c12086369fac35831bc615bf74d6e307}
+      \strng{fullhash}{c12086369fac35831bc615bf74d6e307}
+      \strng{bibnamehash}{c12086369fac35831bc615bf74d6e307}
+      \strng{authorbibnamehash}{c12086369fac35831bc615bf74d6e307}
+      \strng{authornamehash}{c12086369fac35831bc615bf74d6e307}
+      \strng{authorfullhash}{c12086369fac35831bc615bf74d6e307}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{"電気回路"}
+      \field{year}{2008}
+    \endentry
+    \entry{続電気回路の基礎}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f1c7fcd18b4402c03b09c7733b7e4778}{%
+           family={"西巻正郎、下川博文、奥村万規子"},
+           familyi={"\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {"森北出版"}%
+      }
+      \strng{namehash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \strng{fullhash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \strng{bibnamehash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \strng{authorbibnamehash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \strng{authornamehash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \strng{authorfullhash}{f1c7fcd18b4402c03b09c7733b7e4778}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{"続電気回路の基礎（第２版）"}
+      \field{year}{2006}
+    \endentry
+    \entry{Tian_2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=993762c02295170f26934487b9fe4471}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=725c0b3e2ffac742fbb5e56858d4fea4}{%
+           family={Allman},
+           familyi={A\bibinitperiod},
+           given={M\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7d66a170a44038834edff0b434abb199}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={R\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{97d2304744e5157f8b36d3c0a2c65037}
+      \strng{fullhash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{bibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{authorbibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{authornamehash}{97d2304744e5157f8b36d3c0a2c65037}
+      \strng{authorfullhash}{b37a23e1f4745432ba57e98f338f03e7}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Time-dependent linear coupling between macroscopic quantum resonator modes generates both a parametric amplification also known as a \textquoteleft{}squeezing operation\textquoteright{} and a beam splitter operation, analogous to quantum optical systems. These operations, when applied properly, can robustly generate entanglement and squeezing for the quantum resonator modes. Here, we present such coupling schemes between a nanomechanical resonator and a superconducting electrical resonator using applied microwave voltages as well as between two superconducting lumped-element electrical resonators using a rf SQUID-mediated tunable coupler. By calculating the logarithmic negativity of the partially transposed density matrix, we quantitatively study the entanglement generated at finite temperatures. We also show that characterization of the nanomechanical resonator state after the quantum operations can be achieved by detecting the electrical resonator only. Thus, one of the electrical resonator modes can act as a probe to measure the entanglement of the coupled systems and the degree of squeezing for the other resonator mode.}
+      \field{journaltitle}{New Journal of Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Parametric coupling between macroscopic quantum resonators}
+      \field{volume}{10}
+      \field{year}{2008}
+      \field{pages}{115001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/10/11/115001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1367-2630/10/11/115001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1367-2630/10/11/115001
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

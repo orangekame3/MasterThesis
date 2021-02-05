@@ -320,6 +320,18 @@ INPUT ./img/mutual.pdf
 INPUT extractbb -B cropbox -O ./img/mutual.pdf
 INPUT ./img/m2.pdf
 INPUT extractbb -B cropbox -O ./img/m2.pdf
+INPUT ./img/2端子.pdf
+INPUT extractbb -B cropbox -O ./img/2端子.pdf
+INPUT ./img/t型.pdf
+INPUT extractbb -B cropbox -O ./img/t型.pdf
+INPUT ./img/pi型.pdf
+INPUT extractbb -B cropbox -O ./img/pi型.pdf
+INPUT ./img/磁気的結合回路.pdf
+INPUT extractbb -B cropbox -O ./img/磁気的結合回路.pdf
+INPUT ./img/変圧器.pdf
+INPUT extractbb -B cropbox -O ./img/変圧器.pdf
+INPUT ./img/rfsquidT.pdf
+INPUT extractbb -B cropbox -O ./img/rfsquidT.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT .tmp/main.out.ps
