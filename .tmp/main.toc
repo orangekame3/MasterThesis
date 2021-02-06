@@ -108,8 +108,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.7.2}$\Pi $型回路}{50}{subsection.10.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {10.7.3}$\Pi $型$\DOTSB \Leftarrow \joinrel \Rightarrow $ $T$型回路変換}{51}{subsection.10.7.3}
+\contentsline {subsection}{\numberline {10.7.3}$T-\Pi $変換（$Y-\Delta $変換）}{51}{subsection.10.7.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {10.7.4}磁気結合回路}{52}{subsection.10.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{56}{equation.10.7.116}
+\contentsline {chapter}{参考文献}{56}{equation.10.7.118}
