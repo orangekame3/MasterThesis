@@ -429,9 +429,16 @@ Zmは通常相互インダクタンスMを用いて
 \end{figure}
 さて、本研究に於ける結合回路素子においても上記の古典的計算は応用ができる\cite*{Tian_2008}。本研究において、2つの共振器とrf-SQUIDがガルバニックに結合した系の結合部を以下のように書き表す。
 \begin{figure}[H]
-    \centering
-    \includegraphics[width=10cm]{rfsquidT.pdf}
-    \caption{two coupled resonator mode}
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit1.pdf}
+        \caption{rf-SQUIDの回路表現}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit2.pdf}
+        \caption{T型回路}
+    \end{minipage}
 \end{figure}
 ここで簡便のためにジョセフソン接合はインダクタンス$L_J = L_{J0}/cos(\phi)$として扱う。つまりジョセフソン接合は十分に小さいものとして扱い、接合の自己キャパシタンス$C_j$は小さいものとして無視する。このようにするとrf-SQUIDが共振器にガルバニックに相互インダクタンス$L_0$で結合していた場合、これは$\Pi$型の2端子対回路であることがわかる。今ジョセフソンインダクタンスを接合の位相差$\phi$に依存する非線形なインダクタンスとして扱うと$\Pi-T$変換にしたがって図中の実行相互インダクタンス$M_{eff}$は
 
@@ -453,18 +460,7 @@ Zmは通常相互インダクタンスMを用いて
     H_{\mathrm{int}}(\phi)=-M_{\mathrm{eff}}(\phi) \sqrt{\frac{\hbar \omega_{a}}{2 L_{a}} \frac{\hbar \omega_{b}}{2 L_{b}}}\left(\hat{a}+\hat{a}^{\dagger}\right)\left(\hat{b}+\hat{b}^{\dagger}\right)
 \end{equation}
 $L_{a,b}$は各共振器のインダクタンス、$\omega_{a,b}$は共振周波数$a\dagger,a,b,b\dagger$は各共振器の生成消滅演算子である。
-\begin{figure}[H]
-    \begin{minipage}[t]{0.5\columnwidth}
-        \centering
-        \includegraphics[clip, width=1.0\columnwidth]{circuit1.pdf}
-        \caption{rf-SQUIDの回路表現}
-    \end{minipage}%
-    \begin{minipage}[t]{0.5\columnwidth}
-        \centering
-        \includegraphics[clip, width=1.0\columnwidth]{circuit2.pdf}
-        \caption{T型回路}
-    \end{minipage}
-\end{figure}
+
 \begin{figure}[H]
     \begin{minipage}[t]{0.5\columnwidth}
         \centering

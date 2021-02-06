@@ -330,8 +330,6 @@ INPUT ./img/磁気的結合回路.pdf
 INPUT extractbb -B cropbox -O ./img/磁気的結合回路.pdf
 INPUT ./img/変圧器.pdf
 INPUT extractbb -B cropbox -O ./img/変圧器.pdf
-INPUT ./img/rfsquidT.pdf
-INPUT extractbb -B cropbox -O ./img/rfsquidT.pdf
 INPUT ./img/circuit1.pdf
 INPUT extractbb -B cropbox -O ./img/circuit1.pdf
 INPUT ./img/circuit2.pdf
