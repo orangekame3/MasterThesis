@@ -332,6 +332,13 @@ INPUT ./img/変圧器.pdf
 INPUT extractbb -B cropbox -O ./img/変圧器.pdf
 INPUT ./img/rfsquidT.pdf
 INPUT extractbb -B cropbox -O ./img/rfsquidT.pdf
+INPUT ./img/circuit1.pdf
+INPUT extractbb -B cropbox -O ./img/circuit1.pdf
+INPUT ./img/circuit2.pdf
+INPUT extractbb -B cropbox -O ./img/circuit2.pdf
+INPUT ./img/circuit3.pdf
+INPUT extractbb -B cropbox -O ./img/circuit3.pdf
+INPUT ./img/circuit2.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT .tmp/main.out.ps

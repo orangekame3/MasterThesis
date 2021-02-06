@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  5 FEB 2021 10:57
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  6 FEB 2021 12:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1039,7 +1039,16 @@ File: ./img/変圧器.pdf Graphic file (type pdf)
 <./img/変圧器.pdf>
 File: ./img/rfsquidT.pdf Graphic file (type pdf)
 <./img/rfsquidT.pdf>
- [53]) [54]
+ [53]
+File: ./img/circuit1.pdf Graphic file (type pdf)
+<./img/circuit1.pdf>
+File: ./img/circuit2.pdf Graphic file (type pdf)
+<./img/circuit2.pdf>
+File: ./img/circuit3.pdf Graphic file (type pdf)
+<./img/circuit3.pdf>
+File: ./img/circuit2.pdf Graphic file (type pdf)
+<./img/circuit2.pdf>
+ [54] [55]) [56]
 LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -1048,11 +1057,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 130.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 130.
- [55
+ [57
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
- [56]
+ [58]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 131.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -1073,12 +1082,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 14301 strings out of 495109
- 233862 string characters out of 6184637
+ 14310 strings out of 495109
+ 234045 string characters out of 6184637
  674486 words of memory out of 5000000
- 17536 multiletter control sequences out of 15000+600000
+ 17542 multiletter control sequences out of 15000+600000
  21122 words of font info for 103 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  43i,12n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (57 pages, 193224 bytes).
+Output written on .tmp/main.dvi (59 pages, 200436 bytes).

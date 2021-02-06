@@ -1,21 +1,21 @@
-[0] Config.pm:302> INFO - This is Biber 2.10
+[1] Config.pm:302> INFO - This is Biber 2.10
 [1] Config.pm:305> INFO - Logfile is '.tmp/main.blg'
-[25] biber:313> INFO - === Fri Feb  5, 2021, 10:57:17
-[58] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
-[138] Biber.pm:857> INFO - Found 23 citekeys in bib section 0
-[156] Biber.pm:3976> INFO - Processing section 0
-[165] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
-[176] bibtex.pm:1490> INFO - LaTeX decoding ...
-[259] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
-[261] Utils.pm:193> WARN - Duplicate entry key: 'Peropadre2013' in file 'bibs.bib', skipping ...
-[319] Utils.pm:193> WARN - month field 'mar' in entry 'Rodriguez2016' is not an integer - this will probably not sort properly.
-[424] Utils.pm:193> WARN - year field 'November 2011' in entry 'Microwave' is not an integer - this will probably not sort properly.
-[502] Utils.pm:193> WARN - month field 'nov' in entry 'Tian_2008' is not an integer - this will probably not sort properly.
-[533] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[534] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[534] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[535] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[556] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
-[557] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[616] bbl.pm:720> INFO - Output to .tmp/main.bbl
-[617] Biber.pm:110> INFO - WARNINGS: 4
+[25] biber:313> INFO - === Sat Feb  6, 2021, 12:21:20
+[56] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
+[135] Biber.pm:857> INFO - Found 23 citekeys in bib section 0
+[162] Biber.pm:3976> INFO - Processing section 0
+[171] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
+[180] bibtex.pm:1490> INFO - LaTeX decoding ...
+[257] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
+[262] Utils.pm:193> WARN - Duplicate entry key: 'Peropadre2013' in file 'bibs.bib', skipping ...
+[318] Utils.pm:193> WARN - month field 'mar' in entry 'Rodriguez2016' is not an integer - this will probably not sort properly.
+[414] Utils.pm:193> WARN - year field 'November 2011' in entry 'Microwave' is not an integer - this will probably not sort properly.
+[488] Utils.pm:193> WARN - month field 'nov' in entry 'Tian_2008' is not an integer - this will probably not sort properly.
+[520] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[521] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[521] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[522] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
+[543] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
+[544] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[605] bbl.pm:720> INFO - Output to .tmp/main.bbl
+[606] Biber.pm:110> INFO - WARNINGS: 4
