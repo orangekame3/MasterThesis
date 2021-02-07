@@ -1,5 +1,3 @@
-\section{物理モデル}
-    本章ではまず結合共振回路の物理モデルの説明から始める。
 \section{超伝導回路素子}
     サンプル作成に使用した超伝導回路素子の説明を包括的に行う。まずは超伝導共振器の導入を行う。
     \subsection{超伝導共振器}
@@ -153,7 +151,7 @@
                 以上２つの関係式によりこの接合により蓄えられるエネルギーは
                 \begin{eqnarray}
                     \int_0^{t} (I_s V)dt&=&\int_{0}^{\delta} I_s(\hbar/2e)d\delta\\
-                    &=&E_j(1-\cos(\delta))\\
+                    &=&E_j(1-\cos (\delta))\\
                 \end{eqnarray}
                 と表現することができる。ここで$E_j=\hbar I_c/2e$である。
     \subsection{rf-SQUID}
@@ -175,5 +173,216 @@
         ここでシミュレーションする構造物は下図のようなミアンダインダクタンスのない単体の共振器とミアンダインダクタンスを導入した単体の共振器である。この２つのこの構造物全体のアドミッタンスを低周波数領域で計算することで構造物全体の伝導伝導性を計算することができる。アドミッタンス値からおおよその構造物のインダクタンスを計算することができるが２つの構造物の差分はおおよそミアンダインダクタンスの可否に依存する。そこでミアンダの数に対してインダクタンスがどれだけ増加するかプロットしたものが図である。この図からはミアンダの数に依存して線形にインダクタンスが増加していることがわかる。ここで上述した解析計算とどれだけの差があるかも同時にい示す。
 
         プロットの結果では０－１００の範囲内で両者の乖離はおよそOOであった。さほど乖離はないといえるが参考値程度にとどめておく。今回のサンプル作成ではN=38をミアンダインダクタンスとして採用した。
-        
-        
+
+\section{物理モデル}
+ここまで紹介した超伝導素子を用いて本研究にて開発した結合素子の物理モデルを解説する。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=14cm]{theory_circuit1_1.pdf}
+    \caption{circuit1}
+\end{figure}
+図は本研究においてベーシックとなる回路である。2つのLC共振回路をジョセフソン接合を介して結合している。ジョセフソン接合は共振器間にループを為すように配置されている。この結合共振回路のハミルトニアンを2通りの異なるアプローチで導出する。
+1つはrf-SQUIDを独立な素子として扱い、従来の伝送線路-超伝導ループ間の相互作用から類推してハミルトニアンを導出する方法。
+もう1つの方法は結合回路を2端子対回路として回路の等価変換を行い、rf-SQUIDを変圧器的に扱いハミルトニアンを導出する方法である。2端子対回路のマトリックス表示に関する基本的な計算方法、また本結合回路を解析する際に用いた基本的な考え方（変圧器の磁気的結合回路、$T-\Pi$変換（$Y-\Delta$変換）等）は補足に記載したため参考されたい。
+\subsection{回路の等価変換に依る方法}
+さて、本研究に於ける結合回路素子においても上記の古典的計算は応用ができる\cite*{Tian_2008}。本研究において、2つの共振器とrf-SQUIDがガルバニックに結合した系の結合部を以下のように書き表す。
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit1.pdf}
+        \caption{rf-SQUIDの回路表現}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit2.pdf}
+        \caption{T型回路}
+    \end{minipage}
+\end{figure}
+ここで簡便のためにジョセフソン接合はインダクタンス$L_J = L_{J0}/\cos (\phi)$として扱う。つまりジョセフソン接合は十分に小さいものとして扱い、接合の自己キャパシタンス$C_j$は小さいものとして無視する。このようにするとrf-SQUIDが共振器にガルバニックに相互インダクタンス$L_0$で結合していた場合、これは$\Pi$型の2端子対回路であることがわかる。今ジョセフソンインダクタンスを接合の位相差$\phi$に依存する非線形なインダクタンスとして扱うと$\Pi-T$変換にしたがって図中の実行相互インダクタンス$M_{eff}$は
+
+\begin{eqnarray}
+    M_{eff}(\phi) & = \frac{L_0^2}{Ls+Lj(\phi)}\\
+    & =\frac{L_0^2}{L_{rf}(\phi)}
+\end{eqnarray}
+となる。ここで$L_S$はrf-SQUIDの自己インダクタンスであり、$L_S = 2 L_0$である。
+また、
+\begin{eqnarray}
+    L_{rf}(\phi)  &=& Ls+\frac{L_{J0}}{\cos (\phi)}\\ \\
+    &=& \frac{L_S \cos (\phi)+L_{J0}}{\cos (\phi)}\\ \\
+    &=& \frac{\frac{L_S^2}{L_{J0}} \cos (\phi)+L_S}{\frac{L_S}{L_{J0}}\cos (\phi)}\\ \\
+    &=& \frac{L_S(\beta \cos (\phi)+1)}{\beta \cos (\phi)}
+\end{eqnarray}
+この時両共振器間には実行的にインダクタンス$M_{eff}$を介してエネルギーの交換を行う。
+相互作用ハミルトニアンは
+\begin{equation}
+    H_{\mathrm{int}}(\phi)=-M_{\mathrm{eff}}(\phi) \sqrt{\frac{\hbar \omega_{a}}{2 L_{a}} \frac{\hbar \omega_{b}}{2 L_{b}}}\left(\hat{a}+\hat{a}^{\dagger}\right)\left(\hat{b}+\hat{b}^{\dagger}\right)
+\end{equation}
+$L_{a,b}$は各共振器のインダクタンス、$\omega_{a,b}$は共振周波数$a\dagger,a,b,b\dagger$は各共振器の生成消滅演算子である。
+
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit3.pdf}
+        \caption{分離}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{circuit2.pdf}
+        \caption{T型回路}
+    \end{minipage}
+\end{figure}
+この時$\Delta L_{a,b}$は
+
+\begin{equation}
+    \Delta L_{a,b} = \frac{L_0L_J}{2L_0+L_J} = \frac{L_0L_J}{L_S+L_J} = \frac{L_0L_J}{L_{rf}}
+\end{equation}
+
+である。T型回路を相互インダクタンス$M_{eff}$で結合している2つの共振素子に再び分離すると共振素子は元のインダクタンス$L_{a,b}$から$\Delta L_a + M_{eff}$だけシフトする。シフトする周波数は
+
+\begin{eqnarray}
+    \Delta L_{a,b} + M{eff} & = &  \frac{L_0L_J}{2L_0+L_J} + \frac{L_0^2}{2L_0+L_J}\\ \\
+    & = & \frac{L_0 L_J + L_0^2}{L_S + L_J}\\ \\
+    & = & \frac{L_0 L_{J0}/\cos (\phi) + L_0^2}{L_S + L_{J0}/\cos (\phi)}\\ \\
+    & = & \frac{L_0 L_{J0} + L_0^2 \cos (\phi)}{L_S \cos (\phi) + L_{J0}}\\ \\
+    & = & \frac{L_0 + L_0^2/L_{J0} \cos (\phi)}{L_S/L_{J0} \cos (\phi) + 1}\\ \\
+    & = & \frac{L_0^2}{L_S}\frac{2 + \beta \cos (\phi)}{1+\beta \cos (\phi)}
+\end{eqnarray}
+
+ここで
+
+\begin{equation}
+    L_S = 2L_{J0}
+\end{equation}
+
+を用いた。元の共振素子は結合部以外で$L_{a,b}$のインダクタンスを保有していたため、共振周波数は
+
+\begin{equation}
+    \omega_a = \frac{1}{\sqrt{L_aC_a}}
+\end{equation}
+
+である。結合により生じたシフト分を考慮すると、それぞれの共振周波数は
+
+\begin{eqnarray}
+    \tilde{\omega_{a,b}} &=&  \frac{1}{\sqrt{(L_a+\frac{L_0^2}{L_S}\frac{2 + \beta \cos (\phi)}{1+\beta \cos (\phi)})C_a}}\\ \\
+    & = &  \frac{1}{\sqrt{L_{a,b}C_{a,b}}} \frac{1}{\sqrt{1+\frac{L_0^2}{L_{a,b}L_S}\frac{2 + \beta \cos (\phi)}{1+\beta \cos (\phi)}}}\\ \\
+    & = &  \omega_{a,b} \biggl(1+\frac{L_0^2}{L_{a,b}L_S}\frac{2 + \beta \cos (\phi)}{1+\beta\ cos(\phi)}\biggr)^{-\frac{1}{2}}\\ \\
+    & = &  \omega_{a,b} \biggl(1-\frac{L_0^2}{2L_{a,b}L_S}\frac{2 + \beta \cos (\phi)}{1+\beta\ cos(\phi)}\biggr)
+\end{eqnarray}
+
+各共振器を流れる電流は
+
+\begin{equation}
+    I_{a,b} = \sqrt{\frac{f_{a,b}}{2 L_{a,b}}}
+\end{equation}
+
+であるから、結合強度$g(\phi)$を
+\begin{equation}
+    g(\phi) = (M_{eff}+M{ab})I_a I_b
+\end{equation}
+とすることで回路のハミルトニアンを
+\begin{equation}
+    \hat{\mathcal{H}} = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
+\end{equation}
+のように書き表すことができる。ここで$M_{ab}$は共振器間の1次結合であり、これは共振器同士の距離に強く依存する。そのため、結合の正成分を大きくするためには共振器感の物理的距離を考慮することが肝要である。
+
+以上のハミルトニアンから回路の遷移エネルギーを計算すると
+
+
+\subsection{rf-SQUIDの性質から求める方法}
+次にrf-SQUIDの性質より求める方法である。rf-SQUIDは既に説明したようにジョセフソン接合1つを含んだ超伝導ループである。超伝導ループの自己インダクタンスを$L_S$、ループを流れる臨界電流を$I_C$とする。ループを外部磁束が貫くとループの自己インダクタンスにより外部磁束を打ち消す方向に遮蔽電流が流れる。
+
+\begin{equation}
+    I_{S}(\Phi)=I_{c} \sin \left(2 \pi \Phi / \Phi_{0}\right)
+\end{equation}
+
+ここでループを貫く磁束は外部磁束とループの自己インダクタンスによる遮蔽磁場の和である。
+
+\begin{equation}
+    \Phi=\Phi_{\text {ext }}-L_{S} I_{S}(\Phi)
+\end{equation}
+
+以上の関係式よりrf-SQUIDが持つ実効的なインダクタンスを求めることができる。実効インダクタンスを$L_{rf}(\Phi)$とすると外部磁束の変化に於ける遮蔽電流の変化量から
+
+\begin{equation}
+    \frac{1}{L_{rf}(\Phi)}=\frac{\partial I_{S}}{\partial \Phi_{\mathrm{ext}}}=\frac{\partial I_{S}}{\partial \Phi} \frac{\partial \Phi}{\partial \Phi_{\mathrm{ext}}}
+\end{equation}
+
+となる。ここで
+
+\begin{equation}
+    \frac{\partial I_S}{\partial \Phi} = \frac{2\pi I_C}{\Phi_0} cos (2 \pi \Phi / \Phi_0)
+\end{equation}
+
+\begin{equation}
+    \frac{\partial \Phi}{\partial \Phi_{ext}} = 1 - L_S\frac{\partial I_S}{\partial \Phi_{ext}}
+\end{equation}
+
+\begin{equation}
+    \beta = \frac{2\pi L_S I_C}{\Phi_0}
+\end{equation}
+
+であることを用いると
+
+\begin{equation*}
+    \frac{\partial I_S}{\partial \Phi_{ext}} = \frac{\beta}{L_S}\cos (2\pi \Phi/\Phi_0)-\beta \cos (2\pi \Phi / \Phi_0) \frac{\partial I_S}{\partial \Phi_{ext}}
+\end{equation*}
+
+\begin{equation*}
+    \biggl(1+\beta \cos (2\pi \Phi / \Phi_0)\biggr)\frac{\partial I_S}{\partial \Phi_{ext}} = \frac{\beta}{L_S}\cos (2\pi \Phi / \Phi_0)
+\end{equation*}
+
+\begin{equation*}
+    \frac{1}{L_{rf}(\Phi)}=\frac{\partial I_S}{\partial \Phi_{ext}} = \frac{1}{L_{S}} \frac{\beta \cos \left(2 \pi \Phi/\phi_{0}\right)}{1+\beta \cos \left(2 \pi \Phi/\phi_{0}\right)}
+\end{equation*}
+
+が導かれる。回路の等価変換に依る方法と同じ帰結が得られたことがわかる。\\
+この時、共振器に流れる電流$I_{a,b}$はrfSQUIDに流入し、磁気的な結合をもたらす。電流$I_{a,b}$により生じる磁束を$\Phi_{a,b}$とすると相互作用ハミルトニアンは
+
+\begin{equation}
+    H_{\text {ind }}=\frac{\left(\Phi_{a}-\Phi_{b}\right)^{2}}{2 L_{rf}(\Phi)}=\frac{\Phi_{a}^{2}+\Phi_{b}^{2}-2 \Phi_{b} \Phi_{b}}{2 L_{rf}(\Phi)}
+\end{equation}
+
+となる。相互作用ハミルトニアンのうち、$\Phi_{a,b}^2$の項は共振周波数のシフトをもたらす。シフトされた共振周波数は
+
+\begin{equation}
+    \tilde{\omega}_{a,b}=\omega_{a,b} \sqrt{1-2 \frac{L_{0}^{2}}{L_{a,b} L_{rf}(\Phi)}} \approx \omega_{a,b}\left(1-\frac{L_{0}^{2}}{L_{a,b} L_{rf}(\Phi)}\right)
+\end{equation}
+
+であり、各々の共振器に流れる電流によりrf-SQUIDを介して結合
+
+\begin{equation}
+    g(\Phi)=-\underbrace{\sqrt{\frac{\omega_{a}}{L_{a}}}}_{I_{a}} \underbrace{\sqrt{\frac{\omega_{b}}{L_{b}}}}_{I_{b}} \underbrace{\frac{L_{0}^{2}}{L_{r f}(\Phi)}}_{M_{eff}}
+\end{equation}
+
+が生じている。共振器間の磁気的結合に依る1次結合を考慮すると結合強度の総和は
+
+\begin{equation}
+    g_{eff}(\Phi)=g(\Phi)+g_{ab}
+\end{equation}
+
+となり、系のハミルトニアンは
+\begin{equation}
+    \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
+    \tilde{\omega}_{a} & g(\Phi ) \\
+    g(\Phi ) & \hat{\omega}_{b}
+    \end{array}\right)\left(\begin{array}{l}
+    \hat{a} \\
+    \hat{b}
+    \end{array}\right)
+\end{equation}
+
+\begin{equation}
+    = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
+\end{equation}
+
+となる。\\
+上式から、rf-SQUIDによりエネルギーシフトした共振器同士は結合項$g_{eff}(\Phi)$で結合している。正し、実際の測定環境では各々の共振器の共振エネルギーではなく、２つの共振器が結合したモードとして観測が為される。そこで上式をさらに式変形する。
+結合したモードの基底を
+
+\begin{equation}
+    \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+\end{equation}
+
+のように書き表す。$\hat{c}_{\pm}^{\dagger},\hat{c}_{\pm}$は結合モードの生成消滅演算子である。詳細な計算は冗長になるため、補足に預けることとする。
+
+

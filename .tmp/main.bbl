@@ -866,6 +866,56 @@
       \verb https://avs.scitation.org/doi/abs/10.1116/1.3232301
       \endverb
     \endentry
+    \entry{Tian_2008}{article}{}
+      \name{author}{3}{}{%
+        {{hash=993762c02295170f26934487b9fe4471}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=725c0b3e2ffac742fbb5e56858d4fea4}{%
+           family={Allman},
+           familyi={A\bibinitperiod},
+           given={M\bibnamedelima S},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=7d66a170a44038834edff0b434abb199}{%
+           family={Simmonds},
+           familyi={S\bibinitperiod},
+           given={R\bibnamedelima W},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{IOP} Publishing}%
+      }
+      \strng{namehash}{97d2304744e5157f8b36d3c0a2c65037}
+      \strng{fullhash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{bibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{authorbibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
+      \strng{authornamehash}{97d2304744e5157f8b36d3c0a2c65037}
+      \strng{authorfullhash}{b37a23e1f4745432ba57e98f338f03e7}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Time-dependent linear coupling between macroscopic quantum resonator modes generates both a parametric amplification also known as a \textquoteleft{}squeezing operation\textquoteright{} and a beam splitter operation, analogous to quantum optical systems. These operations, when applied properly, can robustly generate entanglement and squeezing for the quantum resonator modes. Here, we present such coupling schemes between a nanomechanical resonator and a superconducting electrical resonator using applied microwave voltages as well as between two superconducting lumped-element electrical resonators using a rf SQUID-mediated tunable coupler. By calculating the logarithmic negativity of the partially transposed density matrix, we quantitatively study the entanglement generated at finite temperatures. We also show that characterization of the nanomechanical resonator state after the quantum operations can be achieved by detecting the electrical resonator only. Thus, one of the electrical resonator modes can act as a probe to measure the entanglement of the coupled systems and the degree of squeezing for the other resonator mode.}
+      \field{journaltitle}{New Journal of Physics}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{Parametric coupling between macroscopic quantum resonators}
+      \field{volume}{10}
+      \field{year}{2008}
+      \field{pages}{115001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1367-2630/10/11/115001
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/1367-2630/10/11/115001
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/1367-2630/10/11/115001
+      \endverb
+    \endentry
     \entry{fridge}{misc}{}
       \field{sortinit}{1}
       \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
@@ -1115,56 +1165,6 @@
       \field{labeltitlesource}{title}
       \field{title}{"続電気回路の基礎（第２版）"}
       \field{year}{2006}
-    \endentry
-    \entry{Tian_2008}{article}{}
-      \name{author}{3}{}{%
-        {{hash=993762c02295170f26934487b9fe4471}{%
-           family={Tian},
-           familyi={T\bibinitperiod},
-           given={L},
-           giveni={L\bibinitperiod}}}%
-        {{hash=725c0b3e2ffac742fbb5e56858d4fea4}{%
-           family={Allman},
-           familyi={A\bibinitperiod},
-           given={M\bibnamedelima S},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=7d66a170a44038834edff0b434abb199}{%
-           family={Simmonds},
-           familyi={S\bibinitperiod},
-           given={R\bibnamedelima W},
-           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {{IOP} Publishing}%
-      }
-      \strng{namehash}{97d2304744e5157f8b36d3c0a2c65037}
-      \strng{fullhash}{b37a23e1f4745432ba57e98f338f03e7}
-      \strng{bibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
-      \strng{authorbibnamehash}{b37a23e1f4745432ba57e98f338f03e7}
-      \strng{authornamehash}{97d2304744e5157f8b36d3c0a2c65037}
-      \strng{authorfullhash}{b37a23e1f4745432ba57e98f338f03e7}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Time-dependent linear coupling between macroscopic quantum resonator modes generates both a parametric amplification also known as a \textquoteleft{}squeezing operation\textquoteright{} and a beam splitter operation, analogous to quantum optical systems. These operations, when applied properly, can robustly generate entanglement and squeezing for the quantum resonator modes. Here, we present such coupling schemes between a nanomechanical resonator and a superconducting electrical resonator using applied microwave voltages as well as between two superconducting lumped-element electrical resonators using a rf SQUID-mediated tunable coupler. By calculating the logarithmic negativity of the partially transposed density matrix, we quantitatively study the entanglement generated at finite temperatures. We also show that characterization of the nanomechanical resonator state after the quantum operations can be achieved by detecting the electrical resonator only. Thus, one of the electrical resonator modes can act as a probe to measure the entanglement of the coupled systems and the degree of squeezing for the other resonator mode.}
-      \field{journaltitle}{New Journal of Physics}
-      \field{month}{11}
-      \field{number}{11}
-      \field{title}{Parametric coupling between macroscopic quantum resonators}
-      \field{volume}{10}
-      \field{year}{2008}
-      \field{pages}{115001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1367-2630/10/11/115001
-      \endverb
-      \verb{urlraw}
-      \verb https://doi.org/10.1088/1367-2630/10/11/115001
-      \endverb
-      \verb{url}
-      \verb https://doi.org/10.1088/1367-2630/10/11/115001
-      \endverb
     \endentry
   \enddatalist
 \endrefsection
