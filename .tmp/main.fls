@@ -1,0 +1,343 @@
+PWD /workdir
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf.cnf
+INPUT /usr/local/texlive/2017/texmf-var/web2c/euptex/uplatex.fmt
+INPUT /workdir/main.tex
+OUTPUT .tmp/main.log
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jsbook.cls
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jsbook.cls
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/jsclasses/jslogo.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphicx.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/graphics.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/trig.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/color.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics-cfg/color.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hyperref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/auxhook.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/pd1enc.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hdvipdfm.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/hdvipdfm.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/platex/pxjahyper/pxjahyper.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bookmark.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/booktabs/booktabs.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsmath.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsgen.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amssymb.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/comment/comment.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/logreq/logreq.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/base/ifthen.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-dm.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/blx-compat.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.def
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex-phys/phys.cbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+INPUT .tmp/main.aux
+INPUT .tmp/main.aux
+INPUT .tmp/abstract.aux
+INPUT .tmp/abstract.aux
+OUTPUT .tmp/main.aux
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+OUTPUT .tmp/main.bcf
+INPUT .tmp/main.bbl
+INPUT .tmp/main.bbl
+INPUT .tmp/main.bbl
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+INPUT ./img/表紙2.pdf
+INPUT extractbb -B cropbox -O ./img/表紙2.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+OUTPUT .tmp/main.dvi
+OUTPUT .tmp/abstract.aux
+INPUT abstract.tex
+INPUT abstract.tex
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT .tmp/main.toc
+INPUT .tmp/main.toc
+OUTPUT .tmp/main.toc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss17.tfm
+INPUT purpose.tex
+INPUT purpose.tex
+INPUT theory.tex
+INPUT theory.tex
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisg-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT ./img/le.pdf
+INPUT extractbb -B cropbox -O ./img/le.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-v.tfm
+INPUT ./img/cpw2.pdf
+INPUT extractbb -B cropbox -O ./img/cpw2.pdf
+INPUT ./img/cpw.pdf
+INPUT extractbb -B cropbox -O ./img/cpw.pdf
+INPUT ./img/lumpedelement.pdf
+INPUT extractbb -B cropbox -O ./img/lumpedelement.pdf
+INPUT ./img/le.pdf
+INPUT ./img/jj.pdf
+INPUT extractbb -B cropbox -O ./img/jj.pdf
+INPUT ./img/rfsquid.pdf
+INPUT extractbb -B cropbox -O ./img/rfsquid.pdf
+INPUT ./img/dcsquid.pdf
+INPUT extractbb -B cropbox -O ./img/dcsquid.pdf
+INPUT ./img/dc-squid.pdf
+INPUT extractbb -B cropbox -O ./img/dc-squid.pdf
+INPUT ./img/theory_circuit1_1.pdf
+INPUT extractbb -B cropbox -O ./img/theory_circuit1_1.pdf
+INPUT ./img/circuit1.pdf
+INPUT extractbb -B cropbox -O ./img/circuit1.pdf
+INPUT ./img/circuit2.pdf
+INPUT extractbb -B cropbox -O ./img/circuit2.pdf
+INPUT ./img/circuit3.pdf
+INPUT extractbb -B cropbox -O ./img/circuit3.pdf
+INPUT ./img/circuit2.pdf
+INPUT implementation.tex
+INPUT implementation.tex
+INPUT ./img/sample.pdf
+INPUT extractbb -B cropbox -O ./img/sample.pdf
+INPUT ./img/standard_eigen.pdf
+INPUT extractbb -B cropbox -O ./img/standard_eigen.pdf
+INPUT ./img/standard_coupling.pdf
+INPUT extractbb -B cropbox -O ./img/standard_coupling.pdf
+INPUT ./img/standard_coupling_beta.pdf
+INPUT extractbb -B cropbox -O ./img/standard_coupling_beta.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/uptex-fonts/jis/upjisr-h.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./img/standard_coupling_betasweep.pdf
+INPUT extractbb -B cropbox -O ./img/standard_coupling_betasweep.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./img/dc-squid.pdf
+INPUT ./img/samplefigure.pdf
+INPUT extractbb -B cropbox -O ./img/samplefigure.pdf
+INPUT ./img/配線.pdf
+INPUT extractbb -B cropbox -O ./img/配線.pdf
+INPUT ./img/resonator_design_for_mwo.pdf
+INPUT extractbb -B cropbox -O ./img/resonator_design_for_mwo.pdf
+INPUT ./img/coupled_resonator_mwo.pdf
+INPUT extractbb -B cropbox -O ./img/coupled_resonator_mwo.pdf
+INPUT ./img/mwo.pdf
+INPUT extractbb -B cropbox -O ./img/mwo.pdf
+INPUT ./img/bareresonator_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/bareresonator_zoom.pdf
+INPUT ./img/mwo_meander.pdf
+INPUT extractbb -B cropbox -O ./img/mwo_meander.pdf
+INPUT ./img/simulatorVSanalytical.pdf
+INPUT extractbb -B cropbox -O ./img/simulatorVSanalytical.pdf
+INPUT ./img/meanderinductance.pdf
+INPUT extractbb -B cropbox -O ./img/meanderinductance.pdf
+INPUT ./img/compound1.pdf
+INPUT extractbb -B cropbox -O ./img/compound1.pdf
+INPUT ./img/design1.pdf
+INPUT extractbb -B cropbox -O ./img/design1.pdf
+INPUT ./img/design2.pdf
+INPUT extractbb -B cropbox -O ./img/design2.pdf
+INPUT ./img/design3.pdf
+INPUT extractbb -B cropbox -O ./img/design3.pdf
+INPUT measurement.tex
+INPUT measurement.tex
+INPUT ./img/fridge.pdf
+INPUT extractbb -B cropbox -O ./img/fridge.pdf
+INPUT ./img/entropy.pdf
+INPUT extractbb -B cropbox -O ./img/entropy.pdf
+INPUT ./img/fridgesetup2.pdf
+INPUT extractbb -B cropbox -O ./img/fridgesetup2.pdf
+INPUT discussion.tex
+INPUT discussion.tex
+INPUT conclusion.tex
+INPUT conclusion.tex
+INPUT outlook.tex
+INPUT outlook.tex
+INPUT apology.tex
+INPUT apology.tex
+INPUT appendix.tex
+INPUT appendix.tex
+INPUT ./img/lumpedelement.pdf
+INPUT ./img/IDC2.pdf
+INPUT extractbb -B cropbox -O ./img/IDC2.pdf
+INPUT ./img/IDC_cal.pdf
+INPUT extractbb -B cropbox -O ./img/IDC_cal.pdf
+INPUT ./img/ミアンダ.pdf
+INPUT extractbb -B cropbox -O ./img/ミアンダ.pdf
+INPUT ./img/偶奇.pdf
+INPUT extractbb -B cropbox -O ./img/偶奇.pdf
+INPUT ./img/相互.pdf
+INPUT extractbb -B cropbox -O ./img/相互.pdf
+INPUT ./img/mutual.pdf
+INPUT extractbb -B cropbox -O ./img/mutual.pdf
+INPUT ./img/m2.pdf
+INPUT extractbb -B cropbox -O ./img/m2.pdf
+INPUT ./img/2端子.pdf
+INPUT extractbb -B cropbox -O ./img/2端子.pdf
+INPUT ./img/t型.pdf
+INPUT extractbb -B cropbox -O ./img/t型.pdf
+INPUT ./img/pi型.pdf
+INPUT extractbb -B cropbox -O ./img/pi型.pdf
+INPUT ./img/磁気的結合回路.pdf
+INPUT extractbb -B cropbox -O ./img/磁気的結合回路.pdf
+INPUT ./img/変圧器.pdf
+INPUT extractbb -B cropbox -O ./img/変圧器.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+OUTPUT .tmp/main.out.ps
+INPUT .tmp/main.aux
+INPUT .tmp/abstract.aux
+INPUT .tmp/abstract.aux
+INPUT .tmp/main.run.xml
+OUTPUT .tmp/main.run.xml

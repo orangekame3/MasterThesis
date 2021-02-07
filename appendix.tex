@@ -1,58 +1,69 @@
 \section{ハミルトニアンの基底変換}
-ここでは、Hamiltonianのs変換を行う。
+ここでは、Hamiltonianの基底変換を行う。
 \begin{equation}
-    \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
-    \tilde{\omega}_{a} & g(\Phi ) \\
-    g(\Phi ) & \hat{\omega}_{b}
-    \end{array}\right)\left(\begin{array}{l}
+    \hat{\mathcal{H}}=\hbar\biggl(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\biggr)\biggl(\begin{array}{cc}
+    \tilde{\omega}_{a} & g_{eff}(\Phi ) \\
+    g_{eff}(\Phi ) & \tilde{\omega}_{b}
+    \end{array}\biggr)\biggl(\begin{array}{l}
     \hat{a} \\
     \hat{b}
-    \end{array}\right)
+    \end{array}\biggr)
+\end{equation}
+
+\begin{equation}
+    = \hbar \tilde{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \tilde{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g_{eff}(\Phi)\biggl(\hat{a}^{\dagger}\hat{b}+\hat{a} \hat{b}^{\dagger}\biggr)
+\end{equation}
+%演算子
+\begin{equation}
+    \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} ,\quad \hat{c}_{\pm}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+\end{equation}
+
+\begin{equation}
+    \hat{a}=\frac{\hat{c}_{+}+\hat{c}_{-}}{\sqrt{2}} ,\quad \hat{b}=\frac{\hat{c}_{+}-\hat{c}_{-}}{\sqrt{2}}
 \end{equation}
 \begin{equation}
-    = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
+    \hat{a}^{\dagger}=\frac{\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}}{\sqrt{2}} ,\quad \hat{b}^{\dagger}=\frac{\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}}{\sqrt{2}}
+\end{equation}
+
+%積
+\begin{equation}
+    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr) \biggl(\hat{c}_{+}+\hat{c}_{-}\biggr) ,\quad \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}-\hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}-\hat{c}_{-}\biggr) ,\quad \hat{a} \hat{b}^{\dagger}-\frac{1}{2}\biggl(\hat{c}_{+}+\hat{c}_{-}\biggr)\biggl(\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}\biggr)
+\end{equation}
+
+
+\begin{equation}
+    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{a}^{\dagger}=\frac{\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}}{\sqrt{2}} \quad \hat{b}=\frac{\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}}{\sqrt{2}}
+    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}-\biggr)
+\end{equation}
+
+\begin{equation}
+    \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}\hat{c}_{+}-\hat{c}_{+} \hat{c}_{-}+\hat{c}_{-}^{\dagger} \hat{c}_{+}-\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{a}=\frac{\hat{c}_{+}+\hat{c}}{\sqrt{2}} \quad \hat{b}=\frac{\hat{c}_{+}-\hat{c}_{-}}{\sqrt{2}}
+    \hat{a} \hat{b}^{\dagger}=\frac{1}{2}\biggl(\hat{c}_{+} \hat{c}_{+}^{\dagger}-\hat{c}_{+} \hat{c} \pm+\hat{c}_{-}\hat{c}_{+}^{\dagger}-\hat{c}_{-}\hat{c}_{-}\biggr)
+\end{equation}
+
+
+
+\begin{equation}
+    \hat{H}=\frac{\hbar}{2} \hat{w}_{a}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\left(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{+}\right)\left(\hat{c}_{t}+\hat{c}_{-}\right) \quad \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\left(\hat{c}_{t}^{+}+\hat{c}_{-}^{+}\right)\left(\hat{c}_{+}-\hat{c}_{-}\right)
+    +\frac{\hbar}{2} \hat{\omega}_{b}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{b} \hat{b}=\frac{1}{2}\left(\hat{c}_{t}+\hat{c}_{-}^{+}\right)\left(\hat{c}_{+}-\hat{c}_{-}\right) \quad \hat{a} \hat{b}^{\dagger}-\frac{1}{2}\left(\hat{c}_{t}+\hat{c}_{-}\right)\left(\hat{c}_{t}^{+}-\hat{c}_{-}^{+}\right)
+    +\frac{\hbar}{2} g\biggl(2 \hat{c}+\hat{c}_{+}-2 \hat{c}_{-} \hat{c}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\left[\hat{c}_{t}^{+} \hat{c}_{+}+\hat{c}_{t}^{+} \hat{c}+\hat{c}_{-}^{+} \hat{c}_{t}+\hat{c}_{-}^{+} \hat{c}_{-}\right]
+    \hat{H}=\frac{\hbar}{2}\biggl(\hat{\omega}_{a}+\hat{\omega}_{b}+2 g(\Phi)\biggr) \hat{c}_{+}^{\dagger} \hat{c}_{+}+\frac{\hbar}{2}\biggl(\hat{w} a+\hat{w}_{b}-2 g(\Phi)\biggr) \hat{c}_{-}^{\dagger} \hat{c}_{-}
 \end{equation}
 \begin{equation}
-    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\left[\hat{c}_{t}^{*} \hat{c}_{t}-\hat{c}_{t}^{n} \hat{c}-\hat{c}_{-}^{+} \hat{c}_{t}+\hat{c}_{-}^{+} \hat{c}-\right]
-\end{equation}
-\begin{equation}
-    \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\left[\dot{c}+\hat{c}_{t}-\hat{c}_{t} \hat{c}_{-}+\hat{c}_{-}^{+} \hat{c}_{t}-\hat{c}_{-}^{\prime} \hat{c}_{-}\right]
-\end{equation}
-\begin{equation}
-    \hat{a} \hat{b}^{\dagger}=\frac{1}{2}\left[\hat{c}_{+} \hat{c}_{+}^{4}-\hat{c}_{+} \hat{c} \pm+\hat{c}-\hat{c}_{+}^{2}-\hat{c}-\hat{c}_{-}\right]
-\end{equation}
-\begin{equation}
-    \hat{H}=\frac{\hbar}{2} \hat{w}_{a}\left[\hat{c}_{t}^{+} \hat{c}_{+}+\hat{c}_{t}^{+} \hat{c}+\hat{c}_{-}^{+} \hat{c}_{t}+\hat{c}_{-}^{+} \hat{c}_{-}\right]
-\end{equation}
-\begin{equation}
-    +\frac{\hbar}{2} \hat{\omega}_{b}\left[\hat{c}_{+}^{+} \hat{c}_{+}-\hat{c}_{+}^{+} \hat{c}_{-}-\hat{c}_{-}^{+} \hat{c}_{+}+\hat{c}_{-}^{+} \hat{c}_{-}\right]
-\end{equation}
-\begin{equation}
-    +\frac{\hbar}{2} g\left[2 \hat{c}+\hat{c}_{+}-2 \hat{c}_{-} \hat{c}\right]
-\end{equation}
-\begin{equation}
-    \hat{H}=\frac{\hbar}{2}\left(\hat{\omega}_{a}+\hat{\omega}_{b}+2 g(\Phi)\right) \hat{c}_{t}^{+} \hat{c}_{+}+\frac{\hbar}{2}\left(\hat{w} a+\hat{w}_{b}-2 g(\Phi)\right) \hat{c}_{-}^{+} \hat{c}_{-}
-\end{equation}
-\begin{equation}
-    +\frac{\hbar}{2} A\left(\hat{w}_{a}-\hat{w}_{b}\right)\left(\hat{c}_{t}+\hat{c}_{-}+\hat{c}_{+} \hat{c}_{-}\right)
+    +\frac{\hbar}{2} A\biggl(\hat{w}_{a}-\hat{w}_{b}\biggr)\biggl(\hat{c}_{+}+\hat{c}_{-}+\hat{c}_{+} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
     \omega_{a}+\bar{c}_{b}+2 g(\Phi)=\Omega+
@@ -64,18 +75,18 @@
     \hat{\omega}_{a}-\hat{w}_{b}=\Delta
 \end{equation}
 \begin{equation}
-    \hat{H}=\frac{\hbar}{2} \Omega+\hat{c}+\hat{c}+\frac{\hbar}{2} \Omega-\hat{c} \pm \hat{c}+\frac{\hbar}{2} \Delta\left(\hat{c}+\hat{c}+\hat{c}_{+} \hat{c}_{-}^{+}\right)
+    \hat{H}=\frac{\hbar}{2} \Omega+\hat{c}+\hat{c}+\frac{\hbar}{2} \Omega-\hat{c} \pm \hat{c}+\frac{\hbar}{2} \Delta\biggl(\hat{c}+\hat{c}+\hat{c}_{+} \hat{c}_{-}^{\dagger}\biggr)
 \end{equation}
 \begin{equation}
-    -\frac{\hbar}{2}\left(\begin{array}{cc}
+    -\frac{\hbar}{2}\biggl(\begin{array}{cc}
     \hat{c}_{+} & \hat{c} \pm
-    \end{array}\right)\left(\begin{array}{cc}
+    \end{array}\biggr)\biggl(\begin{array}{cc}
     \Omega_{1} & \Delta \\
     2 & \Omega_{2}
-    \end{array}\right)\left(\begin{array}{l}
+    \end{array}\biggr)\biggl(\begin{array}{l}
     \hat{c}_{+} \\
     \hat{c}_{-}
-    \end{array}\right)
+    \end{array}\biggr)
 \end{equation}
 
 \section{rf-SQUIDの相互インダクタンス}
@@ -108,7 +119,7 @@ dc-SQUIDのインダクタンスは
 式中の文字は上記の図中のパラメータに対応している。
 まず線路の幅wは導体の厚さを含めた実行幅$w_eff$へと変換を行う。\cite*{Gevorgian1996}
 \begin{equation}
-    W_{e f f}=W+\frac{t}{\pi}\left[1+\ln \left(\frac{4 \pi W}{t}\right)\right]
+    W_{e f f}=W+\frac{t}{\pi}\biggl(1+\ln \biggl(\frac{4 \pi W}{t}\biggr)\biggr)
 \end{equation}
 ここで相対する導体間のキャパシタンスをCsとする。
 キャパシタンスCsを構成するのは櫛が3本であることを想定したキャパシタンスC3、櫛の本数Nに相当するキャパシタンス開放状態になっている最両端の櫛のキャパシタンスCendの3つである。
@@ -117,54 +128,54 @@ dc-SQUIDのインダクタンスは
 \end{equation}
 それぞれのキャパシタンスはコンフォーマルマッピングを用いて解析的に求めることが可能である。それぞれの値を求めるにはまずC3について
 \begin{equation}
-    C_{3}=4 \varepsilon_{0} \varepsilon_{e} \frac{K\left(k_{1}\right)}{K\left(k_{1}^{\prime}\right)} L
+    C_{3}=4 \varepsilon_{0} \varepsilon_{e} \frac{K\biggl(k_{1}\biggr)}{K\biggl(k_{1}^{\prime}\biggr)} L
 \end{equation}\begin{equation}
     \varepsilon_{e}=1+q_{1} \frac{\varepsilon_{r}-1}{2}
 \end{equation}
 \begin{equation}
-        q_{1}=\frac{K\left(k_{1}^{\prime}\right)}{K\left(k_{1}\right)} \frac{K\left(k_{2}\right)}{K\left(k_{2}^{\prime}\right)}
+        q_{1}=\frac{K\biggl(k_{1}^{\prime}\biggr)}{K\biggl(k_{1}\biggr)} \frac{K\biggl(k_{2}\biggr)}{K\biggl(k_{2}^{\prime}\biggr)}
 \end{equation}
 \begin{equation}
-    k_{1}=\frac{W}{W+2 S} \sqrt{\frac{1-\left[\frac{W+2 S}{3 W+2 S}\right]^{2}}{1-\left[\frac{W}{3 W+2 S}\right]^{2}}}
+    k_{1}=\frac{W}{W+2 S} \sqrt{\frac{1-\biggl(\frac{W+2 S}{3 W+2 S}\biggr)^{2}}{1-\biggl(\frac{W}{3 W+2 S}\biggr)^{2}}}
 \end{equation}
 \begin{equation}
     \begin{aligned}
-    k_{2}=& \frac{\sinh \left(\frac{\pi W}{4 h}\right)}{\sinh \left(\frac{\pi(W+2 S)}{4 h}\right)} 
-    & \sqrt{\frac{\sinh ^{2}\left(\frac{\pi(3 W+2 S)}{4 h}\right)-\sinh ^{2}\left(\frac{\pi(W+2 S)}{4 h}\right)}{\sinh ^{2}\left(\frac{\pi(3 W+2 S)}{4 h}\right)-\sinh ^{2}\left(\frac{\pi W}{4 h}\right)}}
+    k_{2}=& \frac{\sinh \biggl(\frac{\pi W}{4 h}\biggr)}{\sinh \biggl(\frac{\pi(W+2 S)}{4 h}\biggr)} 
+    & \sqrt{\frac{\sinh ^{2}\biggl(\frac{\pi(3 W+2 S)}{4 h}\biggr)-\sinh ^{2}\biggl(\frac{\pi(W+2 S)}{4 h}\biggr)}{\sinh ^{2}\biggl(\frac{\pi(3 W+2 S)}{4 h}\biggr)-\sinh ^{2}\biggl(\frac{\pi W}{4 h}\biggr)}}
     \end{aligned}
 \end{equation}
 同様にしてCNについて求めると
 \begin{equation}
-    C_{N}=(N-3) \varepsilon_{0} \varepsilon_{N} \frac{K\left(k_{3}\right)}{K\left(k_{3}^{\prime}\right)} L
+    C_{N}=(N-3) \varepsilon_{0} \varepsilon_{N} \frac{K\biggl(k_{3}\biggr)}{K\biggl(k_{3}^{\prime}\biggr)} L
 \end{equation}
 \begin{equation}
     \varepsilon_{N}=1+q_{N} \frac{\varepsilon_{r}-1}{2}
 \end{equation}
 \begin{equation}
-    q_{N}=\frac{K\left(k_{3}^{\prime}\right)}{K\left(k_{3}\right)} \frac{K\left(k_{4}\right)}{K\left(k_{4}^{\prime}\right)},
+    q_{N}=\frac{K\biggl(k_{3}^{\prime}\biggr)}{K\biggl(k_{3}\biggr)} \frac{K\biggl(k_{4}\biggr)}{K\biggl(k_{4}^{\prime}\biggr)},
 \end{equation}
 \begin{equation}
     k_{3}=\frac{W}{W+S},
 \end{equation}
 \begin{equation}
     \begin{aligned}
-    k_{4}=& \frac{\sinh \left(\frac{\pi W}{4 h}\right)}{\sinh \left(\frac{\pi(W+ S)}{4 h}\right)} 
-    & \sqrt{\frac{\sinh ^{2}\left(\frac{\pi(W+S)}{4 h}\right)+\sinh ^{2}\left(\frac{\pi(W+ S)}{4 h}\right)}{\cosh ^{2}\left(\frac{\pi(W)}{4 h}\right)-\sinh ^{2}\left(\frac{\pi (W+S)}{4 h}\right)}}
+    k_{4}=& \frac{\sinh \biggl(\frac{\pi W}{4 h}\biggr)}{\sinh \biggl(\frac{\pi(W+ S)}{4 h}\biggr)} 
+    & \sqrt{\frac{\sinh ^{2}\biggl(\frac{\pi(W+S)}{4 h}\biggr)+\sinh ^{2}\biggl(\frac{\pi(W+ S)}{4 h}\biggr)}{\cosh ^{2}\biggl(\frac{\pi(W)}{4 h}\biggr)-\sinh ^{2}\biggl(\frac{\pi (W+S)}{4 h}biggrt)}}
     \end{aligned}
 \end{equation}
 として求まる。最後にCendについて、この計算を行う上で主に参考にしている論文\cite*{Dib2005}ではCendの計算について\cite*{Dib2001ComprehensiveSO}中の式
 \begin{equation}
-    C_{o c}=c_{e f f} C_{o e}\left(\epsilon_{r}=1\right)
+    C_{o c}=c_{e f f} C_{o e}\biggl(\epsilon_{r}=1\biggr)
 \end{equation}
 \begin{equation}
     \label{Cend}
-    C_{\alpha c}\left(c_{r}=1\right)=\frac{c_{0}}{\pi}\left[\frac{1}{g^{2}} f_{s}(g, W+S, 0)+\frac{1}{W^{2}} f_{0}(W, S, 0)\right]
+    C_{\alpha c}\biggl(c_{r}=1\biggr)=\frac{c_{0}}{\pi}\biggl(\frac{1}{g^{2}} f_{s}(g, W+S, 0)+\frac{1}{W^{2}} f_{0}(W, S, 0)\biggr)
 \end{equation}
 \begin{equation}
     \label{fs}
     \begin{aligned}
-    f_{s}(a, b, c) &=\frac{4}{3} c^{3}+f(a, c)+f(b, c)-4 a b c \tan ^{-1}\left(\frac{a b}{c \tau}\right)-\frac{2}{3}\left(b^{2}-2 c^{2}+a^{2}\right) \tau \\
-    &+\left(a^{2}-c^{2}\right) b \ln \left(\frac{\tau+b}{\tau-b}\right)+\left(b^{2}-c^{2}\right) a \ln \left(\frac{\tau+a}{\tau-a}\right)
+    f_{s}(a, b, c) &=\frac{4}{3} c^{3}+f(a, c)+f(b, c)-4 a b c \tan ^{-1}\biggl(\frac{a b}{c \tau}\biggr)-\frac{2}{3}\biggl(b^{2}-2 c^{2}+a^{2}\biggr) \tau \\
+    &+\biggl(a^{2}-c^{2}\biggr) b \ln \biggl(\frac{\tau+b}{\tau-b}\biggr)+\biggl(b^{2}-c^{2}\biggr) a \ln \biggl(\frac{\tau+a}{\tau-a}\biggr)
     \end{aligned}
 \end{equation}
 \begin{equation}
@@ -173,12 +184,12 @@ dc-SQUIDのインダクタンスは
 \end{equation}
 \begin{equation}
     \label{fx}
-    f(x, y) =\frac{2}{3}\left(x^{2}-2 y^{2}\right) \sqrt{x^{2}+y^{2}}+y^{2} x \ln \left(\frac{\sqrt{x^{2}+y^{2}}+x}{\sqrt{x^{2}+y^{2}}-x}\right)
+    f(x, y) =\frac{2}{3}\biggl(x^{2}-2 y^{2}\biggr) \sqrt{x^{2}+y^{2}}+y^{2} x \ln \biggl(\frac{\sqrt{x^{2}+y^{2}}+x}{\sqrt{x^{2}+y^{2}}-x}\biggr)
 \end{equation}
 を使用したと記述されているが式\ref*{fx}の第2項目は不適切であるため、本稿では含めずに計算した。というのも式\ref*{fx}が使用されている式\ref{Cend,fs,f0}に注目すると式\label{fx}中の$y$は常にゼロであり、第2項目は2乗でゼロに収束する。よって2項目は計算に含まれないことになる。よって計算には以下
 \begin{equation}
     \label{fx_re}
-    f(x, y)_{revised} =\frac{2}{3}\left(x^{2}-2 y^{2}\right) \sqrt{x^{2}+y^{2}}
+    f(x, y)_{revised} =\frac{2}{3}\biggl(x^{2}-2 y^{2}\biggr) \sqrt{x^{2}+y^{2}}
 \end{equation}
 をもちいた。
 以上の計算式を用いてインターデジタルキャパシタンスの値を見積もることができる。
@@ -215,7 +226,7 @@ dc-SQUIDのインダクタンスは
 \end{figure}
 文献\cite*{Grover}に依れば相対する線路に於ける相互インダクタンスは
 \begin{equation}
-    M=0.002 l\left[\log _{e}\left(\frac{l}{d}+\sqrt{1+\frac{l^{2}}{d^{2}}}\right)-\sqrt{1+\frac{d^{2}}{l^{2}}}+\frac{d}{l}\right]
+    M=0.002 l\biggl(\log _{e}\biggl(\frac{l}{d}+\sqrt{1+\frac{l^{2}}{d^{2}}}\biggr)-\sqrt{1+\frac{d^{2}}{l^{2}}}+\frac{d}{l}\biggr)
 \end{equation}
 \begin{figure}[H]
     \label{相互}
@@ -231,16 +242,16 @@ dc-SQUIDのインダクタンスは
 \end{figure}
 よってそれぞれについて相互インダクタンスの関数を以下のように定義する。
 \begin{equation}
-    M_{a 1}\left(l_{1}, l_{2}, r, s\right)=0.5 \cdot\left[M_{c}\left(l_{1}+l_{2}+s, r\right)+M_{c}(s, r)-M_{c}\left(l_{1}+s, r\right)-M_{c}\left(l_{2}+s, r\right)\right]
+    M_{a 1}\biggl(l_{1}, l_{2}, r, s\biggr)=0.5 \cdot\biggl(M_{c}\biggl(l_{1}+l_{2}+s, r\biggr)+M_{c}(s, r)-M_{c}\biggl(l_{1}+s, r\biggr)-M_{c}\biggl(l_{2}+s, r\biggr)\biggr)
 \end{equation}
 \begin{equation}
-    M_{a 2}\left(l_{1}, l_{2}, r\right)=0.5 \cdot\left[M_{c}\left(l_{1}, r\right)+M_{c}\left(l_{2}, r\right)-M_{c}\left(l_{1}-l_{2}, r\right)\right]
+    M_{a 2}\biggl(l_{1}, l_{2}, r\biggr)=0.5 \cdot\biggl(M_{c}\biggl(l_{1}, r\biggr)+M_{c}\biggl(l_{2}, r\biggr)-M_{c}\biggl(l_{1}-l_{2}, r\biggr)\biggr)
 \end{equation}
 \begin{equation}
-    M_{a 3}\left(l_{1}, l_{2}, r\right)=0.5\left[M_{c}\left(l_{1}+l_{2}, r\right)-M_{c}\left(l_{1}, r\right)-M_{c}\left(l_{2}, r\right)\right]
+    M_{a 3}\biggl(l_{1}, l_{2}, r\biggr)=0.5\biggl(M_{c}\biggl(l_{1}+l_{2}, r\biggr)-M_{c}\biggl(l_{1}, r\biggr)-M_{c}\biggl(l_{2}, r\biggr)\biggr)
 \end{equation}
 \begin{equation}
-    M_{b}\left(l_{1}, l_{2}, s\right)=\frac{\infty_{0}}{4 \pi}\left[\left(l_{1}+l_{2}+s\right) \ln \left(l_{1}+l_{2}+s\right)-\left(l_{1}+s\right) \ln \left(l_{1}+s\right)-\left(l_{2}+s\right) \ln \left(l_{2}+s\right)+s \ln (s)\right]
+    M_{b}\biggl(l_{1}, l_{2}, s\biggr)=\frac{\infty_{0}}{4 \pi}\biggl(\biggl(l_{1}+l_{2}+s\biggr) \ln \biggl(l_{1}+l_{2}+s\biggr)-\biggl(l_{1}+s\biggr) \ln \biggl(l_{1}+s\biggr)-\biggl(l_{2}+s\biggr) \ln \biggl(l_{2}+s\biggr)+s \ln (s)\biggr)
 \end{equation}
 
 上記の4通りの方法を各セグメントに適用することでミアンダインダクタンスに存在する相互インダクタンスをすべて勘定することができる。
@@ -280,7 +291,7 @@ dc-SQUIDのインダクタンスは
     M_{5}=\sum_{i=0}^{N-1}(-1)^{i} \cdot 2 \cdot(N-1) \cdot M_{c}(h, t d)
 \end{equation}
 \begin{equation}
-    M_{7}=\sum_{i=0}^{N}(-1)^{i} \cdot 4 \cdot M_{a 2}\left(b_{2} h, i d\right)
+    M_{7}=\sum_{i=0}^{N}(-1)^{i} \cdot 4 \cdot M_{a 2}\biggl(b_{2} h, i d\biggr)
 \end{equation}
 となる。それぞれについて各セグメントの総和
 \begin{equation}
