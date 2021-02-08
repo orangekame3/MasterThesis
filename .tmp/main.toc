@@ -38,70 +38,68 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}rf-SQUIDの性質から求める方法}{18}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第3章}実装}{20}{chapter.3}
+\contentsline {chapter}{\numberline {第3章}実装}{23}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}設計}{20}{section.3.1}
+\contentsline {section}{\numberline {3.1}設計}{23}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}遷移スペクトル計算}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}$\beta $ ループによる変調}{24}{subsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.2}$\beta $ ループによる変調}{24}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}共振器}{27}{subsection.3.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.3}共振器}{26}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}電磁界シミュレーション}{28}{subsection.3.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.4}電磁界シミュレーション}{27}{subsection.3.1.4}
+\contentsline {section}{\numberline {3.2}設計}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}設計}{31}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}製造パラメータ}{32}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}製造パラメータ}{31}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}二重角度蒸着}{32}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}二重角度蒸着}{31}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}測定サンプル}{32}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}測定サンプル}{31}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}回路パラメータ}{34}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}回路パラメータ}{33}{subsection.3.3.1}
+\contentsline {chapter}{\numberline {第4章}測定}{35}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第4章}測定}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}測定環境}{35}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}測定環境}{34}{section.4.1}
+\contentsline {chapter}{\numberline {第5章}考察}{38}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第5章}考察}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}結合性能}{38}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}結合性能}{37}{section.5.1}
+\contentsline {section}{\numberline {5.2}結合振動子の物理}{38}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}結合振動子の物理}{37}{section.5.2}
+\contentsline {chapter}{\numberline {第6章}結論}{39}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第6章}結論}{38}{chapter.6}
+\contentsline {section}{\numberline {6.1}解析を終えて}{39}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}解析を終えて}{38}{section.6.1}
+\contentsline {chapter}{\numberline {第7章}展望}{40}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第7章}展望}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}今後の展望}{40}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}今後の展望}{39}{section.7.1}
+\contentsline {chapter}{\numberline {第8章}謝辞}{41}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第8章}謝辞}{40}{chapter.8}
+\contentsline {chapter}{\numberline {第9章}補足}{42}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {第9章}補足}{41}{chapter.9}
+\contentsline {section}{\numberline {9.1}ハミルトニアンの基底変換}{42}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}ハミルトニアンの基底変換}{41}{section.9.1}
+\contentsline {section}{\numberline {9.2}rf-SQUIDの相互インダクタンス}{44}{section.9.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.2}rf-SQUIDの相互インダクタンス}{42}{section.9.2}
+\contentsline {section}{\numberline {9.3}インターデジタルキャパシタンス}{44}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.3}インターデジタルキャパシタンス}{43}{section.9.3}
+\contentsline {section}{\numberline {9.4}ミアンダインダクタンス}{47}{section.9.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.4}ミアンダインダクタンス}{46}{section.9.4}
+\contentsline {section}{\numberline {9.5}マスター方程式}{52}{section.9.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.5}マスター方程式}{51}{section.9.5}
+\contentsline {section}{\numberline {9.6}2点相関関数}{52}{section.9.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.6}2点相関関数}{51}{section.9.6}
+\contentsline {section}{\numberline {9.7}等価回路}{52}{section.9.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.7}等価回路}{51}{section.9.7}
+\contentsline {subsection}{\numberline {9.7.1}T型回路}{53}{subsection.9.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.7.1}T型回路}{52}{subsection.9.7.1}
+\contentsline {subsection}{\numberline {9.7.2}$\Pi $型回路}{54}{subsection.9.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.7.2}$\Pi $型回路}{53}{subsection.9.7.2}
+\contentsline {subsection}{\numberline {9.7.3}$T-\Pi $変換（$Y-\Delta $変換）}{55}{subsection.9.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.7.3}$T-\Pi $変換（$Y-\Delta $変換）}{54}{subsection.9.7.3}
+\contentsline {subsection}{\numberline {9.7.4}磁気結合回路}{56}{subsection.9.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {9.7.4}磁気結合回路}{55}{subsection.9.7.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{参考文献}{56}{figure.9.13}
+\contentsline {chapter}{参考文献}{57}{figure.9.13}

@@ -1,93 +1,94 @@
 \section{ハミルトニアンの基底変換}
 ここでは、Hamiltonianの基底変換を行う。
-\begin{equation}
-    \hat{\mathcal{H}}=\hbar\biggl(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\biggr)\biggl(\begin{array}{cc}
+\begin{eqnarray}
+    \hat{\mathcal{H}}&=&\hbar\biggl(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\biggr)\biggl(\begin{array}{cc}
     \tilde{\omega}_{a} & g_{eff}(\Phi ) \\
     g_{eff}(\Phi ) & \tilde{\omega}_{b}
     \end{array}\biggr)\biggl(\begin{array}{l}
     \hat{a} \\
     \hat{b}
-    \end{array}\biggr)
-\end{equation}
-
-\begin{equation}
-    = \hbar \tilde{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \tilde{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g_{eff}(\Phi)\biggl(\hat{a}^{\dagger}\hat{b}+\hat{a} \hat{b}^{\dagger}\biggr)
-\end{equation}
+    \end{array}\biggr)\\ \\
+    &=& \hbar \tilde{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \tilde{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g_{eff}(\Phi)\biggl(\hat{a}^{\dagger}\hat{b}+ \hat{b}^{\dagger}\hat{a}\biggr)
+\end{eqnarray}
+ここで共振器A,Bのそれぞれの生成消滅演算子$\hat{a}{\dagger},\hat{a},\hat{b}{\dagger},\hat{b},$を結合モードの生成消滅演算子$\hat{c}_{+}^{\dagger},\hat{c}_{+},\hat{c}_{-}^{\dagger},\hat{c}_{-}$で変換する。
 %演算子
 \begin{equation}
     \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} ,\quad \hat{c}_{\pm}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
 \end{equation}
-
+結合モードの生成消滅で元の演算子を書き表すと
 \begin{equation}
     \hat{a}=\frac{\hat{c}_{+}+\hat{c}_{-}}{\sqrt{2}} ,\quad \hat{b}=\frac{\hat{c}_{+}-\hat{c}_{-}}{\sqrt{2}}
 \end{equation}
 \begin{equation}
     \hat{a}^{\dagger}=\frac{\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}}{\sqrt{2}} ,\quad \hat{b}^{\dagger}=\frac{\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}}{\sqrt{2}}
 \end{equation}
-
+となる。よってその演算子の積は
 %積
 \begin{equation}
     \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr) \biggl(\hat{c}_{+}+\hat{c}_{-}\biggr) ,\quad \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}-\hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}+\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}-\hat{c}_{-}\biggr) ,\quad \hat{a} \hat{b}^{\dagger}-\frac{1}{2}\biggl(\hat{c}_{+}+\hat{c}_{-}\biggr)\biggl(\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}\biggr)
+    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}-\hat{c}_{-}\biggr) ,\quad \hat{b}^{\dagger}\hat{a} = \frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}-\hat{c}_{-}^{\dagger}\biggr)\biggl(\hat{c}_{+}+\hat{c}_{-}\biggr)
 \end{equation}
-
-
-\begin{equation}
-    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
-\end{equation}
-\begin{equation}
-    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}-\biggr)
-\end{equation}
+と表現できる。それぞれ計算を進めると
 
 \begin{equation}
-    \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}\hat{c}_{+}-\hat{c}_{+} \hat{c}_{-}+\hat{c}_{-}^{\dagger} \hat{c}_{+}-\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
+    \hat{a}^{\dagger} \hat{a}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}_{-}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    \hat{a} \hat{b}^{\dagger}=\frac{1}{2}\biggl(\hat{c}_{+} \hat{c}_{+}^{\dagger}-\hat{c}_{+} \hat{c} \pm+\hat{c}_{-}\hat{c}_{+}^{\dagger}-\hat{c}_{-}\hat{c}_{-}\biggr)
+    \hat{b}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 
+\begin{equation}
+    \hat{a}^{\dagger} \hat{b}=\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}\hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}_{-}+\hat{c}_{-}^{\dagger} \hat{c}_{+}-\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
+\end{equation}
+\begin{equation}
+    \hat{b}^{\dagger}\hat{a} =\frac{1}{2}\biggl(\hat{c}_{+}^{\dagger}\hat{c}_{+} +\hat{c}_{+}^{\dagger}\hat{c}_{-} - \hat{c}_{-}^{\dagger}\hat{c}_{+}-\hat{c}_{-}^{\dagger}\hat{c}_{-}\biggr)
+\end{equation}
 
+これを元のハミルトニアンに代入すれば
 
 \begin{equation}
-    \hat{H}=\frac{\hbar}{2} \hat{w}_{a}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
+    \hat{H}=\frac{\hbar}{2} \hat{\omega}_{a}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}+\hat{c}_{+}^{\dagger} \hat{c}_{-}+\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)+\frac{\hbar}{2} \hat{\omega}_{b}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
 \end{equation}
 \begin{equation}
-    +\frac{\hbar}{2} \hat{\omega}_{b}\biggl(\hat{c}_{+}^{\dagger} \hat{c}_{+}-\hat{c}_{+}^{\dagger} \hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}+\hat{c}_{-}^{\dagger} \hat{c}_{-}\biggr)
+    +\frac{\hbar}{2} g_{eff}\biggl(\hat{c}_{+}^{\dagger}\hat{c}_{+}-\cancel{\hat{c}_{+}^{\dagger} \hat{c}_{-}}+\bcancel{\hat{c}_{-}^{\dagger} \hat{c}_{+}}-\hat{c}_{-}^{\dagger} \hat{c}_{-}+\hat{c}_{+}^{\dagger}\hat{c}_{+} +\cancel{\hat{c}_{+}^{\dagger}\hat{c}_{-}} - \bcancel{\hat{c}_{-}^{\dagger}\hat{c}_{+}}-\hat{c}_{-}^{\dagger}\hat{c}_{-}\biggr)
+\end{equation}
+
+式を整理すると
+
+\begin{equation}
+    \hat{H}=\frac{\hbar}{2}\biggl(\hat{\omega}_{a}+\hat{\omega}_{b}+2 g(\Phi)\biggr) \hat{c}_{+}^{\dagger} \hat{c}_{+}+\frac{\hbar}{2}\biggl(\hat{\omega} a+\hat{\omega}_{b}-2 g(\Phi)\biggr) \hat{c}_{-}^{\dagger} \hat{c}_{-}
 \end{equation}
 \begin{equation}
-    +\frac{\hbar}{2} g\biggl(2 \hat{c}+\hat{c}_{+}-2 \hat{c}_{-} \hat{c}\biggr)
+    +\frac{\hbar}{2}\biggl(\hat{\omega}_{a}-\hat{\omega}_{b}\biggr)\biggl(\hat{c}_{+}^{\dagger}\hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}\biggr)
+\end{equation}
+ここで第1項と第2項を
+\begin{equation}
+    \Omega_{+}=\frac{\tilde{\omega}_{a}+\tilde{\omega}_{b}}{2} + g_{eff}(\Phi)
 \end{equation}
 \begin{equation}
-    \hat{H}=\frac{\hbar}{2}\biggl(\hat{\omega}_{a}+\hat{\omega}_{b}+2 g(\Phi)\biggr) \hat{c}_{+}^{\dagger} \hat{c}_{+}+\frac{\hbar}{2}\biggl(\hat{w} a+\hat{w}_{b}-2 g(\Phi)\biggr) \hat{c}_{-}^{\dagger} \hat{c}_{-}
+    \Omega_{-}=\frac{\tilde{\omega}_{a}+\tilde{\omega}_{b}}{2} - g_{eff}(\Phi)
 \end{equation}
+第3項を
 \begin{equation}
-    +\frac{\hbar}{2} A\biggl(\hat{w}_{a}-\hat{w}_{b}\biggr)\biggl(\hat{c}_{+}+\hat{c}_{-}+\hat{c}_{+} \hat{c}_{-}\biggr)
+    \Delta = \frac{\tilde{\omega}_{a}-\tilde{\omega}_{b}}{2}
 \end{equation}
-\begin{equation}
-    \omega_{a}+\bar{c}_{b}+2 g(\Phi)=\Omega+
-\end{equation}
-\begin{equation}
-    \omega_{a}+\bar{c}_{b}-2 g(\Phi)=\Omega-
-\end{equation}
-\begin{equation}
-    \hat{\omega}_{a}-\hat{w}_{b}=\Delta
-\end{equation}
-\begin{equation}
-    \hat{H}=\frac{\hbar}{2} \Omega+\hat{c}+\hat{c}+\frac{\hbar}{2} \Omega-\hat{c} \pm \hat{c}+\frac{\hbar}{2} \Delta\biggl(\hat{c}+\hat{c}+\hat{c}_{+} \hat{c}_{-}^{\dagger}\biggr)
-\end{equation}
-\begin{equation}
-    -\frac{\hbar}{2}\biggl(\begin{array}{cc}
-    \hat{c}_{+} & \hat{c} \pm
-    \end{array}\biggr)\biggl(\begin{array}{cc}
-    \Omega_{1} & \Delta \\
-    2 & \Omega_{2}
-    \end{array}\biggr)\biggl(\begin{array}{l}
-    \hat{c}_{+} \\
-    \hat{c}_{-}
-    \end{array}\biggr)
-\end{equation}
+とすれば元のハミルトニアンは
+\begin{eqnarray}
+    \hat{H}&=&\hbar\Omega_{+} \hat{c}_{+}^{\dagger} \hat{c}_{+}+\hbar\Omega_{-} \hat{c}_{-}^{\dagger} \hat{c}_{-} +\hbar \Delta \biggl(\hat{c}_{+}^{\dagger}\hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}\biggr)\\ \\ 
+    &=& \hbar\biggl(\begin{array}{cc}
+        \hat{c}_{+}^{\dagger} & \hat{c}_{-}^{\dagger}
+        \end{array}\biggr)\biggl(\begin{array}{cc}
+        \Omega_{+} & \Delta \\
+        \Delta & \Omega_{-}
+        \end{array}\biggr)\biggl(\begin{array}{l}
+        \hat{c}_{+} \\
+        \hat{c}_{-}
+        \end{array}\biggr)
+\end{eqnarray}
+
+のように結合モードの基底で書き表すことができる。
 
 \section{rf-SQUIDの相互インダクタンス}
 dc-SQUIDのインダクタンスは

@@ -94,6 +94,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/cancel/cancel.sty
+INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/cancel/cancel.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -229,16 +231,20 @@ INPUT extractbb -B cropbox -O ./img/circuit2.pdf
 INPUT ./img/circuit3.pdf
 INPUT extractbb -B cropbox -O ./img/circuit3.pdf
 INPUT ./img/circuit2.pdf
-INPUT implementation.tex
-INPUT implementation.tex
-INPUT ./img/sample.pdf
-INPUT extractbb -B cropbox -O ./img/sample.pdf
 INPUT ./img/standard_eigen.pdf
 INPUT extractbb -B cropbox -O ./img/standard_eigen.pdf
+INPUT ./img/standard_eigen_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/standard_eigen_zoom.pdf
 INPUT ./img/standard_coupling.pdf
 INPUT extractbb -B cropbox -O ./img/standard_coupling.pdf
-INPUT ./img/standard_coupling_beta.pdf
-INPUT extractbb -B cropbox -O ./img/standard_coupling_beta.pdf
+INPUT ./img/standard_coupling_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/standard_coupling_zoom.pdf
+INPUT ./img/standard_eigen_with.pdf
+INPUT extractbb -B cropbox -O ./img/standard_eigen_with.pdf
+INPUT ./img/standard_eigen_with_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/standard_eigen_with_zoom.pdf
+INPUT ./img/MixRatio1.pdf
+INPUT extractbb -B cropbox -O ./img/MixRatio1.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
@@ -251,6 +257,16 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./img/MixRatio1_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/MixRatio1_zoom.pdf
+INPUT ./img/MixRatio2.pdf
+INPUT extractbb -B cropbox -O ./img/MixRatio2.pdf
+INPUT ./img/MixRatio2_zoom.pdf
+INPUT extractbb -B cropbox -O ./img/MixRatio2_zoom.pdf
+INPUT implementation.tex
+INPUT implementation.tex
+INPUT ./img/standard_coupling_beta.pdf
+INPUT extractbb -B cropbox -O ./img/standard_coupling_beta.pdf
 INPUT ./img/standard_coupling_betasweep.pdf
 INPUT extractbb -B cropbox -O ./img/standard_coupling_betasweep.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm

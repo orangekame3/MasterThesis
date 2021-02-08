@@ -361,28 +361,145 @@ $L_{a,b}$は各共振器のインダクタンス、$\omega_{a,b}$は共振周波
 \end{equation}
 
 となり、系のハミルトニアンは
-\begin{equation}
-    \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
-    \tilde{\omega}_{a} & g(\Phi ) \\
-    g(\Phi ) & \hat{\omega}_{b}
-    \end{array}\right)\left(\begin{array}{l}
+\begin{subequations}
+    {\jot=10pt
+\begin{eqnarray}
+    \hat{\mathcal{H}}&=&\hbar\biggl(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\biggr)\biggl(\begin{array}{cc}
+    \tilde{\omega}_{a} & g_{eff}(\Phi ) \\
+    g_{eff}(\Phi ) & \tilde{\omega}_{b}
+    \end{array}\biggr)\biggl(\begin{array}{l}
     \hat{a} \\
     \hat{b}
-    \end{array}\right)
-\end{equation}
-
-\begin{equation}
-    = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
-\end{equation}
-
+    \end{array}\biggr)\\
+    &=& \hbar \tilde{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \tilde{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g_{eff}(\Phi)\biggl(\hat{a}^{\dagger}\hat{b}+ \hat{b}^{\dagger}\hat{a}\biggr)
+\end{eqnarray}
+}
+\end{subequations}
 となる。\\
-上式から、rf-SQUIDによりエネルギーシフトした共振器同士は結合項$g_{eff}(\Phi)$で結合している。正し、実際の測定環境では各々の共振器の共振エネルギーではなく、２つの共振器が結合したモードとして観測が為される。そこで上式をさらに式変形する。
+上式から、rf-SQUIDによりエネルギーシフトした共振器同士は結合項$g_{eff}(\Phi)$で結合している。ただし、実際の測定環境では各々の共振器の共振エネルギーではなく、２つの共振器が結合したモードとして観測が為される。そこで上式をさらに式変形する。
 結合したモードの基底を
 
 \begin{equation}
-    \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+    \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} ,\quad \hat{c}_{\pm}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
 \end{equation}
 
 のように書き表す。$\hat{c}_{\pm}^{\dagger},\hat{c}_{\pm}$は結合モードの生成消滅演算子である。詳細な計算は冗長になるため、補足に預けることとする。
+この新たな基底によりハミルトニアンの変換を行うと
+\begin{subequations}
+    {\jot=10pt
+\begin{eqnarray}
+    \hat{H}&=&\hbar\Omega_{+} \hat{c}_{+}^{\dagger} \hat{c}_{+}+\hbar\Omega_{-} \hat{c}_{-}^{\dagger} \hat{c}_{-} +\hbar \Delta \biggl(\hat{c}_{+}^{\dagger}\hat{c}_{-}-\hat{c}_{-}^{\dagger} \hat{c}_{+}\biggr)\\
+    &=& \hbar\biggl(\begin{array}{cc}
+        \hat{c}_{+}^{\dagger} & \hat{c}_{-}^{\dagger}
+        \end{array}\biggr)\biggl(\begin{array}{cc}
+        \Omega_{+} & \Delta \\
+        \Delta & \Omega_{-}
+        \end{array}\biggr)\biggl(\begin{array}{l}
+        \hat{c}_{+} \\
+        \hat{c}_{-}
+        \end{array}\biggr)
+\end{eqnarray}
+}
+\end{subequations}
+という式が得られる。ここで
+ここで第1項と第2項について
+\begin{equation}
+    \Omega_{+}=\frac{\tilde{\omega}_{a}+\tilde{\omega}_{b}}{2} + g_{eff}(\Phi)
+\end{equation}
+\begin{equation}
+    \Omega_{-}=\frac{\tilde{\omega}_{a}+\tilde{\omega}_{b}}{2} - g_{eff}(\Phi)
+\end{equation}
+第3項について
+\begin{equation}
+    \Delta = \frac{\tilde{\omega}_{a}-\tilde{\omega}_{b}}{2}
+\end{equation}
+であることに注意する。すなわち結合系において共振器A,Bの結合強度は新たな基底の固有モードの差分の半分
+\begin{equation}
+    g_{eff}(\Phi)=\frac{\Omega_{+}-\Omega_{-}}{2} 
+\end{equation}
+に相当することがわかる。
+このハミルトニアンの遷移周波数をプロットを以下に示す。
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_eigen.pdf}
+        \caption{遷移周波数}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_eigen_zoom.pdf}
+        \caption{結合強度ゼロ付近の拡大図}
+    \end{minipage}
+\end{figure}
+測定についても以上の性質を利用する。すなわち結合モードの遷移周波数を上記ハミルトニアンでフィットし結合定数を見積もる。
+つまり、このパラメータに於ける結合強度をプロットすると
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_coupling.pdf}
+        \caption{結合強度}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_coupling_zoom.pdf}
+        \caption{結合強度ゼロ付近の拡大図}
+    \end{minipage}
+\end{figure}
+のようになる。
+上記の結合モードの遷移周波数$\Omega_{+},\Omega_{-}$のプロットにrf-SQUIDによって変調された共振器A,Bの遷移周波数$\tilde{\omega}_a,\tilde{\omega}_b$をプロットすると
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_eigen_with.pdf}
+        \caption{遷移周波数}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_eigen_with_zoom.pdf}
+        \caption{結合強度ゼロ付近の拡大図}
+    \end{minipage}
+\end{figure}
+以上のプロットより、結合強度がゼロとなる点において結合モードの遷移周波数$\Omega_{+},\Omega_{-}$とrf-SQUIDによって変調された共振器A,Bの遷移周波数$\tilde{\omega}_a,\tilde{\omega}_b$が一致することがわかる。すなわち、この点において共振器A,Bは完全に独立た状態であるとみなすことができる。
 
+このことは共振器A,Bの状態を外部磁束に対してトレースすることでも理解できる。
+すなわち共振器A,Bの混合比を次のように定義する
+\begin{equation}
+    Mix\ Ratio\ \Omega_{-} = A:B  = \biggl|\left\langle \tilde{\psi}_a|\Psi_{-}\right\rangle \biggr|^2: \  \biggl|\left\langle \tilde{\psi}_b|\Psi_{-}\right\rangle \biggr|^2 
+\end{equation}
+\begin{equation}
+    Mix\ Ratio\ \Omega_{+} = A:B  = \biggl|\left\langle \tilde{\psi}_a|\Psi_{+}\right\rangle \biggr|^2: \  \biggl|\left\langle \tilde{\psi}_b|\Psi_{+}\right\rangle \biggr|^2 
+\end{equation}
 
+ここで$\tilde{\psi}_{a,b}$,$\Psi_{+,-}$はそれぞれ共振モード$\tilde{\omega}_a,\tilde{\omega}_b$、$\Omega_{+},\Omega_{-}$の波動関数である。すなわち混合比は結合モードにおいて共振モード$\tilde{\omega}_a,\tilde{\omega}_b$がどれだけ存在するかの指標となっている。結合がゼロとなる点においては混合比はそれぞれ
+\begin{equation}
+    Mix\ Ratio\ \Omega_{-} = A:B  = 100: \  0
+\end{equation}
+\begin{equation}
+    Mix\ Ratio\ \Omega_{+} = A:B  = 0: \  100
+\end{equation}
+となるはずである。\\
+以下に結合モード$\Omega_{+},\Omega_{-}$中の混合比を示す。
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{MixRatio1.pdf}
+        \caption{結合モード$\Omega_{-}$中の混合比}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{MixRatio1_zoom.pdf}
+        \caption{結合強度ゼロ付近の拡大図}
+    \end{minipage}
+\end{figure}
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{MixRatio2.pdf}
+        \caption{結合モード$\Omega_{+}$中の混合比}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{MixRatio2_zoom.pdf}
+        \caption{結合強度ゼロ付近の拡大図}
+    \end{minipage}
+\end{figure}

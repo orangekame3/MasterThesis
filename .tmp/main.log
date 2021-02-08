@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  7 FEB 2021 16:04
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  8 FEB 2021 10:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -361,6 +361,9 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 (/usr/local/texlive/2017/texmf-dist/tex/latex/subfigure/subfigure.cfg)
 \subfig@top=\skip52
 \subfig@bottom=\skip53
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2017/12/19 v3.10 programmable bibliographies (PK/JW/AB)
@@ -820,87 +823,95 @@ File: ./img/circuit3.pdf Graphic file (type pdf)
 <./img/circuit3.pdf>
 File: ./img/circuit2.pdf Graphic file (type pdf)
 <./img/circuit2.pdf>
- [16] [17] [18])
+ [16] [17] [18]
 [19]
-第3章
-(./implementation.tex
-File: ./img/sample.pdf Graphic file (type pdf)
-<./img/sample.pdf>
- [20
-
-]
 File: ./img/standard_eigen.pdf Graphic file (type pdf)
 <./img/standard_eigen.pdf>
-
-Overfull \hbox (39.49805pt too wide) in paragraph at lines 52--53
- [][] 
- []
-
-[21]
+File: ./img/standard_eigen_zoom.pdf Graphic file (type pdf)
+<./img/standard_eigen_zoom.pdf>
 File: ./img/standard_coupling.pdf Graphic file (type pdf)
 <./img/standard_coupling.pdf>
+File: ./img/standard_coupling_zoom.pdf Graphic file (type pdf)
+<./img/standard_coupling_zoom.pdf>
+File: ./img/standard_eigen_with.pdf Graphic file (type pdf)
+<./img/standard_eigen_with.pdf>
+File: ./img/standard_eigen_with_zoom.pdf Graphic file (type pdf)
+<./img/standard_eigen_with_zoom.pdf>
+ [20]
+File: ./img/MixRatio1.pdf Graphic file (type pdf)
+<./img/MixRatio1.pdf>
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 5.5481pt on input line 486.
+File: ./img/MixRatio1_zoom.pdf Graphic file (type pdf)
+<./img/MixRatio1_zoom.pdf>
+File: ./img/MixRatio2.pdf Graphic file (type pdf)
+<./img/MixRatio2.pdf>
+File: ./img/MixRatio2_zoom.pdf Graphic file (type pdf)
+<./img/MixRatio2_zoom.pdf>
+ [21]) [22]
+第3章
+(./implementation.tex
 File: ./img/standard_coupling_beta.pdf Graphic file (type pdf)
 <./img/standard_coupling_beta.pdf>
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 66.
- [22]
 File: ./img/standard_coupling_betasweep.pdf Graphic file (type pdf)
 <./img/standard_coupling_betasweep.pdf>
+ [23
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 82.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 81.
+(hyperref)                removing `\beta' on input line 82.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 81.
+(hyperref)                removing `math shift' on input line 82.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 81.
-
-[23]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
+[24]
 File: ./img/samplefigure.pdf Graphic file (type pdf)
 <./img/samplefigure.pdf>
- [24]
+ [25]
 File: ./img/配線.pdf Graphic file (type pdf)
 <./img/配線.pdf>
- [25] [26]
+ [26] [27]
 File: ./img/resonator_design_for_mwo.pdf Graphic file (type pdf)
 <./img/resonator_design_for_mwo.pdf>
 File: ./img/coupled_resonator_mwo.pdf Graphic file (type pdf)
 <./img/coupled_resonator_mwo.pdf>
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 126--130
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 127--131
 [][] [][]
  []
 
 File: ./img/mwo.pdf Graphic file (type pdf)
 <./img/mwo.pdf>
-[27]
+[28]
 File: ./img/bareresonator_zoom.pdf Graphic file (type pdf)
 <./img/bareresonator_zoom.pdf>
- [28]
+ [29]
 File: ./img/mwo_meander.pdf Graphic file (type pdf)
 <./img/mwo_meander.pdf>
 File: ./img/simulatorVSanalytical.pdf Graphic file (type pdf)
 <./img/simulatorVSanalytical.pdf>
- [29]
+ [30]
 File: ./img/meanderinductance.pdf Graphic file (type pdf)
 <./img/meanderinductance.pdf>
 File: ./img/compound1.pdf Graphic file (type pdf)
 <./img/compound1.pdf>
- [30]
+ [31]
 File: ./img/design1.pdf Graphic file (type pdf)
 <./img/design1.pdf>
- [31]
+ [32]
 File: ./img/design2.pdf Graphic file (type pdf)
 <./img/design2.pdf>
 File: ./img/design3.pdf Graphic file (type pdf)
 <./img/design3.pdf>
- [32]) [33]
+ [33]) [34]
 第4章
 (./measurement.tex
 File: ./img/fridge.pdf Graphic file (type pdf)
@@ -914,58 +925,56 @@ Overfull \hbox (27.15692pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[34
+[35
 
-] [35]) [36]
+] [36]) [37]
 第5章
-(./discussion.tex) [37
+(./discussion.tex) [38
 
 ]
 第6章
-(./conclusion.tex) [38
+(./conclusion.tex) [39
 
 ]
 第7章
-(./outlook.tex) [39
+(./outlook.tex) [40
 
 ]
 第8章
-(./apology.tex) [40
+(./apology.tex) [41
 
 ]
 第9章
-(./appendix.tex [41
+(./appendix.tex [42
 
-]
+] [43]
 File: ./img/lumpedelement.pdf Graphic file (type pdf)
 <./img/lumpedelement.pdf>
 
-Overfull \hbox (39.49805pt too wide) in paragraph at lines 110--111
+Overfull \hbox (39.49805pt too wide) in paragraph at lines 111--112
  [][] 
  []
 
-[42]
 File: ./img/IDC2.pdf Graphic file (type pdf)
 <./img/IDC2.pdf>
- [43] [44]
+[44] [45] [46]
 
-LaTeX Warning: Reference `Cend,fs,f0' on page 45 undefined on input line 189.
+LaTeX Warning: Reference `Cend,fs,f0' on page 47 undefined on input line 190.
 
-[45]
 File: ./img/IDC_cal.pdf Graphic file (type pdf)
 <./img/IDC_cal.pdf>
 File: ./img/ミアンダ.pdf Graphic file (type pdf)
 <./img/ミアンダ.pdf>
- [46]
+[47]
 File: ./img/偶奇.pdf Graphic file (type pdf)
 <./img/偶奇.pdf>
- [47]
+ [48]
 File: ./img/相互.pdf Graphic file (type pdf)
 <./img/相互.pdf>
 File: ./img/mutual.pdf Graphic file (type pdf)
 <./img/mutual.pdf>
- [48]
-Overfull \hbox (5.07884pt too wide) detected at line 255
+ [49]
+Overfull \hbox (5.07884pt too wide) detected at line 256
 \OML/cmm/m/it/10 M[][]l[]; l[]; s[] \OT1/cmr/m/n/10 = [][][]\OML/cmm/m/it/10 l[
 ] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 s[]
  [][]l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it
@@ -978,58 +987,58 @@ m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[]
 
 File: ./img/m2.pdf Graphic file (type pdf)
 <./img/m2.pdf>
-[49] [50]
+[50] [51]
 File: ./img/2端子.pdf Graphic file (type pdf)
 <./img/2端子.pdf>
- [51]
+ [52]
 File: ./img/t型.pdf Graphic file (type pdf)
 <./img/t型.pdf>
- [52]
+ [53]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 364.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Pi' on input line 364.
+(hyperref)                removing `math shift' on input line 365.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 364.
+(hyperref)                removing `\Pi' on input line 365.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 365.
 
 File: ./img/pi型.pdf Graphic file (type pdf)
 <./img/pi型.pdf>
-[53]
+[54]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Pi' on input line 375.
+(hyperref)                removing `math shift' on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `\Pi' on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `math shift' on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\Delta' on input line 375.
+(hyperref)                removing `math shift' on input line 376.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 375.
+(hyperref)                removing `\Delta' on input line 376.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 376.
 
 File: ./img/磁気的結合回路.pdf Graphic file (type pdf)
 <./img/磁気的結合回路.pdf>
-[54] [55]
+[55] [56]
 File: ./img/変圧器.pdf Graphic file (type pdf)
 <./img/変圧器.pdf>
-) [56]
+) [57]
 LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -1038,11 +1047,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 124.
- [57
+ [58
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
- [58]
+ [59]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -1063,12 +1072,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 14297 strings out of 495109
- 233838 string characters out of 6184637
- 674468 words of memory out of 5000000
- 17534 multiletter control sequences out of 15000+600000
+ 14346 strings out of 495109
+ 234902 string characters out of 6184637
+ 677292 words of memory out of 5000000
+ 17572 multiletter control sequences out of 15000+600000
  21122 words of font info for 103 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  43i,13n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (59 pages, 210308 bytes).
+Output written on .tmp/main.dvi (60 pages, 214608 bytes).

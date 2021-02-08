@@ -1,63 +1,64 @@
 \section{設計}
-        今回測定したサンプルは3つである。作成時期順に列挙すると、基本形となるrf-SQUIDを共振器間に配置したLCC。そしてrf-SQUIDと共振器間の結合部にジョセフソン接合を導入したJLCC、最後に接合部をミアンダインダクタンスに変更したMLCCである。まずは基本型の構造は先行論文がとっている手法と全く同じである。
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=14cm]{sample.pdf}
-            \caption{サンプル図}
-        \end{figure}
-        上図は作成サンプルの回路図を模式的に表したものである。共振器とrf-SQUID間は線路に流れる電流により生じる磁場を介して結合している。模式図のように素子間が完全に接地した状態の結合のことをGalvanic結合と呼ぶ。この構造では、素子間の相互インダクタンスが接地部分の自己インダクタンスとほぼ等しくなるため非常に強力な相互インダクタンスを得ることができる。
+原理では最もベーシックなrf-SQUID型の結合回路について解説した。
+    %     今回測定したサンプルは3つである。作成時期順に列挙すると、基本形となるrf-SQUIDを共振器間に配置したLCC。そしてrf-SQUIDと共振器間の結合部にジョセフソン接合を導入したJLCC、最後に接合部をミアンダインダクタンスに変更したMLCCである。まずは基本型の構造は先行論文がとっている手法と全く同じである。
+    %     \begin{figure}[H]
+    %         \centering
+    %         \includegraphics[width=14cm]{sample.pdf}
+    %         \caption{サンプル図}
+    %     \end{figure}
+    %     上図は作成サンプルの回路図を模式的に表したものである。共振器とrf-SQUID間は線路に流れる電流により生じる磁場を介して結合している。模式図のように素子間が完全に接地した状態の結合のことをGalvanic結合と呼ぶ。この構造では、素子間の相互インダクタンスが接地部分の自己インダクタンスとほぼ等しくなるため非常に強力な相互インダクタンスを得ることができる。
 
-        設計のポイントは①rf-SQUID-共振器間の相互インダクタンス増強と②rf-SQUIDスクリーニングパラメータの精密な製造である。この２つのパラメータは結合強度を向上する上で非常に重要な因子となる。
-        この２つのパラメータが結合強度向上に大きく寄与するということを基本型であるrf-SQUIDの遷移スペクトルの計算を通して論拠する。
-    \subsection{遷移スペクトル計算}
-        基本型の回路のハミルトニアンは
-        \begin{equation}
-            \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
-            \tilde{\omega}_{a} & g(\Phi ) \\
-            g(\Phi ) & \hat{\omega}_{b}
-            \end{array}\right)\left(\begin{array}{l}
-            \hat{a} \\
-            \hat{b}
-            \end{array}\right)
-        \end{equation}
-        \begin{equation}
-            = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
-        \end{equation}
+    %     設計のポイントは①rf-SQUID-共振器間の相互インダクタンス増強と②rf-SQUIDスクリーニングパラメータの精密な製造である。この２つのパラメータは結合強度を向上する上で非常に重要な因子となる。
+    %     この２つのパラメータが結合強度向上に大きく寄与するということを基本型であるrf-SQUIDの遷移スペクトルの計算を通して論拠する。
+    % \subsection{遷移スペクトル計算}
+    %     基本型の回路のハミルトニアンは
+    %     \begin{equation}
+    %         \hat{\mathcal{H}}=\hbar\left(\hat{a}^{\dagger }\ \hat{b}^{\dagger }\right)\left(\begin{array}{cc}
+    %         \tilde{\omega}_{a} & g(\Phi ) \\
+    %         g(\Phi ) & \hat{\omega}_{b}
+    %         \end{array}\right)\left(\begin{array}{l}
+    %         \hat{a} \\
+    %         \hat{b}
+    %         \end{array}\right)
+    %     \end{equation}
+    %     \begin{equation}
+    %         = \hbar \hat{\omega}_{a} \hat{a}^{\dagger} \hat{a}+\hbar \hat{\omega}_{b} \hat{b}^{\dagger} \hat{b}+\hbar g(\Phi)\left(\hat{a}^{\dagger}\hat{b}+\hat{a} \vec{b}^{+}\right)
+    %     \end{equation}
 
-        である。式の前項2つが左右各共振器の調和振動子ポテンシャルである。最終項が結合項であり、この結合項に依存して2つの共振器が反発することを示す。各共振器の生成消滅演算子を
-        \begin{equation}
-            \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
-        \end{equation}
+    %     である。式の前項2つが左右各共振器の調和振動子ポテンシャルである。最終項が結合項であり、この結合項に依存して2つの共振器が反発することを示す。各共振器の生成消滅演算子を
+    %     \begin{equation}
+    %         \hat{c}_{\pm}=\frac{\hat{a} \pm \hat{b}}{\sqrt{2}} \quad \hat{c}_{+}^{\dagger}=\frac{\hat{a}^{\dagger} \pm \hat{b}^{\dagger}}{\sqrt{2}}
+    %     \end{equation}
 
-        と置き換える。ここで演算子$\hat{c}_{\pm}$は各共振器の状態が混合した状態である。このように変換を行うと最終的に得られる状態は
-        \begin{equation}
-            \hat{H}=\hbar \Omega_+\hat{c}^{\dagger}_+\hat{c}_+ + \hbar \Omega_-\hat{c}^{\dagger}_-\hat{c}_- + \hbar \Delta\left(\hat{c}^{\dagger}_+ \hat{c}_- +\hat{c}^{\dagger}_- \hat{c}_{+}\right)
-        \end{equation}
+    %     と置き換える。ここで演算子$\hat{c}_{\pm}$は各共振器の状態が混合した状態である。このように変換を行うと最終的に得られる状態は
+    %     \begin{equation}
+    %         \hat{H}=\hbar \Omega_+\hat{c}^{\dagger}_+\hat{c}_+ + \hbar \Omega_-\hat{c}^{\dagger}_-\hat{c}_- + \hbar \Delta\left(\hat{c}^{\dagger}_+ \hat{c}_- +\hat{c}^{\dagger}_- \hat{c}_{+}\right)
+    %     \end{equation}
 
-        \begin{equation}
-            =\hbar\left(\begin{array}{cc}
-            \hat{c}^{\dagger}_{+} & \hat{c}^{\dagger}_-
-            \end{array}\right)\left(\begin{array}{cc}
-            \Omega_{+} & \Delta \\
-            \Delta & \Omega_{-}
-            \end{array}\right)\left(\begin{array}{l}
-            \hat{c}_{+} \\
-            \hat{c}_{-}
-            \end{array}\right)
-        \end{equation}
+    %     \begin{equation}
+    %         =\hbar\left(\begin{array}{cc}
+    %         \hat{c}^{\dagger}_{+} & \hat{c}^{\dagger}_-
+    %         \end{array}\right)\left(\begin{array}{cc}
+    %         \Omega_{+} & \Delta \\
+    %         \Delta & \Omega_{-}
+    %         \end{array}\right)\left(\begin{array}{l}
+    %         \hat{c}_{+} \\
+    %         \hat{c}_{-}
+    %         \end{array}\right)
+    %     \end{equation}
 
-        となる。この時$\Omega_+ = (\omega_a+\omega_b)/2 + g$、$\Omega_- = (\omega_a+\omega_b)/2 - g$、$\Delta = (\omega_a-\omega_b)/2$である。これより、2つの独立な調和振動子系は結合項$g$によって新たな基準モードで書き表すことができる。この新たな基底同士は元々の共振周波数の離調$(\omega_a-\omega_b)/2$で書き表すことができる。また変換前の基底、つまり左右の調和振動系の結合項$g$は新基底において新固有値の差分に現れる。これを図示すると以下のようになる。
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=16cm]{standard_eigen.pdf}
-            \caption{遷移周波数図}
-        \end{figure}
-        つまり、測定において得られた２つの基準モードの差分を計算することにより元のハミルトニアンの結合強度ｇを見積もることができる。以下に上図に対応する外部磁束に対応する結合強度の図をプロットする。
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=7cm]{standard_coupling.pdf}
-            \caption{結合強度図}
-        \end{figure}
+    %     となる。この時$\Omega_+ = (\omega_a+\omega_b)/2 + g$、$\Omega_- = (\omega_a+\omega_b)/2 - g$、$\Delta = (\omega_a-\omega_b)/2$である。これより、2つの独立な調和振動子系は結合項$g$によって新たな基準モードで書き表すことができる。この新たな基底同士は元々の共振周波数の離調$(\omega_a-\omega_b)/2$で書き表すことができる。また変換前の基底、つまり左右の調和振動系の結合項$g$は新基底において新固有値の差分に現れる。これを図示すると以下のようになる。
+    %     \begin{figure}[H]
+    %         \centering
+    %         \includegraphics[width=16cm]{standard_eigen.pdf}
+    %         \caption{遷移周波数図}
+    %     \end{figure}
+    %     つまり、測定において得られた２つの基準モードの差分を計算することにより元のハミルトニアンの結合強度ｇを見積もることができる。以下に上図に対応する外部磁束に対応する結合強度の図をプロットする。
+    %     \begin{figure}[H]
+    %         \centering
+    %         \includegraphics[width=7cm]{standard_coupling.pdf}
+    %         \caption{結合強度図}
+    %     \end{figure}
 
         既に述べたように今回作成した結合回路において強度をドメスティックに変えるパラメータはrf-SQUIDのスクリーニングパラメータとrf-SQUIDと共振器間の相互インダクタンスである。それぞれのパラメータを変えた時にどのように結合強度が変化するのを示した図が以下である。
         \begin{figure}[H]
