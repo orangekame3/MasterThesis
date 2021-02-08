@@ -265,10 +265,19 @@ INPUT ./img/MixRatio2_zoom.pdf
 INPUT extractbb -B cropbox -O ./img/MixRatio2_zoom.pdf
 INPUT implementation.tex
 INPUT implementation.tex
+INPUT ./img/theory_circuit1_1.pdf
+INPUT ./img/rfsquid_current.pdf
+INPUT extractbb -B cropbox -O ./img/rfsquid_current.pdf
+INPUT ./img/rfsquid_potential.pdf
+INPUT extractbb -B cropbox -O ./img/rfsquid_potential.pdf
+INPUT ./img/theory_circuit2_1.pdf
+INPUT extractbb -B cropbox -O ./img/theory_circuit2_1.pdf
 INPUT ./img/standard_coupling_beta.pdf
 INPUT extractbb -B cropbox -O ./img/standard_coupling_beta.pdf
 INPUT ./img/standard_coupling_betasweep.pdf
 INPUT extractbb -B cropbox -O ./img/standard_coupling_betasweep.pdf
+INPUT ./img/theory_circuit3_1.pdf
+INPUT extractbb -B cropbox -O ./img/theory_circuit3_1.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm

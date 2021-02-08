@@ -1942,19 +1942,20 @@
     <bcf:citekey order="11">Besedin2018</bcf:citekey>
     <bcf:citekey order="11">inomata</bcf:citekey>
     <bcf:citekey order="12">Tian_2008</bcf:citekey>
-    <bcf:citekey order="13">fridge</bcf:citekey>
-    <bcf:citekey order="13">fridge2</bcf:citekey>
-    <bcf:citekey order="14">Gevorgian1996</bcf:citekey>
-    <bcf:citekey order="14">Dib2005</bcf:citekey>
-    <bcf:citekey order="14">Dib2001ComprehensiveSO</bcf:citekey>
+    <bcf:citekey order="13">Yoshihara2017</bcf:citekey>
+    <bcf:citekey order="14">fridge</bcf:citekey>
+    <bcf:citekey order="14">fridge2</bcf:citekey>
     <bcf:citekey order="15">Gevorgian1996</bcf:citekey>
-    <bcf:citekey order="16">Dib2005</bcf:citekey>
-    <bcf:citekey order="17">Dib2001ComprehensiveSO</bcf:citekey>
-    <bcf:citekey order="18">Stojanovic2004</bcf:citekey>
-    <bcf:citekey order="19">Grover</bcf:citekey>
+    <bcf:citekey order="15">Dib2005</bcf:citekey>
+    <bcf:citekey order="15">Dib2001ComprehensiveSO</bcf:citekey>
+    <bcf:citekey order="16">Gevorgian1996</bcf:citekey>
+    <bcf:citekey order="17">Dib2005</bcf:citekey>
+    <bcf:citekey order="18">Dib2001ComprehensiveSO</bcf:citekey>
+    <bcf:citekey order="19">Stojanovic2004</bcf:citekey>
     <bcf:citekey order="20">Grover</bcf:citekey>
-    <bcf:citekey order="21">電気回路</bcf:citekey>
-    <bcf:citekey order="21">続電気回路の基礎</bcf:citekey>
+    <bcf:citekey order="21">Grover</bcf:citekey>
+    <bcf:citekey order="22">電気回路</bcf:citekey>
+    <bcf:citekey order="22">続電気回路の基礎</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

@@ -1,21 +1,22 @@
 [0] Config.pm:302> INFO - This is Biber 2.10
 [1] Config.pm:305> INFO - Logfile is '.tmp/main.blg'
-[26] biber:313> INFO - === Mon Feb  8, 2021, 10:49:16
-[62] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
-[146] Biber.pm:857> INFO - Found 23 citekeys in bib section 0
-[166] Biber.pm:3976> INFO - Processing section 0
-[177] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
-[192] bibtex.pm:1490> INFO - LaTeX decoding ...
-[271] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
-[273] Utils.pm:193> WARN - Duplicate entry key: 'Peropadre2013' in file 'bibs.bib', skipping ...
-[331] Utils.pm:193> WARN - month field 'mar' in entry 'Rodriguez2016' is not an integer - this will probably not sort properly.
-[434] Utils.pm:193> WARN - year field 'November 2011' in entry 'Microwave' is not an integer - this will probably not sort properly.
-[453] Utils.pm:193> WARN - month field 'nov' in entry 'Tian_2008' is not an integer - this will probably not sort properly.
+[27] biber:313> INFO - === Mon Feb  8, 2021, 14:16:52
+[69] Biber.pm:371> INFO - Reading '.tmp/main.bcf'
+[153] Biber.pm:857> INFO - Found 24 citekeys in bib section 0
+[179] Biber.pm:3976> INFO - Processing section 0
+[189] Biber.pm:4136> INFO - Looking for bibtex format file 'bibs.bib' for section 0
+[200] bibtex.pm:1490> INFO - LaTeX decoding ...
+[289] bibtex.pm:1306> INFO - Found BibTeX data source 'bibs.bib'
+[291] Utils.pm:193> WARN - Duplicate entry key: 'Peropadre2013' in file 'bibs.bib', skipping ...
+[355] Utils.pm:193> WARN - month field 'mar' in entry 'Rodriguez2016' is not an integer - this will probably not sort properly.
+[453] Utils.pm:193> WARN - year field 'November 2011' in entry 'Microwave' is not an integer - this will probably not sort properly.
+[471] Utils.pm:193> WARN - month field 'nov' in entry 'Tian_2008' is not an integer - this will probably not sort properly.
+[490] Utils.pm:193> WARN - month field 'jan' in entry 'Yoshihara2017' is not an integer - this will probably not sort properly.
+[579] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [580] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[580] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[581] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[580] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
 [581] Biber.pm:3810> INFO - No sort tailoring available for locale 'en-US'
-[606] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
-[607] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
-[673] bbl.pm:720> INFO - Output to .tmp/main.bbl
-[675] Biber.pm:110> INFO - WARNINGS: 4
+[603] bbl.pm:617> INFO - Writing '.tmp/main.bbl' with encoding 'UTF-8'
+[604] bbl.pm:618> INFO - Converting UTF-8 to TeX macros on output to .bbl
+[675] bbl.pm:720> INFO - Output to .tmp/main.bbl
+[677] Biber.pm:110> INFO - WARNINGS: 5

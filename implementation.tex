@@ -1,5 +1,80 @@
 \section{設計}
-原理では最もベーシックなrf-SQUID型の結合回路について解説した。
+前章では最もベーシックなrf-SQUID型の結合回路について解説した。本研究の初期段階においても先行研究に倣い単純なrf-SQUID型の結合回路を作成することから始めた。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{theory_circuit1_1.pdf}
+    \caption{LEAl}
+\end{figure}
+作成したサンプルはそれぞれCPW型の共振器、LE型共振器の2つを採用した。また、CPW型共振器には超伝導ループとしてNb(ジョセフソン接合はAl)をLE型についてはNbで作成したものAlで作成したものの2パターンを作成した。それぞれCPWNb,LENb,LEAlとラベリングする。\\
+測定結果については測定の章で詳細に記述するが、この3タイプのサンプルのうち有意な結果が得られたのはLEAlであった。よって本章ではLEAlをベースに結合性能の向上にむけて採用したアプローチを中心に解説する。\\
+
+前章で解説したように結合強度を決定するのはrf-SQUIDを介した実効相互インダクタンス$M_{eff}$と共振器間の磁気的1次結合$M_{ab}$の和である。このうち$M_{ab}$は距離に強く依存する。
+\begin{equation}
+    M_{eff}(\Phi)  = \frac{L_0^2}{L_{rf}(\Phi)}=\frac{L_0^2}{L_{S}} \frac{\beta \cos \left(2 \pi \Phi/\phi_{0}\right)}{1+\beta \cos \left(2 \pi \Phi/\phi_{0}\right)}
+\end{equation}
+$M_{eff}$の強度増強を試みる場合考えられる方法は大きく2つ
+\begin{enumerate}
+    \item rf-SQUID間と共振器の相互インダクタンス$L_0$の強度を増強する
+    \item rf-SQUIDのスクリーニングパラメータ$\beta$を限りなく1に近づける
+ \end{enumerate}
+このうち、まずはrf-SQUID間と共振器の相互インダクタンス$L_0$の強度を増強することを第1に考えた。理由はスクリーニングパラメータを$\beta<1$を満たしつつ限りなく1に漸近させることが設計上困難なためである。$\beta$が1を超えてしまうとrf-SQUIDを貫く磁束は外部磁束に対して2価の関数になると同時にポテンシャルの安定点はループを貫く磁束に対してダブルポテンシャルをとるようになる。共振器間の安定な結合を得るには$\beta<1$は必ず満たさなければならない条件である。
+\begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{rfsquid_current.pdf}
+        \caption{外部磁束に対する実効磁束の挙動の変化}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{rfsquid_potential.pdf}
+        \caption{実効磁束に対するポテンシャルエネルギーの挙動の変化}
+    \end{minipage}
+\end{figure}
+本研究においてはrf-SQUIDと共振器間の自己インダクタンス$L_0$を強めるためにガルバニック結合を採用している。そこでさらなる自己インダクタンスの増強に向けてジョセフソン接合をガルバニック結合に付与することを考えた。ガルバニック結合にジョセフソン接合を採用する事例は共振器と磁束量子ビットの深強結合等の先行研究\cite*{Yoshihara2017}があり、これに倣った形である。先行研究ではさらにジョセフソン接合をdc-SQUIDに置き換えることで強力な結合強度を得ることに成功している。
+本研究では自己インダクタンス$L_0$をジョセフソンインダクタンス$L_J$で置き換える形で回路を作成した。このサンプルを以下LEJとラベリングする。LEJの設計は伊藤氏、鈴木氏の仕事である。
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{theory_circuit2_1.pdf}
+    \caption{LEJ}
+\end{figure}
+このサンプルの結果についても測定の章で解説する。結果の詳細に関してはLEAl同様次章に預けるが結果としてLEAlと比較して正方向に於ける結合強度が増強し、負方向に於ける結合強度は減少した。
+この結果についてそれぞれ考えられる理由としては
+\begin{enumerate}
+    \item $L_J$の追加によって$L_0$が実効的に増加した
+    \item ループサイズがLEAlよりも小さいこと
+    \item rf-SQUIDのスクリーニングパラメータのが設計通りにならなかったこと
+ \end{enumerate}
+ 等が考えられる。\\
+ ジョセフソン接合を追加することによって自己インダクタンスを増強することができた一方で、測定したスペクトルにはLEAlでは観測されなかった非線形な作用が生じた。これは結合素子として扱うには回路自体を複雑にしてしまうため、望ましくない。また、rf-SQUID-共振器間の自己インダクタンス$L_0$がいくら大きくとも、rf-SQUIDのスクリーニングパラメータ$\beta$が適切な値にならなければ高強度な結合は得られない。逆に、緻密にスクリーニングパラメータを決定することができれば非常に高強度な結合を得ることができる。
+ \begin{figure}[H]
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_coupling_beta.pdf}
+        \caption{結合強度の$\beta$依存性}
+    \end{minipage}%
+    \begin{minipage}[t]{0.5\columnwidth}
+        \centering
+        \includegraphics[clip, width=1.0\columnwidth]{standard_coupling_betasweep.pdf}
+        \caption{外部磁束を最適動作点に固定した状態での$\beta$依存性}
+    \end{minipage}
+\end{figure}
+ ここまでの結果から考慮すべき点をまとめると
+ \begin{enumerate}
+    \item ジョセフソン接合を用いずに高強度な自己インダクタンス$L_0$を達成すること
+    \item ループの形状は共振器に対して縦長な構造をとることで、共振器間距離を狭めること
+    \item rf-SQDUIのスクリーニングパラメータ$\beta$を適切に製作できるような設計にすること
+ \end{enumerate}
+本研究において上記の条件を達成するためにとった手法は
+\begin{enumerate}
+    \item rf-SQUID-共振器間の自己インダクタンスにミアンダインダクタンスを導入
+    \item 測定時にスクリーニングパラメータ$\beta$を決定できるようにdc-SQUIDを導入
+ \end{enumerate}
+ である。このミアンダインダクタンスを追加したサンプルを以下LEMとラベリングする。
+ \begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{theory_circuit3_1.pdf}
+    \caption{LEM}
+\end{figure}
     %     今回測定したサンプルは3つである。作成時期順に列挙すると、基本形となるrf-SQUIDを共振器間に配置したLCC。そしてrf-SQUIDと共振器間の結合部にジョセフソン接合を導入したJLCC、最後に接合部をミアンダインダクタンスに変更したMLCCである。まずは基本型の構造は先行論文がとっている手法と全く同じである。
     %     \begin{figure}[H]
     %         \centering
@@ -60,24 +135,20 @@
     %         \caption{結合強度図}
     %     \end{figure}
 
-        既に述べたように今回作成した結合回路において強度をドメスティックに変えるパラメータはrf-SQUIDのスクリーニングパラメータとrf-SQUIDと共振器間の相互インダクタンスである。それぞれのパラメータを変えた時にどのように結合強度が変化するのを示した図が以下である。
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=12cm]{standard_coupling_beta.pdf}
-            \caption{結合強度の$\beta$依存性}
-        \end{figure}
-        また、外部磁束を0.5に固定子、$\beta$の値のみを変更することによる結合強度の対応をプロットすると$\beta$が0.8を超えたあたりで急激に結合強度が変化していることがわかる。
-        \begin{figure}[H]
-            \centering
-            \includegraphics[width=8.5cm]{standard_coupling_betasweep.pdf}
-            \caption{結合強度の$\beta$依存性}
-        \end{figure}
-        スクリーニングパラメータが1を超えるとこの関数は発散してしまうため、最適な動作点としては$0.8<\beta<0.95$付近が妥当であると考えられる。しかしながら、後述するが実際にはスクリーニングパラメータをこの領域内に収めることは非常に困難である。
-        スクリーニングパラメータはジョセフソンインダクタンス$Lj$とrf-SQUIDのループインダクタンスLsにより$\beta=Ls/Lj$と表現されるが仮にLsの値を0.224[nH]で設計した場合
-        \begin{equation*}
-            L_{jdes} = 0.258 \pm 0.022\ [nH]
-        \end{equation*}
-        経験的にジョセフソン接合の作成にはインダクタンスにしてOOnHのばらつきが出るため、再現性が非常に低くなる。
+        % 既に述べたように今回作成した結合回路において強度をドメスティックに変えるパラメータはrf-SQUIDのスクリーニングパラメータとrf-SQUIDと共振器間の相互インダクタンスである。それぞれのパラメータを変えた時にどのように結合強度が変化するのを示した図が以下である。
+
+        % また、外部磁束を0.5に固定子、$\beta$の値のみを変更することによる結合強度の対応をプロットすると$\beta$が0.8を超えたあたりで急激に結合強度が変化していることがわかる。
+        % % \begin{figure}[H]
+        % %     \centering
+        % %     \includegraphics[width=8.5cm]{standard_coupling_betasweep.pdf}
+        % %     \caption{結合強度の$\beta$依存性}
+        % % \end{figure}
+        % スクリーニングパラメータが1を超えるとこの関数は発散してしまうため、最適な動作点としては$0.8<\beta<0.95$付近が妥当であると考えられる。しかしながら、後述するが実際にはスクリーニングパラメータをこの領域内に収めることは非常に困難である。
+        % スクリーニングパラメータはジョセフソンインダクタンス$Lj$とrf-SQUIDのループインダクタンスLsにより$\beta=Ls/Lj$と表現されるが仮にLsの値を0.224[nH]で設計した場合
+        % \begin{equation*}
+        %     L_{jdes} = 0.258 \pm 0.022\ [nH]
+        % \end{equation*}
+        % 経験的にジョセフソン接合の作成にはインダクタンスにしてOOnHのばらつきが出るため、再現性が非常に低くなる。
         そこで、今回作成したサンプルには単一ジョセフソン接合の代替にdc-SQUIDを用いた。
         \subsection{$\beta$ ループによる変調}
         dc-SQUIDはジョセフソン接合2つを含んだ超伝導ループであり、この超伝導線路のインダクタンスは実効的に
