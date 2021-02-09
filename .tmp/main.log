@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  8 FEB 2021 14:19
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  9 FEB 2021 01:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -871,59 +871,49 @@ File: ./img/standard_coupling_betasweep.pdf Graphic file (type pdf)
 File: ./img/theory_circuit3_1.pdf Graphic file (type pdf)
 <./img/theory_circuit3_1.pdf>
  [26]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 153.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\beta' on input line 153.
+File: ./img/dc-squid_circuit.pdf Graphic file (type pdf)
+<./img/dc-squid_circuit.pdf>
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 153.
+LaTeX Warning: Command \L invalid in math mode on input line 188.
 
+[27]
 File: ./img/dc-squid.pdf Graphic file (type pdf)
 <./img/dc-squid.pdf>
-File: ./img/samplefigure.pdf Graphic file (type pdf)
-<./img/samplefigure.pdf>
-[27]
-File: ./img/配線.pdf Graphic file (type pdf)
-<./img/配線.pdf>
- [28] [29]
+ [28]
 File: ./img/resonator_design_for_mwo.pdf Graphic file (type pdf)
 <./img/resonator_design_for_mwo.pdf>
 File: ./img/coupled_resonator_mwo.pdf Graphic file (type pdf)
 <./img/coupled_resonator_mwo.pdf>
 
-Overfull \hbox (15.55553pt too wide) in paragraph at lines 198--202
+Overfull \hbox (15.55553pt too wide) in paragraph at lines 257--261
 [][] [][]
  []
 
 File: ./img/mwo.pdf Graphic file (type pdf)
 <./img/mwo.pdf>
-[30]
+[29]
 File: ./img/bareresonator_zoom.pdf Graphic file (type pdf)
 <./img/bareresonator_zoom.pdf>
- [31]
+ [30]
 File: ./img/mwo_meander.pdf Graphic file (type pdf)
 <./img/mwo_meander.pdf>
 File: ./img/simulatorVSanalytical.pdf Graphic file (type pdf)
 <./img/simulatorVSanalytical.pdf>
- [32]
+ [31]
 File: ./img/meanderinductance.pdf Graphic file (type pdf)
 <./img/meanderinductance.pdf>
 File: ./img/compound1.pdf Graphic file (type pdf)
 <./img/compound1.pdf>
- [33]
+ [32]
 File: ./img/design1.pdf Graphic file (type pdf)
 <./img/design1.pdf>
- [34]
+ [33]
 File: ./img/design2.pdf Graphic file (type pdf)
 <./img/design2.pdf>
 File: ./img/design3.pdf Graphic file (type pdf)
 <./img/design3.pdf>
- [35]) [36]
+ [34]) [35]
 第4章
 (./measurement.tex
 File: ./img/fridge.pdf Graphic file (type pdf)
@@ -937,29 +927,29 @@ Overfull \hbox (27.15692pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[37
+[36
 
-] [38]) [39]
+] [37]) [38]
 第5章
-(./discussion.tex) [40
+(./discussion.tex) [39
 
 ]
 第6章
-(./conclusion.tex) [41
+(./conclusion.tex) [40
 
 ]
 第7章
-(./outlook.tex) [42
+(./outlook.tex) [41
 
 ]
 第8章
-(./apology.tex) [43
+(./apology.tex) [42
 
 ]
 第9章
-(./appendix.tex [44
+(./appendix.tex [43
 
-] [45]
+] [44]
 File: ./img/lumpedelement.pdf Graphic file (type pdf)
 <./img/lumpedelement.pdf>
 
@@ -969,23 +959,23 @@ Overfull \hbox (39.49805pt too wide) in paragraph at lines 111--112
 
 File: ./img/IDC2.pdf Graphic file (type pdf)
 <./img/IDC2.pdf>
-[46] [47] [48]
+[45] [46] [47]
 
-LaTeX Warning: Reference `Cend,fs,f0' on page 49 undefined on input line 190.
+LaTeX Warning: Reference `Cend,fs,f0' on page 48 undefined on input line 190.
 
 File: ./img/IDC_cal.pdf Graphic file (type pdf)
 <./img/IDC_cal.pdf>
 File: ./img/ミアンダ.pdf Graphic file (type pdf)
 <./img/ミアンダ.pdf>
-[49]
+[48]
 File: ./img/偶奇.pdf Graphic file (type pdf)
 <./img/偶奇.pdf>
- [50]
+ [49]
 File: ./img/相互.pdf Graphic file (type pdf)
 <./img/相互.pdf>
 File: ./img/mutual.pdf Graphic file (type pdf)
 <./img/mutual.pdf>
- [51]
+ [50]
 Overfull \hbox (5.07884pt too wide) detected at line 256
 \OML/cmm/m/it/10 M[][]l[]; l[]; s[] \OT1/cmr/m/n/10 = [][][]\OML/cmm/m/it/10 l[
 ] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 s[]
@@ -999,13 +989,13 @@ m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[]
 
 File: ./img/m2.pdf Graphic file (type pdf)
 <./img/m2.pdf>
-[52] [53]
+[51] [52]
 File: ./img/2端子.pdf Graphic file (type pdf)
 <./img/2端子.pdf>
- [54]
+ [53]
 File: ./img/t型.pdf Graphic file (type pdf)
 <./img/t型.pdf>
- [55]
+ [54]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 365.
@@ -1020,7 +1010,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: ./img/pi型.pdf Graphic file (type pdf)
 <./img/pi型.pdf>
-[56]
+[55]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 376.
@@ -1047,10 +1037,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: ./img/磁気的結合回路.pdf Graphic file (type pdf)
 <./img/磁気的結合回路.pdf>
-[57] [58]
+[56] [57]
 File: ./img/変圧器.pdf Graphic file (type pdf)
 <./img/変圧器.pdf>
-) [59]
+) [58]
 LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -1059,11 +1049,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 124.
- [60
+ [59
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
- [61]
+ [60]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -1084,12 +1074,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 14360 strings out of 495109
- 235340 string characters out of 6184637
+ 14359 strings out of 495109
+ 235309 string characters out of 6184637
  677348 words of memory out of 5000000
  17582 multiletter control sequences out of 15000+600000
  21122 words of font info for 103 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  43i,13n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (62 pages, 223784 bytes).
+Output written on .tmp/main.dvi (61 pages, 223032 bytes).

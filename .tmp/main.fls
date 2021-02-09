@@ -278,21 +278,9 @@ INPUT ./img/standard_coupling_betasweep.pdf
 INPUT extractbb -B cropbox -O ./img/standard_coupling_betasweep.pdf
 INPUT ./img/theory_circuit3_1.pdf
 INPUT extractbb -B cropbox -O ./img/theory_circuit3_1.pdf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./img/dc-squid_circuit.pdf
+INPUT extractbb -B cropbox -O ./img/dc-squid_circuit.pdf
 INPUT ./img/dc-squid.pdf
-INPUT ./img/samplefigure.pdf
-INPUT extractbb -B cropbox -O ./img/samplefigure.pdf
-INPUT ./img/配線.pdf
-INPUT extractbb -B cropbox -O ./img/配線.pdf
 INPUT ./img/resonator_design_for_mwo.pdf
 INPUT extractbb -B cropbox -O ./img/resonator_design_for_mwo.pdf
 INPUT ./img/coupled_resonator_mwo.pdf
@@ -352,6 +340,16 @@ INPUT ./img/2端子.pdf
 INPUT extractbb -B cropbox -O ./img/2端子.pdf
 INPUT ./img/t型.pdf
 INPUT extractbb -B cropbox -O ./img/t型.pdf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT ./img/pi型.pdf
 INPUT extractbb -B cropbox -O ./img/pi型.pdf
 INPUT ./img/磁気的結合回路.pdf
