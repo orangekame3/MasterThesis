@@ -281,6 +281,8 @@ INPUT extractbb -B cropbox -O ./img/theory_circuit3_1.pdf
 INPUT ./img/dc-squid_circuit.pdf
 INPUT extractbb -B cropbox -O ./img/dc-squid_circuit.pdf
 INPUT ./img/dc-squid.pdf
+INPUT ./img/design3.pdf
+INPUT extractbb -B cropbox -O ./img/design3.pdf
 INPUT ./img/resonator_design_for_mwo.pdf
 INPUT extractbb -B cropbox -O ./img/resonator_design_for_mwo.pdf
 INPUT ./img/coupled_resonator_mwo.pdf
@@ -289,20 +291,19 @@ INPUT ./img/mwo.pdf
 INPUT extractbb -B cropbox -O ./img/mwo.pdf
 INPUT ./img/bareresonator_zoom.pdf
 INPUT extractbb -B cropbox -O ./img/bareresonator_zoom.pdf
+INPUT ./img/meanderinductance.pdf
+INPUT extractbb -B cropbox -O ./img/meanderinductance.pdf
 INPUT ./img/mwo_meander.pdf
 INPUT extractbb -B cropbox -O ./img/mwo_meander.pdf
 INPUT ./img/simulatorVSanalytical.pdf
 INPUT extractbb -B cropbox -O ./img/simulatorVSanalytical.pdf
-INPUT ./img/meanderinductance.pdf
-INPUT extractbb -B cropbox -O ./img/meanderinductance.pdf
-INPUT ./img/compound1.pdf
-INPUT extractbb -B cropbox -O ./img/compound1.pdf
 INPUT ./img/design1.pdf
 INPUT extractbb -B cropbox -O ./img/design1.pdf
 INPUT ./img/design2.pdf
 INPUT extractbb -B cropbox -O ./img/design2.pdf
 INPUT ./img/design3.pdf
-INPUT extractbb -B cropbox -O ./img/design3.pdf
+INPUT ./img/compound1.pdf
+INPUT extractbb -B cropbox -O ./img/compound1.pdf
 INPUT measurement.tex
 INPUT measurement.tex
 INPUT ./img/fridge.pdf
