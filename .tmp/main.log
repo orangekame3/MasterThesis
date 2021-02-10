@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  9 FEB 2021 05:25
+This is e-upTeX, Version 3.14159265-p3.7.1-u1.22-161114-2.6 (utf8.uptex) (TeX Live 2017) (preloaded format=uplatex 2020.10.7)  10 FEB 2021 11:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -912,9 +912,36 @@ File: ./img/design2.pdf Graphic file (type pdf)
  [35]
 File: ./img/design3.pdf Graphic file (type pdf)
 <./img/design3.pdf>
-File: ./img/compound1.pdf Graphic file (type pdf)
-<./img/compound1.pdf>
- [36]) [37] [38]
+ [36]
+File: ./img/配線1.pdf Graphic file (type pdf)
+<./img/配線1.pdf>
+File: ./img/配線2.pdf Graphic file (type pdf)
+<./img/配線2.pdf>
+File: ./img/配線3.pdf Graphic file (type pdf)
+<./img/配線3.pdf>
+File: ./img/配線4.pdf Graphic file (type pdf)
+<./img/配線4.pdf>
+ [37]
+
+LaTeX Warning: Reference `haisen2,haisen3' on page 38 undefined on input line 4
+39.
+
+
+LaTeX Warning: Reference `haisen2,haisen3' on page 38 undefined on input line 4
+39.
+
+
+LaTeX Warning: Reference `haisen2,haisen3' on page 38 undefined on input line 4
+39.
+
+File: ./img/compoundeigen6.pdf Graphic file (type pdf)
+<./img/compoundeigen6.pdf>
+
+Overfull \hbox (11.0453pt too wide) in paragraph at lines 445--446
+ [][] 
+ []
+
+[38]) [39]
 第4章
 (./measurement.tex
 File: ./img/fridge.pdf Graphic file (type pdf)
@@ -928,29 +955,29 @@ Overfull \hbox (27.15692pt too wide) in paragraph at lines 18--19
  [][] 
  []
 
-[39
+[40
 
-] [40]) [41]
+] [41]) [42]
 第5章
-(./discussion.tex) [42
+(./discussion.tex) [43
 
 ]
 第6章
-(./conclusion.tex) [43
+(./conclusion.tex) [44
 
 ]
 第7章
-(./outlook.tex) [44
+(./outlook.tex) [45
 
 ]
 第8章
-(./apology.tex) [45
+(./apology.tex) [46
 
 ]
 第9章
-(./appendix.tex [46
+(./appendix.tex [47
 
-] [47]
+] [48]
 File: ./img/lumpedelement.pdf Graphic file (type pdf)
 <./img/lumpedelement.pdf>
 
@@ -960,23 +987,23 @@ Overfull \hbox (39.49805pt too wide) in paragraph at lines 111--112
 
 File: ./img/IDC2.pdf Graphic file (type pdf)
 <./img/IDC2.pdf>
-[48] [49] [50]
+[49] [50] [51]
 
-LaTeX Warning: Reference `Cend,fs,f0' on page 51 undefined on input line 190.
+LaTeX Warning: Reference `Cend,fs,f0' on page 52 undefined on input line 190.
 
 File: ./img/IDC_cal.pdf Graphic file (type pdf)
 <./img/IDC_cal.pdf>
 File: ./img/ミアンダ.pdf Graphic file (type pdf)
 <./img/ミアンダ.pdf>
-[51]
+[52]
 File: ./img/偶奇.pdf Graphic file (type pdf)
 <./img/偶奇.pdf>
- [52]
+ [53]
 File: ./img/相互.pdf Graphic file (type pdf)
 <./img/相互.pdf>
 File: ./img/mutual.pdf Graphic file (type pdf)
 <./img/mutual.pdf>
- [53]
+ [54]
 Overfull \hbox (5.07884pt too wide) detected at line 256
 \OML/cmm/m/it/10 M[][]l[]; l[]; s[] \OT1/cmr/m/n/10 = [][][]\OML/cmm/m/it/10 l[
 ] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 l[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 s[]
@@ -990,13 +1017,13 @@ m/n/10 (\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 )[]
 
 File: ./img/m2.pdf Graphic file (type pdf)
 <./img/m2.pdf>
-[54] [55]
+[55] [56]
 File: ./img/2端子.pdf Graphic file (type pdf)
 <./img/2端子.pdf>
- [56]
+ [57]
 File: ./img/t型.pdf Graphic file (type pdf)
 <./img/t型.pdf>
- [57]
+ [58]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 365.
@@ -1011,7 +1038,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: ./img/pi型.pdf Graphic file (type pdf)
 <./img/pi型.pdf>
-[58]
+[59]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 376.
@@ -1038,10 +1065,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 File: ./img/磁気的結合回路.pdf Graphic file (type pdf)
 <./img/磁気的結合回路.pdf>
-[59] [60]
+[60] [61]
 File: ./img/変圧器.pdf Graphic file (type pdf)
 <./img/変圧器.pdf>
-) [61]
+) [62]
 LaTeX Font Info:    Font shape `JT2/gt/m/it' in size <10> not available
 (Font)              Font shape `JT2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
@@ -1050,11 +1077,11 @@ LaTeX Font Info:    Font shape `JY2/gt/m/it' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 124.
- [62
+ [63
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
- [63]
+ [64]
 Package atveryend Info: Executing hook `AfterLastShipout' on input line 125.
 \BKM@file=\write7
 \openout7 = `main.out.ps'.
@@ -1075,12 +1102,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 14362 strings out of 495109
- 235377 string characters out of 6184637
- 677528 words of memory out of 5000000
- 17585 multiletter control sequences out of 15000+600000
+ 14381 strings out of 495109
+ 235708 string characters out of 6184637
+ 677846 words of memory out of 5000000
+ 17600 multiletter control sequences out of 15000+600000
  21122 words of font info for 103 fonts, out of 8000000 for 9000
  19 hyphenation exceptions out of 8191
  43i,13n,41p,1969b,1334s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on .tmp/main.dvi (64 pages, 225748 bytes).
+Output written on .tmp/main.dvi (65 pages, 233416 bytes).
